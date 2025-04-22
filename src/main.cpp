@@ -36,6 +36,6 @@ int main() {
     MandelbrotBMP A(1024, 1024, color);
     std::cout << "Hello World Bitchass!" << std::endl;
 
-    save_bmp_to_file(A, "nigger_path.bmp");
+    save_bmp_to_file(A, "result.bmp");
     return 0;
 }
