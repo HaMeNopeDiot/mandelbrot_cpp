@@ -12,8 +12,10 @@ class MandelbrotBMPHeader {
     public:
         MandelbrotBMPHeader(size_t height, size_t width);
 
-        uint32_t getBmpSize()   { return header.bmp_size;   }
-        uint32_t getBmpOffset() { return header.bmp_offset; }
+        const mndlbrt_bmp_header_t& getHeader() const { return header; }
+
+        const uint32_t getBmpSize()   const { return header.bmp_size;   }
+        const uint32_t getBmpOffset() const { return header.bmp_offset; }
 };
 
 MandelbrotBMPHeader::MandelbrotBMPHeader(size_t height, size_t width) {

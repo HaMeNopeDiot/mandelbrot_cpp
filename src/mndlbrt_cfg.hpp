@@ -9,6 +9,8 @@
 
 #include <iostream>
 
+
+#pragma pack(push, 1)
 typedef struct {
     uint16_t bmp_type;              //2(4)  bytes
     uint32_t bmp_size;              //4     bytes
@@ -41,6 +43,6 @@ typedef struct {
     mndlbrt_bmp_info_t      info;
     uint8_t*                pixels;
 } mndlbrt_bmp_file_t;
-
+#pragma pack(pop)
 
 #endif // !_MNDLBRT_CFG_HPP_

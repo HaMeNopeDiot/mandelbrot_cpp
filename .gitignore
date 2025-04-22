@@ -2,3 +2,4 @@ objs/
 .vscode/
 .depend
 mandelbrot_cpp*
+*.bmp
