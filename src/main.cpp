@@ -30,20 +30,25 @@ size_t save_bmp_to_file(MandelbrotBMP bmp_obj, const char* path)
 }
 
 int main() {
-    uint8_t color_array[3] = {0x00, 0xAA, 0x88};
-    MandelbrotColor color((uint8_t*)color_array);
+    
+    MandelbrotColor color(0xFFFFFF);
+    color.print();
 
-    MandelbrotBMP A(1024, 2048, color);
-    std::cout << "Done!" << std::endl;
+    MandelbrotBMP A(1024, 1024, color);
 
-    uint8_t black_array[3] = {0xFF, 0x00, 0x00};
-    MandelbrotColor black((uint8_t*)black_array);
+    MandelbrotColor color1(0x111140);
+    MandelbrotColor color2(0x404080);
+    MandelbrotColor color3(0x6060A0);
 
-    A.setPixel(32, 64, black);
-    A.setPixel(0, 0, black);
-    A.setPixel(1023, 2047, black);
-    A.setPixel(0, 2047, black);
-    A.setPixel(1023, 0, black);
+    std::vector<MandelbrotColor> colors;
+
+    for(size_t i = 0; i < 300; i++) {
+        colors.push_back(MandelbrotColor(0x11 + i, 0x11 + i, 0x40 + i));
+    } 
+
+    int8_t status = A.doMandelbrot(colors, colors.size(), 1024 / 2.0f, 1024 / 2.0f, 1.00f);
+
     save_bmp_to_file(A, "result.bmp");
-    return 0;
+    std::cout << "Done! Status code: " << (int)status << std::endl;
+    return status;
 }

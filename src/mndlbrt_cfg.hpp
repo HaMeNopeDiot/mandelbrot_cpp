@@ -9,7 +9,6 @@
 
 #include <iostream>
 
-
 #pragma pack(push, 1)
 typedef struct {
     uint16_t bmp_type;              //2(4)  bytes
