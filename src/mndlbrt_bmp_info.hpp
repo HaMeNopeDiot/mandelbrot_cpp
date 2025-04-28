@@ -12,6 +12,9 @@ class MandelbrotBMPInfo {
     public:
         MandelbrotBMPInfo(size_t height, size_t width);
 
+        size_t getHeight() { return info.height; }
+        size_t getWidth()  { return info.width; }
+
         const mndlbrt_bmp_info_t& getInfo() const { return info; };
 };
 

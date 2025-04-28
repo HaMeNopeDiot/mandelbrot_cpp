@@ -17,7 +17,7 @@ class MandelbrotBMP {
         MandelbrotBMPInfo   info;
         uint8_t*            pixels;
     public:
-        MandelbrotBMP(size_t height, size_t width, MandelbrotColor def_color);
+        MandelbrotBMP(size_t width, size_t height, MandelbrotColor def_color);
     
         MandelbrotBMPHeader getHeader() { return header; };
         
@@ -40,12 +40,25 @@ class MandelbrotBMP {
         const uint32_t getBMPOffset() const {
             return header.getBmpOffset();
         }
+
+        int8_t setPixel(size_t x, size_t y, MandelbrotColor color) {
+            if(x < info.getWidth() && y < info.getHeight()) {
+                pixels[3 * (x + y * info.getWidth()) + 0] = color.getBlue();
+                pixels[3 * (x + y * info.getWidth()) + 1] = color.getGreen();
+                pixels[3 * (x + y * info.getWidth()) + 2] = color.getRed();
+                return 0;
+            } else {
+                // Some error
+                return -1;
+            }
+        }
+
     private:
         void colorPixelData(size_t height, size_t width, MandelbrotColor color = MandelbrotColor());
 
 };
 
-MandelbrotBMP::MandelbrotBMP(size_t height, size_t width, MandelbrotColor def_color) : header(height, width), info(height, width) 
+MandelbrotBMP::MandelbrotBMP(size_t width, size_t height, MandelbrotColor def_color) : header(height, width), info(height, width) 
 {
     // Init block of data pixels
     size_t pixels_size = header.getBmpSize() - header.getBmpOffset();
@@ -68,9 +81,10 @@ void MandelbrotBMP::colorPixelData (size_t height, size_t width, MandelbrotColor
     // Set color
     for(size_t i = 0; i < height; i++) {
         for(size_t j = 0; j < width; j++) {
-            pixel_data[i][j].red    = color.getRed();   // Fixme make a hex color maybe?
-            pixel_data[i][j].green  = color.getGreen(); // - Do you think?
-            pixel_data[i][j].blue   = color.getBlue();  // - Yes, I actually think.
+            setPixel(j, i, color);
+            // pixel_data[i][j].red    = color.getRed();   // Fixme make a hex color maybe?
+            // pixel_data[i][j].green  = color.getGreen(); // - Do you think?
+            // pixel_data[i][j].blue   = color.getBlue();  // - Yes, I actually think.
         }
     }
     

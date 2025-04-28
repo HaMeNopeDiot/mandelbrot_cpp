@@ -30,11 +30,16 @@ size_t save_bmp_to_file(MandelbrotBMP bmp_obj, const char* path)
 }
 
 int main() {
-    uint8_t color_array[3] = {0x00, 0xAA, 0xAA};
+    uint8_t color_array[3] = {0x00, 0xAA, 0x88};
     MandelbrotColor color((uint8_t*)color_array);
 
-    MandelbrotBMP A(1024, 1024, color);
-    std::cout << "Hello World Bitchass!" << std::endl;
+    MandelbrotBMP A(2048, 1024, color);
+    std::cout << "Done!" << std::endl;
+
+    uint8_t black_array[3] = {0xFF, 0x00, 0x00};
+    MandelbrotColor black((uint8_t*)black_array);
+
+    A.setPixel(32, 64, black);
 
     save_bmp_to_file(A, "result.bmp");
     return 0;
