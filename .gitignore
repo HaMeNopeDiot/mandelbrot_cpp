@@ -1,5 +1,6 @@
 objs/
 .vscode/
 .depend
-mandelbrot_cpp*
 *.bmp
+build
+mandelbrot_cpp.pro.user
