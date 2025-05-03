@@ -11,10 +11,12 @@ CONFIG += c++17
 SOURCES += src/main.cpp
 
 HEADERS += src/mndlbrt_bmp.hpp \
+    src/QTookMainDamn.hpp \
            src/mndlbrt_bmp_header.hpp \
 	   src/mndlbrt_bmp_info.hpp \
 	   src/mndlbrt_cfg.hpp \
-	   src/mndlbrt_color.hpp
+	   src/mndlbrt_color.hpp \
+    src/mndlbrt_cpu_multithread.hpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

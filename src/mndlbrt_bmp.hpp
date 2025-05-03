@@ -12,15 +12,71 @@
 #include "mndlbrt_bmp_info.hpp"
 #include "mndlbrt_color.hpp"
 
-class MandelbrotBMP {
+#include <QObject>
+
+
+typedef enum {
+    MNDLBRT_OK                  =  0,
+    MNDLBRT_COLOR_SIZE_ERR      = -1,
+    MNDLBRT_COLOR_VECTOR_ERR    = -2,
+    MNDLBRT_COLOR_SET_PIXEL_ERR = -3
+} do_mndlbrt_err_e;
+
+
+
+class MandelbrotBMP : public QObject {
+    Q_OBJECT
+
     private:
         MandelbrotBMPHeader header;
         MandelbrotBMPInfo   info;
         uint8_t*            pixels;
     public:
-        MandelbrotBMP(size_t width, size_t height, MandelbrotColor def_color);
+        MandelbrotBMP(size_t width, size_t height, MandelbrotColor def_color): header(height, width), info(height, width)
+        {
+            // Init block of data pixels
+            size_t pixels_size = getPixelDataSize();
+            pixels = new uint8_t[pixels_size];
 
-        int8_t doMandelbrot(std::vector<MandelbrotColor> colors, size_t max_possible_iterations, size_t x_center, size_t y_center, double scale = 1.0f);
+            // Set color in each pixel in bmp file.
+            fillPicture(height, width, def_color);
+        }
+
+        // i will inherit this and just do multithreaded run on it
+        virtual int8_t doMandelbrot(std::vector<MandelbrotColor> colors, size_t max_possible_iterations, size_t x_center, size_t y_center, double scale = 1.0f)
+        {
+            // scale parameter is unused bro
+            size_t height = getHeight();
+            size_t width  = getWidth();
+
+            if(height == 0 || width == 0)
+                return MNDLBRT_COLOR_SIZE_ERR;
+
+            if(colors.size() != max_possible_iterations)
+                return MNDLBRT_COLOR_VECTOR_ERR;
+
+
+            for(size_t i = 0; i < width; i++) {
+                for(size_t j = 0; j < height; j++) {
+                    double xi, yi;
+                    double  x,  y;
+
+                    xi = (i - (double)x_center);
+                    yi = (j - (double)y_center);
+
+                    x = (double)xi / ((width / 4) * 1.0f);
+                    y = (double)yi / ((height /  4) * 1.0f);
+
+                    size_t iteration_mandelbrot = is_point_in_mandelbrot_set(x, y, max_possible_iterations);
+
+                    int8_t status = setPixel(i, j, colors[iteration_mandelbrot]);
+                    if(status != MNDLBRT_OK) {
+                        return MNDLBRT_COLOR_SET_PIXEL_ERR;
+                    }
+                }
+            }
+            return MNDLBRT_OK;
+        }
     
         MandelbrotBMPHeader getHeader() { return header; };
         const size_t getHeight() const { return info.getHeight(); }
@@ -99,69 +155,15 @@ class MandelbrotBMP {
             return iteration_mandelbrot;
         }
     private:
-        void fillPicture(size_t height, size_t width, MandelbrotColor color = MandelbrotColor());
-
-};              
-
-MandelbrotBMP::MandelbrotBMP(size_t width, size_t height, MandelbrotColor def_color) : header(height, width), info(height, width) 
-{
-    // Init block of data pixels
-    size_t pixels_size = getPixelDataSize();
-    pixels = new uint8_t[pixels_size];
-
-    // Set color in each pixel in bmp file.
-    fillPicture(height, width, def_color);
-}
-
-void MandelbrotBMP::fillPicture (size_t height, size_t width, MandelbrotColor color) 
-{
-    for(size_t i = 0; i < width; i++) {
-        for(size_t j = 0; j < height; j++) {
-            setPixel(i, j, color);
-        }
-    }
-}
-
-
-typedef enum {
-    MNDLBRT_OK                  =  0,
-    MNDLBRT_COLOR_SIZE_ERR      = -1,
-    MNDLBRT_COLOR_VECTOR_ERR    = -2,
-    MNDLBRT_COLOR_SET_PIXEL_ERR = -3
-} do_mndlbrt_err_e;
-
-int8_t MandelbrotBMP::doMandelbrot(std::vector<MandelbrotColor> colors, size_t max_possible_iterations, size_t x_center, size_t y_center, double scale)
-{
-    size_t height = getHeight();
-    size_t width  = getWidth();
-
-    if(height == 0 || width == 0)
-        return MNDLBRT_COLOR_SIZE_ERR;
-
-    if(colors.size() != max_possible_iterations)
-        return MNDLBRT_COLOR_VECTOR_ERR;
-
-    
-    for(size_t i = 0; i < width; i++) {
-        for(size_t j = 0; j < height; j++) {
-            double xi, yi;
-            double  x,  y;
-
-            xi = (i - (double)x_center);
-            yi = (j - (double)y_center);
-
-            x = (double)xi / ((width / 4) * 1.0f);
-            y = (double)yi / ((height /  4) * 1.0f);
-            
-            size_t iteration_mandelbrot = is_point_in_mandelbrot_set(x, y, max_possible_iterations);
-
-            int8_t status = setPixel(i, j, colors[iteration_mandelbrot]);
-            if(status != MNDLBRT_OK) {
-                return MNDLBRT_COLOR_SET_PIXEL_ERR;
+        void fillPicture(size_t height, size_t width, MandelbrotColor color = MandelbrotColor())
+        {
+            for(size_t i = 0; i < width; i++) {
+                for(size_t j = 0; j < height; j++) {
+                    setPixel(i, j, color);
+                }
             }
         }
-    }
-    return MNDLBRT_OK;
-}
+
+};
 
 #endif // !_MNDLBRT_BMP_HPP_

@@ -1,54 +1,13 @@
-#include <iostream>
+#include <QApplication>
 
-#pragma warning (disable : 4996)
+#include "QTookMainDamn.hpp"
 
-#pragma pack(1)
+int main(int argc, char *argv[]) {
+    // использовать QApplication для просто QThread это безумно, но так как это будет обернуто потом в GUI, то ладно
+    QApplication app(argc, argv);
 
-#include "mndlbrt_bmp.hpp"
-#include "mndlbrt_color.hpp"
+    QTookMainDamn oldMain;
+    oldMain.main();
 
-size_t save_bmp_to_file(MandelbrotBMP bmp_obj, const char* path)
-{
-    size_t result = 0;
-
-    const uint8_t* header_ptr   = bmp_obj.getHeaderRawData();
-    const uint8_t* info_ptr     = bmp_obj.getInfoRawData();
-    const uint8_t* pixels_ptr   = bmp_obj.getPixelRawData();
-
-    FILE* fd = fopen(path, "wb+");
-    if (fd != NULL) {
-        result += fwrite(header_ptr, sizeof(mndlbrt_bmp_header_t), 1, fd);
-        result += fwrite(info_ptr, sizeof(mndlbrt_bmp_info_t), 1, fd);
-        result += fwrite(pixels_ptr, bmp_obj.getBMPSize() - bmp_obj.getBMPOffset(), 1, fd);
-    } else {
-        fprintf(stderr, "Can't open file for writing\n");
-        exit(EIO);
-    }
-    fclose(fd);
-    return result;
-
-}
-
-int main() {
-    
-    MandelbrotColor color(0xFFFFFF);
-    color.print();
-
-    MandelbrotBMP A(1024, 1024, color);
-
-    MandelbrotColor color1(0x111140);
-    MandelbrotColor color2(0x404080);
-    MandelbrotColor color3(0x6060A0);
-
-    std::vector<MandelbrotColor> colors;
-
-    for(size_t i = 0; i < 300; i++) {
-        colors.push_back(MandelbrotColor(0x11 + i, 0x11 + i, 0x40 + i));
-    } 
-
-    int8_t status = A.doMandelbrot(colors, colors.size(), 1024 / 2.0f, 1024 / 2.0f, 1.00f);
-
-    save_bmp_to_file(A, "result.bmp");
-    std::cout << "Done! Status code: " << (int)status << std::endl;
-    return status;
+    return app.exec();
 }
