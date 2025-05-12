@@ -2,7 +2,6 @@
 #include "ui_mainwindow.h"
 #include <QImage>
 
-#define FILE_PATH "/Users/ilya/mandelbrot_test.bmp"
 #define X_CENTER 1024 / 2.0f
 #define Y_CENTER 1024 / 2.0f
 

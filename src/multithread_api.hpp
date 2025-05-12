@@ -4,6 +4,7 @@
 #include "mndlbrt_cpu_multithread.hpp"
 #include "mndlbrt_color.hpp"
 
+#define FILE_PATH "/home/dudkin.i/mandelbrot_test.bmp"
 #define INIT_COLOR 0xFFFFFF
 
 class MultithreadApi {

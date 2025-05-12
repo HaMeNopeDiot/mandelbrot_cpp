@@ -3,11 +3,8 @@
 #include <QGraphicsPixmapItem>
 
 #define DEFAULT_ZOOM_FACTOR 2
-#define FILE_PATH "/Users/ilya/mandelbrot_test.bmp"
 
 GraphicsView::GraphicsView(QWidget *parent) : QGraphicsView(parent) {
-
-
     // Обновлять view port когда нужно
     setViewportUpdateMode(QGraphicsView::FullViewportUpdate);
 
@@ -29,7 +26,6 @@ void GraphicsView::setApi(MultithreadApi *api) {
 }
 
 void GraphicsView::wheelEvent(QWheelEvent *event) {
-
     if (event->modifiers() & Qt::ControlModifier) {
         double factor = DEFAULT_ZOOM_FACTOR;
         const std::vector<MandelbrotColor> colors = mApi->getColors();
