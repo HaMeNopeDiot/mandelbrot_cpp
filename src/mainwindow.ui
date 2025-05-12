@@ -56,7 +56,7 @@
   <customwidget>
    <class>GraphicsView</class>
    <extends>QGraphicsView</extends>
-   <header location="global">graphicsview.h</header>
+   <header location="global">src/graphicsview.h</header>
   </customwidget>
  </customwidgets>
  <resources/>

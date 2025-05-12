@@ -4,3 +4,8 @@ objs/
 *.bmp
 build
 mandelbrot_cpp.pro.user
+.qmake.stash
+.qtc_clangd/
+mandelbrot_cpp
+mandelbrot_cpp.app/
+mandelbrot_cpp.pro.user.d010a6c
