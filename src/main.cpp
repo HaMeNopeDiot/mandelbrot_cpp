@@ -34,7 +34,7 @@ int main() {
     MandelbrotColor color(0xFFFFFF);
     color.print();
 
-    MandelbrotBMP A(1024, 1024, color);
+    MandelbrotBMP A(4096, 4096, color);
 
     MandelbrotColor color1(0x111140);
     MandelbrotColor color2(0x404080);
@@ -46,7 +46,10 @@ int main() {
         colors.push_back(MandelbrotColor(0x11 + i, 0x11 + i, 0x40 + i));
     } 
 
-    int8_t status = A.doMandelbrot(colors, colors.size(), 1024 / 2.0f, 1024 / 2.0f, 1.00f);
+    // int8_t status = A.doMandelbrot(colors, colors.size(), 256+32+64+16, 256+32+64+16, 128.0);
+
+    
+    int8_t status = A.doMandelbrot(colors, colors.size(), (256+32+64+16)*4, (256+32+64+16)*4, 128.0);
 
     save_bmp_to_file(A, "result.bmp");
     std::cout << "Done! Status code: " << (int)status << std::endl;

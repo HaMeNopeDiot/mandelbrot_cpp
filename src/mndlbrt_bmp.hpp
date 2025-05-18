@@ -20,7 +20,7 @@ class MandelbrotBMP {
     public:
         MandelbrotBMP(size_t width, size_t height, MandelbrotColor def_color);
 
-        int8_t doMandelbrot(std::vector<MandelbrotColor> colors, size_t max_possible_iterations, size_t x_center, size_t y_center, double scale = 1.0f);
+        int8_t doMandelbrot(std::vector<MandelbrotColor> colors, size_t max_possible_iterations, size_t x_center_frame, size_t y_center_frame, double scale = 1.0f);
     
         MandelbrotBMPHeader getHeader() { return header; };
         const size_t getHeight() const { return info.getHeight(); }
@@ -130,7 +130,7 @@ typedef enum {
     MNDLBRT_COLOR_SET_PIXEL_ERR = -3
 } do_mndlbrt_err_e;
 
-int8_t MandelbrotBMP::doMandelbrot(std::vector<MandelbrotColor> colors, size_t max_possible_iterations, size_t x_center, size_t y_center, double scale)
+int8_t MandelbrotBMP::doMandelbrot(std::vector<MandelbrotColor> colors, size_t max_possible_iterations, size_t x_center_frame, size_t y_center_frame, double scale)
 {
     size_t height = getHeight();
     size_t width  = getWidth();
@@ -141,19 +141,22 @@ int8_t MandelbrotBMP::doMandelbrot(std::vector<MandelbrotColor> colors, size_t m
     if(colors.size() != max_possible_iterations)
         return MNDLBRT_COLOR_VECTOR_ERR;
 
+    double x_center = getWidth()  / 2.0;
+    double y_center = getHeight() / 2.0;
+
     
     for(size_t i = 0; i < width; i++) {
         for(size_t j = 0; j < height; j++) {
-            double xi, yi;
-            double  x,  y;
+            double x = ((double)(i - x_center)) / (width  /  4.0) / scale;
+            double y = ((double)(j - y_center)) / (height /  4.0) / scale;
 
-            xi = (i - (double)x_center);
-            yi = (j - (double)y_center);
-
-            x = (double)xi / ((width / 4) * 1.0f);
-            y = (double)yi / ((height /  4) * 1.0f);
+            double x_offset = (x_center - x_center_frame) / (width  / 4.0);
+            double y_offset = (y_center - y_center_frame) / (height / 4.0);
             
-            size_t iteration_mandelbrot = is_point_in_mandelbrot_set(x, y, max_possible_iterations);
+            double x_real = x - x_offset;
+            double y_real = y - y_offset;
+            
+            size_t iteration_mandelbrot = is_point_in_mandelbrot_set(x_real, y_real, max_possible_iterations);
 
             int8_t status = setPixel(i, j, colors[iteration_mandelbrot]);
             if(status != MNDLBRT_OK) {
