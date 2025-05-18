@@ -1,7 +1,14 @@
 #ifndef _MNDLBRT_COLOR_HPP_
 #define _MNDLBRT_COLOR_HPP_
 
-#include "mndlbrt_cfg.hpp"
+#include <stdint.h>
+#include <iostream>
+
+typedef struct {
+    uint8_t blue;
+    uint8_t green;
+    uint8_t red;
+} mndlbrt_pixel_t;
 
 class MandelbrotColor {
     private:
