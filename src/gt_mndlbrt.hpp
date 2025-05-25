@@ -6,7 +6,7 @@
 class GetMandelbrotPixelData : public DoMandelbrot {
 public:
     GetMandelbrotPixelData(size_t width, size_t height, QColor def_color, QObject *parent = nullptr)
-        : DoMandelbrot(width, height, def_color, parent) {};
+        : DoMandelbrot(width, height, def_color, parent) {}
 
 
     /*!

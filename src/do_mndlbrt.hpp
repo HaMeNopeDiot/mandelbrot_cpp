@@ -62,10 +62,16 @@ public:
         }
     }
 
+    /*
+     * \brief Desctuctor that will free pixels array
+     */
+    ~DoMandelbrot() { delete pixels; }
+
+
     const size_t  getHeight()           const { return height; }
     const size_t  getWidth()            const { return width;  }
     const QColor *getPixelData()        const { return pixels; }
-    const size_t  getPixelDataSize()    const { return height * width;} // use this method to determine the returned array length
+    const size_t  getPixelDataSize()    const { return height * width; } // use this method to determine the returned array length
 
     /*!
     \brief Set color on pixel.

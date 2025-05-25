@@ -43,9 +43,9 @@ class MandelbrotColor {
             color.red    = red; 
         }
 
-        const uint8_t getRed()      const { return color.red;   };
-        const uint8_t getBlue()     const { return color.blue;  };
-        const uint8_t getGreen()    const { return color.green; };
+        const uint8_t getRed()      const { return color.red;   }
+        const uint8_t getBlue()     const { return color.blue;  }
+        const uint8_t getGreen()    const { return color.green; }
 
         const void print() const { std::cout << "R:" << int(color.red) << " G:" << int(color.green) << " B:" << int(color.blue) << std::endl; }
 

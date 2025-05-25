@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'mandelbrot_cpp' in project 'mandelbrot_cpp'
+➜ Explicit dependency on target 'Qt Preprocess' in project 'mandelbrot_cpp'
+Target 'Qt Preprocess' in project 'mandelbrot_cpp' (no dependencies)

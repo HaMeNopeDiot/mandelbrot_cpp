@@ -5,7 +5,7 @@
 
 class IsMandelbrot{
     public:
-        IsMandelbrot() {};
+        IsMandelbrot() {}
 
 
         /*!

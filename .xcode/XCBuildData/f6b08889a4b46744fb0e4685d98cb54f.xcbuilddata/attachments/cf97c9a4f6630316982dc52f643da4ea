@@ -1,0 +1,2 @@
+#!/bin/sh
+make -C /Users/ilya/projects/c++/mandelbrot_cpp -f mandelbrot_cpp.xcodeproj/qt_preprocess.mak
