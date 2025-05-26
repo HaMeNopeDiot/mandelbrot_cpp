@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/ilya/projects/c++/mandelbrot_cpp/build/cmake_install.cmake"
+		"/home/dudkin.i/c++/mandelbrot_cpp/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

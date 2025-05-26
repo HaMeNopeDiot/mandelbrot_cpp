@@ -4,9 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/Users/ilya/projects/c++/mandelbrot_cpp/build/mandelbrot_autogen/include -isystem /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers -iframework /usr/local/Qt-6.7.1/lib -isystem /usr/local/Qt-6.7.1/mkspecs/macx-clang -isystem /usr/local/Qt-6.7.1/include -isystem /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers -isystem /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers -isystem /usr/local/Qt-6.7.1/lib/QtConcurrent.framework/Headers
+CXX_INCLUDES = -I/home/dudkin.i/c++/mandelbrot_cpp/build/mandelbrot_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtConcurrent
 
-CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
-
-CXX_FLAGS = -std=gnu++17 -arch arm64
+CXX_FLAGS = -std=gnu++17 -mno-direct-extern-access
 

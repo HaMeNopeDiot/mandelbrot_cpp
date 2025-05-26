@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/dudkin.i/c++/mandelbrot_cpp/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

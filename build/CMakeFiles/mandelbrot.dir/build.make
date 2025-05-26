@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/bin/cmake -E rm -f
+RM = /usr/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ilya/projects/c++/mandelbrot_cpp
+CMAKE_SOURCE_DIR = /home/dudkin.i/c++/mandelbrot_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ilya/projects/c++/mandelbrot_cpp/build
+CMAKE_BINARY_DIR = /home/dudkin.i/c++/mandelbrot_cpp/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mandelbrot.dir/depend.make
@@ -69,12 +69,12 @@ include CMakeFiles/mandelbrot.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/mandelbrot.dir/flags.make
 
-mandelbrot_autogen/timestamp: /usr/local/Qt-6.7.1/./libexec/moc
-mandelbrot_autogen/timestamp: /usr/local/Qt-6.7.1/./libexec/uic
+mandelbrot_autogen/timestamp: /usr/lib/qt6/moc
+mandelbrot_autogen/timestamp: /usr/lib/qt6/uic
 mandelbrot_autogen/timestamp: CMakeFiles/mandelbrot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ilya/projects/c++/mandelbrot_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target mandelbrot"
-	/opt/homebrew/bin/cmake -E cmake_autogen /Users/ilya/projects/c++/mandelbrot_cpp/build/CMakeFiles/mandelbrot_autogen.dir/AutogenInfo.json ""
-	/opt/homebrew/bin/cmake -E touch /Users/ilya/projects/c++/mandelbrot_cpp/build/mandelbrot_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dudkin.i/c++/mandelbrot_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target mandelbrot"
+	/usr/bin/cmake -E cmake_autogen /home/dudkin.i/c++/mandelbrot_cpp/build/CMakeFiles/mandelbrot_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/dudkin.i/c++/mandelbrot_cpp/build/mandelbrot_autogen/timestamp
 
 CMakeFiles/mandelbrot.dir/codegen:
 .PHONY : CMakeFiles/mandelbrot.dir/codegen
@@ -82,72 +82,72 @@ CMakeFiles/mandelbrot.dir/codegen:
 CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o: CMakeFiles/mandelbrot.dir/flags.make
 CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o: mandelbrot_autogen/mocs_compilation.cpp
 CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o: CMakeFiles/mandelbrot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/projects/c++/mandelbrot_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o -MF CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o -c /Users/ilya/projects/c++/mandelbrot_cpp/build/mandelbrot_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dudkin.i/c++/mandelbrot_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o -MF CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o -c /home/dudkin.i/c++/mandelbrot_cpp/build/mandelbrot_autogen/mocs_compilation.cpp
 
 CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ilya/projects/c++/mandelbrot_cpp/build/mandelbrot_autogen/mocs_compilation.cpp > CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudkin.i/c++/mandelbrot_cpp/build/mandelbrot_autogen/mocs_compilation.cpp > CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ilya/projects/c++/mandelbrot_cpp/build/mandelbrot_autogen/mocs_compilation.cpp -o CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudkin.i/c++/mandelbrot_cpp/build/mandelbrot_autogen/mocs_compilation.cpp -o CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/mandelbrot.dir/src/main.cpp.o: CMakeFiles/mandelbrot.dir/flags.make
-CMakeFiles/mandelbrot.dir/src/main.cpp.o: /Users/ilya/projects/c++/mandelbrot_cpp/src/main.cpp
+CMakeFiles/mandelbrot.dir/src/main.cpp.o: /home/dudkin.i/c++/mandelbrot_cpp/src/main.cpp
 CMakeFiles/mandelbrot.dir/src/main.cpp.o: CMakeFiles/mandelbrot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/projects/c++/mandelbrot_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mandelbrot.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mandelbrot.dir/src/main.cpp.o -MF CMakeFiles/mandelbrot.dir/src/main.cpp.o.d -o CMakeFiles/mandelbrot.dir/src/main.cpp.o -c /Users/ilya/projects/c++/mandelbrot_cpp/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dudkin.i/c++/mandelbrot_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mandelbrot.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mandelbrot.dir/src/main.cpp.o -MF CMakeFiles/mandelbrot.dir/src/main.cpp.o.d -o CMakeFiles/mandelbrot.dir/src/main.cpp.o -c /home/dudkin.i/c++/mandelbrot_cpp/src/main.cpp
 
 CMakeFiles/mandelbrot.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mandelbrot.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ilya/projects/c++/mandelbrot_cpp/src/main.cpp > CMakeFiles/mandelbrot.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudkin.i/c++/mandelbrot_cpp/src/main.cpp > CMakeFiles/mandelbrot.dir/src/main.cpp.i
 
 CMakeFiles/mandelbrot.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mandelbrot.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ilya/projects/c++/mandelbrot_cpp/src/main.cpp -o CMakeFiles/mandelbrot.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudkin.i/c++/mandelbrot_cpp/src/main.cpp -o CMakeFiles/mandelbrot.dir/src/main.cpp.s
 
 CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.o: CMakeFiles/mandelbrot.dir/flags.make
-CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.o: /Users/ilya/projects/c++/mandelbrot_cpp/src/mainwindow.cpp
+CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.o: /home/dudkin.i/c++/mandelbrot_cpp/src/mainwindow.cpp
 CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.o: CMakeFiles/mandelbrot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/projects/c++/mandelbrot_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.o -MF CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.o.d -o CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.o -c /Users/ilya/projects/c++/mandelbrot_cpp/src/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dudkin.i/c++/mandelbrot_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.o -MF CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.o.d -o CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.o -c /home/dudkin.i/c++/mandelbrot_cpp/src/mainwindow.cpp
 
 CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ilya/projects/c++/mandelbrot_cpp/src/mainwindow.cpp > CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudkin.i/c++/mandelbrot_cpp/src/mainwindow.cpp > CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.i
 
 CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ilya/projects/c++/mandelbrot_cpp/src/mainwindow.cpp -o CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudkin.i/c++/mandelbrot_cpp/src/mainwindow.cpp -o CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.s
 
 CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.o: CMakeFiles/mandelbrot.dir/flags.make
-CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.o: /Users/ilya/projects/c++/mandelbrot_cpp/src/graphicsview.cpp
+CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.o: /home/dudkin.i/c++/mandelbrot_cpp/src/graphicsview.cpp
 CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.o: CMakeFiles/mandelbrot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/projects/c++/mandelbrot_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.o -MF CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.o.d -o CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.o -c /Users/ilya/projects/c++/mandelbrot_cpp/src/graphicsview.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dudkin.i/c++/mandelbrot_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.o -MF CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.o.d -o CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.o -c /home/dudkin.i/c++/mandelbrot_cpp/src/graphicsview.cpp
 
 CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ilya/projects/c++/mandelbrot_cpp/src/graphicsview.cpp > CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudkin.i/c++/mandelbrot_cpp/src/graphicsview.cpp > CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.i
 
 CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ilya/projects/c++/mandelbrot_cpp/src/graphicsview.cpp -o CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudkin.i/c++/mandelbrot_cpp/src/graphicsview.cpp -o CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.s
 
 CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o: CMakeFiles/mandelbrot.dir/flags.make
-CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o: /Users/ilya/projects/c++/mandelbrot_cpp/src/pixmap_creator.cpp
+CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o: /home/dudkin.i/c++/mandelbrot_cpp/src/pixmap_creator.cpp
 CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o: CMakeFiles/mandelbrot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/projects/c++/mandelbrot_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o -MF CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o.d -o CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o -c /Users/ilya/projects/c++/mandelbrot_cpp/src/pixmap_creator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dudkin.i/c++/mandelbrot_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o -MF CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o.d -o CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o -c /home/dudkin.i/c++/mandelbrot_cpp/src/pixmap_creator.cpp
 
 CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ilya/projects/c++/mandelbrot_cpp/src/pixmap_creator.cpp > CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudkin.i/c++/mandelbrot_cpp/src/pixmap_creator.cpp > CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.i
 
 CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ilya/projects/c++/mandelbrot_cpp/src/pixmap_creator.cpp -o CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudkin.i/c++/mandelbrot_cpp/src/pixmap_creator.cpp -o CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.s
 
 # Object files for target mandelbrot
 mandelbrot_OBJECTS = \
@@ -160,22 +160,25 @@ mandelbrot_OBJECTS = \
 # External object files for target mandelbrot
 mandelbrot_EXTERNAL_OBJECTS =
 
-mandelbrot.app/Contents/MacOS/mandelbrot: CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o
-mandelbrot.app/Contents/MacOS/mandelbrot: CMakeFiles/mandelbrot.dir/src/main.cpp.o
-mandelbrot.app/Contents/MacOS/mandelbrot: CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.o
-mandelbrot.app/Contents/MacOS/mandelbrot: CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.o
-mandelbrot.app/Contents/MacOS/mandelbrot: CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o
-mandelbrot.app/Contents/MacOS/mandelbrot: CMakeFiles/mandelbrot.dir/build.make
-mandelbrot.app/Contents/MacOS/mandelbrot: /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/QtWidgets
-mandelbrot.app/Contents/MacOS/mandelbrot: /usr/local/Qt-6.7.1/lib/QtConcurrent.framework/Versions/A/QtConcurrent
-mandelbrot.app/Contents/MacOS/mandelbrot: /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/QtGui
-mandelbrot.app/Contents/MacOS/mandelbrot: /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/QtCore
-mandelbrot.app/Contents/MacOS/mandelbrot: CMakeFiles/mandelbrot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ilya/projects/c++/mandelbrot_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable mandelbrot.app/Contents/MacOS/mandelbrot"
+mandelbrot: CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o
+mandelbrot: CMakeFiles/mandelbrot.dir/src/main.cpp.o
+mandelbrot: CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.o
+mandelbrot: CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.o
+mandelbrot: CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o
+mandelbrot: CMakeFiles/mandelbrot.dir/build.make
+mandelbrot: CMakeFiles/mandelbrot.dir/compiler_depend.ts
+mandelbrot: /usr/lib/libQt6Widgets.so.6.9.0
+mandelbrot: /usr/lib/libQt6Concurrent.so.6.9.0
+mandelbrot: /usr/lib/libQt6Gui.so.6.9.0
+mandelbrot: /usr/lib/libGLX.so
+mandelbrot: /usr/lib/libOpenGL.so
+mandelbrot: /usr/lib/libQt6Core.so.6.9.0
+mandelbrot: CMakeFiles/mandelbrot.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dudkin.i/c++/mandelbrot_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable mandelbrot"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mandelbrot.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/mandelbrot.dir/build: mandelbrot.app/Contents/MacOS/mandelbrot
+CMakeFiles/mandelbrot.dir/build: mandelbrot
 .PHONY : CMakeFiles/mandelbrot.dir/build
 
 CMakeFiles/mandelbrot.dir/clean:
@@ -183,6 +186,6 @@ CMakeFiles/mandelbrot.dir/clean:
 .PHONY : CMakeFiles/mandelbrot.dir/clean
 
 CMakeFiles/mandelbrot.dir/depend: mandelbrot_autogen/timestamp
-	cd /Users/ilya/projects/c++/mandelbrot_cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ilya/projects/c++/mandelbrot_cpp /Users/ilya/projects/c++/mandelbrot_cpp /Users/ilya/projects/c++/mandelbrot_cpp/build /Users/ilya/projects/c++/mandelbrot_cpp/build /Users/ilya/projects/c++/mandelbrot_cpp/build/CMakeFiles/mandelbrot.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/dudkin.i/c++/mandelbrot_cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dudkin.i/c++/mandelbrot_cpp /home/dudkin.i/c++/mandelbrot_cpp /home/dudkin.i/c++/mandelbrot_cpp/build /home/dudkin.i/c++/mandelbrot_cpp/build /home/dudkin.i/c++/mandelbrot_cpp/build/CMakeFiles/mandelbrot.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/mandelbrot.dir/depend
 

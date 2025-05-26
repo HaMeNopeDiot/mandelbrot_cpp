@@ -51,7 +51,6 @@ public:
         // Init block of data pixels
         size_t pixels_size = getPixelDataSize();
         pixels = new QColor[pixels_size];
-        qInfo() << pixels_size << " yeees\n";
 
 
         // Set color in each pixel in bmp file.
@@ -183,8 +182,6 @@ private:
                 int iteration_mandelbrot = self->isMandelbrot.is_point_in_mandelbrot_set(x_real, y_real, max_possible_iterations);
 
                 if (iteration_mandelbrot >= colors.length()) {
-                    qFatal() << "Trying to access outside the range of colors: " << iteration_mandelbrot
-                             << " and the colors array length is: " << colors.length();
                 }
                 int8_t status = self->setPixel(i, j, colors[iteration_mandelbrot]);
                 if(status != MNDLBRT_OK) {

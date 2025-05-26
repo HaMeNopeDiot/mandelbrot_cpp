@@ -4,11 +4,15 @@
 #define PIXEL_WIDTH 1
 #define PIXEL_HEIGHT 1
 
-QPixmap* PixmapCreator::createPixmap(size_t xCenterFrame, size_t yCenterFrame, double scale)
+QPixmap* PixmapCreator::createPixmap(size_t xCenterFrame,
+                                    size_t yCenterFrame,
+                                    int width,
+                                    int height
+                                    double scale)
 {
     QColor color(0xFFFFFF);
 
-    GetMandelbrotPixelData mndlbrt(1024, 1024, color);
+    GetMandelbrotPixelData mndlbrt(width, height, color);
 
     QList<QColor> colors;
 
@@ -20,13 +24,13 @@ QPixmap* PixmapCreator::createPixmap(size_t xCenterFrame, size_t yCenterFrame, d
                                                             xCenterFrame,
                                                             yCenterFrame,
                                                             scale);
-    QPixmap *pixmap = new QPixmap(1024, 1024);
+    QPixmap *pixmap = new QPixmap(width, height);
     QPainter *painter = new QPainter(pixmap);
 
     for (size_t i = 0; i < mndlbrt.getHeight(); i++) {
         for (size_t j = 0; j < mndlbrt.getWidth(); j++) {
             painter->setPen(pixelData[i * mndlbrt.getWidth() + j]);
-            painter->drawRect(j, i, 1, 1);
+            painter->drawRect(j, i, PIXEL_WIDTH, PIXEL_HEIGHT);
         }
     }
     return pixmap;

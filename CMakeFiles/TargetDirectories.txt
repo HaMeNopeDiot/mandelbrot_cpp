@@ -1,0 +1,9 @@
+/home/dudkin.i/c++/mandelbrot_cpp/CMakeFiles/mandelbrot.dir
+/home/dudkin.i/c++/mandelbrot_cpp/CMakeFiles/edit_cache.dir
+/home/dudkin.i/c++/mandelbrot_cpp/CMakeFiles/rebuild_cache.dir
+/home/dudkin.i/c++/mandelbrot_cpp/CMakeFiles/list_install_components.dir
+/home/dudkin.i/c++/mandelbrot_cpp/CMakeFiles/install.dir
+/home/dudkin.i/c++/mandelbrot_cpp/CMakeFiles/install/local.dir
+/home/dudkin.i/c++/mandelbrot_cpp/CMakeFiles/install/strip.dir
+/home/dudkin.i/c++/mandelbrot_cpp/CMakeFiles/mandelbrot_autogen_timestamp_deps.dir
+/home/dudkin.i/c++/mandelbrot_cpp/CMakeFiles/mandelbrot_autogen.dir

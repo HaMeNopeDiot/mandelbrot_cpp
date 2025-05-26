@@ -3,7 +3,7 @@
 #include <QGraphicsScene>
 #include "pixmap_creator.hpp"
 #include "graphicsview.h"
-#include <qDebug>
+#include <QDebug>
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -21,8 +21,6 @@ MainWindow::MainWindow(QWidget *parent)
     view->setScene(scene);
 
     ui->verticalLayout->addWidget(view);
-
-    qInfo() << view;
 
 }
 
