@@ -5,12 +5,14 @@
 #define PIXEL_HEIGHT 1
 
 QPixmap* PixmapCreator::createPixmap(size_t xCenterFrame,
-                                    size_t yCenterFrame,
-                                    int width,
-                                    int height
-                                    double scale)
+                                     size_t yCenterFrame,
+                                     int width,
+                                     int height,
+                                     double scale)
 {
     QColor color(0xFFFFFF);
+
+    qInfo() << "x: " << xCenterFrame << ", y: " << yCenterFrame;
 
     GetMandelbrotPixelData mndlbrt(width, height, color);
 

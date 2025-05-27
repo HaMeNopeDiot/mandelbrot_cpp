@@ -1,8 +1,8 @@
 #include "graphicsview.h"
-#include "pixmap_creator.hpp"
 #include <QPixmap>
 #include <QGraphicsScene>
 #include <QPointF>
+#include <QPoint>
 
 #define DEFAULT_ZOOM_FACTOR 2
 #define START_ZOOM_FACTOR 1
@@ -18,54 +18,22 @@ GraphicsView::GraphicsView(QWidget *parent) : QGraphicsView(parent) {
     setTransformationAnchor(QGraphicsView::AnchorUnderMouse);
 
     zoomFactor = START_ZOOM_FACTOR;
-    prevX = 512;
-    prevY = 512;
-}
+    pc = new PixmapCreator();
 
-void GraphicsView::wheelEvent(QWheelEvent *event) {
-    if (event->modifiers() && Qt::ControlModifier) {
-        double zoomInFactor = DEFAULT_ZOOM_FACTOR;
-        double zoomOutFactor = 1 / DEFAULT_ZOOM_FACTOR;
+    QPixmap *pixmap = pc->createPixmap(width() / 2, height() / 2, width(), height());
 
-        // QPointF oldPos = mapToScene(event->position().toPoint());
-
-        if (event->angleDelta().y() > 0) {
-            if (zoomFactor < MAX_ZOOM_IN) {
-                zoomFactor += zoomInFactor;
-            }
-            else {
-                zoomFactor = MAX_ZOOM_IN;
-            }
-        }
-        else {
-            if (zoomFactor > MAX_ZOOM_OUT) {
-                zoomFactor -= DEFAULT_ZOOM_FACTOR;
-            }
-            else {
-                zoomFactor = MAX_ZOOM_OUT;
-            }
-        }
-
-        PixmapCreator pc;
-
-        QPointF newPos = event->position();
-
-        // qInfo() << "Новая позиция: " << newPos;
-
-        QPixmap *pixmap = pc.createPixmap(380, 350, 1024, 1024, zoomFactor);
-        QGraphicsScene *scene = new QGraphicsScene();
-        scene->addPixmap(*pixmap);
-
-
-        setScene(scene);
-    }
+    QGraphicsScene *scene = new QGraphicsScene(0, 0, width(), height());
+    scene->addPixmap(*pixmap);
+    setScene(scene);
 }
 
 void GraphicsView::mousePressEvent(QMouseEvent *event) {
     if (event->button() == Qt::LeftButton) {
         leftButtonPressed = true;
-        spawnZoomRect(event->position().x(), event->position().y());
+        QPointF mappedPos = mapToScene(event->position().x(), event->position().y());
+        spawnZoomRect(mappedPos.x(), mappedPos.y());
     }
+    QGraphicsView::mousePressEvent(event);
 }
 
 void GraphicsView::mouseMoveEvent(QMouseEvent *event) {
@@ -74,6 +42,7 @@ void GraphicsView::mouseMoveEvent(QMouseEvent *event) {
         double yCenter = event->position().y();
         moveZoomRect(xCenter, yCenter);
     }
+    QGraphicsView::mouseMoveEvent(event);
 }
 
 void GraphicsView::mouseReleaseEvent(QMouseEvent *event) {
@@ -81,12 +50,36 @@ void GraphicsView::mouseReleaseEvent(QMouseEvent *event) {
         leftButtonPressed = false;
         despawnZoomRect();
     }
+    QGraphicsView::mouseReleaseEvent(event);
 }
 
 void GraphicsView::spawnZoomRect(int xCenter, int yCenter, int width, int height) {
-    scene().addRect(xCenter, yCenter, width, height);
 
+    qInfo() << "X: " << xCenter << ", Y: " << yCenter;
+
+    yCenter = this->height() - yCenter;
+
+    QPointF p(xCenter, yCenter);
+    p = p / this->width() * width;
+
+    qInfo() << "P: " << p;
+
+    QPixmap *pixmap = pc->createPixmap(p.x(), p.y(), width, height, 25);
+    zoomRect = scene()->addPixmap(*pixmap);
+    zoomRect->setZValue(2);
+
+    zoomRect->setX(xCenter);
+    zoomRect->setY(this->height() - yCenter);
 }
 
-void GraphicsView::moveZoomRect(int xCenter, int yCenter) {}
-void GraphicsView::despawnZoomRect() {}
+void GraphicsView::moveZoomRect(int xCenter, int yCenter) {
+    double width = zoomRect->boundingRect().width();
+    double height = zoomRect->boundingRect().height();
+
+    despawnZoomRect();
+    spawnZoomRect(xCenter, yCenter, width, height);
+}
+
+void GraphicsView::despawnZoomRect() {
+    scene()->removeItem(zoomRect);
+}

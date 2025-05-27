@@ -1,3 +1,6 @@
+#ifndef PIXMAP_CREATOR_H
+#define PIXMAP_CREATOR_H
+
 #include <QtGlobal>
 #include <QPixmap>
 #include <QPainter>
@@ -15,3 +18,5 @@ class PixmapCreator {
                               int height = 1024,
                               double scale = 1.0);
 };
+
+#endif // PIXMAP_CREATOR_H
