@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "mandelbrot"
+			"path" : "mandelbrot.app/Contents/MacOS/mandelbrot"
 		}
 	],
 	"backtrace" : 4,
@@ -19,25 +19,26 @@
 			"set_target_properties",
 			"include",
 			"find_package",
-			"set_property",
 			"find_dependency",
 			"_qt_internal_find_third_party_dependencies",
 			"_qt_internal_find_qt_dependencies"
 		],
 		"files" : 
 		[
-			"/usr/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"/usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
 			"CMakeLists.txt",
-			"/usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
-			"/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
-			"/usr/lib/cmake/Qt6/Qt6Config.cmake",
-			"/usr/share/cmake/Modules/FindOpenGL.cmake",
-			"/usr/lib/cmake/Qt6/FindWrapOpenGL.cmake",
-			"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
-			"/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
-			"/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
-			"/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
-			"/usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake"
+			"/usr/local/Qt-6.7.1/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
+			"/usr/local/Qt-6.7.1/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+			"/usr/local/Qt-6.7.1/lib/cmake/Qt6/Qt6Config.cmake",
+			"/usr/local/Qt-6.7.1/lib/cmake/Qt6/FindWrapOpenGL.cmake",
+			"/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+			"/usr/local/Qt-6.7.1/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
+			"/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"/usr/local/Qt-6.7.1/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
+			"/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"/usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+			"/usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6CoreConfig.cmake"
 		],
 		"nodes" : 
 		[
@@ -53,19 +54,19 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 938,
+				"line" : 869,
 				"parent" : 1
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 639,
+				"line" : 575,
 				"parent" : 2
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 688,
+				"line" : 629,
 				"parent" : 3
 			},
 			{
@@ -99,7 +100,7 @@
 			{
 				"command" : 8,
 				"file" : 4,
-				"line" : 222,
+				"line" : 169,
 				"parent" : 9
 			},
 			{
@@ -109,7 +110,7 @@
 			{
 				"command" : 7,
 				"file" : 3,
-				"line" : 65,
+				"line" : 55,
 				"parent" : 11
 			},
 			{
@@ -119,100 +120,132 @@
 			{
 				"command" : 6,
 				"file" : 2,
-				"line" : 70,
+				"line" : 62,
 				"parent" : 13
 			},
 			{
 				"command" : 7,
 				"file" : 3,
-				"line" : 53,
+				"line" : 43,
 				"parent" : 11
 			},
 			{
-				"file" : 11,
+				"file" : 10,
 				"parent" : 15
 			},
 			{
-				"command" : 12,
-				"file" : 11,
-				"line" : 45,
+				"command" : 11,
+				"file" : 10,
+				"line" : 42,
 				"parent" : 16
 			},
 			{
-				"command" : 10,
-				"file" : 8,
-				"line" : 137,
+				"command" : 9,
+				"file" : 7,
+				"line" : 111,
 				"parent" : 17
 			},
 			{
 				"command" : 8,
-				"file" : 7,
+				"file" : 6,
 				"line" : 78,
 				"parent" : 18
 			},
 			{
-				"file" : 10,
+				"file" : 9,
 				"parent" : 19
 			},
 			{
 				"command" : 7,
-				"file" : 10,
-				"line" : 53,
+				"file" : 9,
+				"line" : 43,
 				"parent" : 20
 			},
 			{
-				"file" : 9,
+				"file" : 8,
 				"parent" : 21
-			},
-			{
-				"command" : 11,
-				"file" : 9,
-				"line" : 36,
-				"parent" : 22
 			},
 			{
 				"command" : 10,
 				"file" : 8,
+				"line" : 33,
+				"parent" : 22
+			},
+			{
+				"command" : 9,
+				"file" : 7,
 				"line" : 36,
 				"parent" : 23
 			},
 			{
 				"command" : 8,
-				"file" : 7,
+				"file" : 6,
 				"line" : 78,
 				"parent" : 24
 			},
 			{
-				"file" : 6,
+				"file" : 5,
 				"parent" : 25
 			},
 			{
-				"command" : 8,
-				"file" : 6,
-				"line" : 13,
+				"command" : 5,
+				"file" : 5,
+				"line" : 48,
 				"parent" : 26
 			},
 			{
-				"file" : 5,
-				"parent" : 27
+				"command" : 7,
+				"file" : 9,
+				"line" : 55,
+				"parent" : 20
 			},
 			{
-				"command" : 9,
-				"file" : 5,
-				"line" : 712,
+				"file" : 11,
 				"parent" : 28
 			},
 			{
 				"command" : 6,
-				"file" : 5,
-				"line" : 710,
-				"parent" : 28
+				"file" : 11,
+				"line" : 62,
+				"parent" : 29
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 640,
+				"line" : 576,
 				"parent" : 2
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 111,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 78,
+				"parent" : 32
+			},
+			{
+				"file" : 13,
+				"parent" : 33
+			},
+			{
+				"command" : 7,
+				"file" : 13,
+				"line" : 57,
+				"parent" : 34
+			},
+			{
+				"file" : 12,
+				"parent" : 35
+			},
+			{
+				"command" : 6,
+				"file" : 12,
+				"line" : 62,
+				"parent" : 36
 			}
 		]
 	},
@@ -222,11 +255,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-std=gnu++17"
-				},
-				{
-					"backtrace" : 31,
-					"fragment" : "-mno-direct-extern-access"
+					"fragment" : "-std=gnu++17 -arch arm64"
 				}
 			],
 			"defines" : 
@@ -252,41 +281,64 @@
 					"define" : "QT_WIDGETS_LIB"
 				}
 			],
-			"includes" : 
+			"frameworks" : 
 			[
 				{
-					"backtrace" : 0,
-					"path" : "/home/dudkin.i/c++/mandelbrot_cpp/build/mandelbrot_autogen/include"
-				},
-				{
 					"backtrace" : 31,
 					"isSystem" : true,
-					"path" : "/usr/include/qt6/QtCore"
-				},
-				{
-					"backtrace" : 31,
-					"isSystem" : true,
-					"path" : "/usr/include/qt6"
-				},
-				{
-					"backtrace" : 31,
-					"isSystem" : true,
-					"path" : "/usr/lib/qt6/mkspecs/linux-g++"
+					"path" : "/usr/local/Qt-6.7.1/lib/QtCore.framework"
 				},
 				{
 					"backtrace" : 6,
 					"isSystem" : true,
-					"path" : "/usr/include/qt6/QtWidgets"
+					"path" : "/usr/local/Qt-6.7.1/lib/QtWidgets.framework"
 				},
 				{
 					"backtrace" : 6,
 					"isSystem" : true,
-					"path" : "/usr/include/qt6/QtGui"
+					"path" : "/usr/local/Qt-6.7.1/lib/QtGui.framework"
 				},
 				{
 					"backtrace" : 7,
 					"isSystem" : true,
-					"path" : "/usr/include/qt6/QtConcurrent"
+					"path" : "/usr/local/Qt-6.7.1/lib/QtConcurrent.framework"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/Users/ilya/projects/c++/mandelbrot_cpp/build/mandelbrot_autogen/include"
+				},
+				{
+					"backtrace" : 31,
+					"isSystem" : true,
+					"path" : "/usr/local/Qt-6.7.1/lib/QtCore.framework/Headers"
+				},
+				{
+					"backtrace" : 31,
+					"isSystem" : true,
+					"path" : "/usr/local/Qt-6.7.1/mkspecs/macx-clang"
+				},
+				{
+					"backtrace" : 31,
+					"isSystem" : true,
+					"path" : "/usr/local/Qt-6.7.1/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/local/Qt-6.7.1/lib/QtGui.framework/Headers"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/usr/local/Qt-6.7.1/lib/QtConcurrent.framework/Headers"
 				}
 			],
 			"language" : "CXX",
@@ -312,11 +364,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "mandelbrot_autogen::@6890427a1f51a3e7e1df"
+			"id" : "mandelbrot_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "mandelbrot_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "mandelbrot_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "mandelbrot::@6890427a1f51a3e7e1df",
@@ -326,7 +378,7 @@
 		[
 			{
 				"backtrace" : 5,
-				"path" : "bin"
+				"path" : "."
 			}
 		],
 		"prefix" : 
@@ -339,33 +391,65 @@
 		"commandFragments" : 
 		[
 			{
+				"fragment" : "-F/usr/local/Qt-6.7.1/lib",
+				"role" : "frameworkPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/local/Qt-6.7.1/lib",
+				"role" : "libraries"
+			},
+			{
 				"backtrace" : 6,
-				"fragment" : "/usr/lib/libQt6Widgets.so.6.9.0",
+				"fragment" : "/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/QtWidgets",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 7,
-				"fragment" : "/usr/lib/libQt6Concurrent.so.6.9.0",
+				"fragment" : "/usr/local/Qt-6.7.1/lib/QtConcurrent.framework/Versions/A/QtConcurrent",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 14,
-				"fragment" : "/usr/lib/libQt6Gui.so.6.9.0",
+				"fragment" : "/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/QtGui",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 29,
-				"fragment" : "/usr/lib/libGLX.so",
+				"backtrace" : 27,
+				"fragment" : "-framework OpenGL",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-framework AGL",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 30,
-				"fragment" : "/usr/lib/libOpenGL.so",
+				"fragment" : "-framework AppKit",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "-framework ImageIO",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "-framework Metal",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 31,
-				"fragment" : "/usr/lib/libQt6Core.so.6.9.0",
+				"fragment" : "/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/QtCore",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "-framework IOKit",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "-framework DiskArbitration",
 				"role" : "libraries"
 			}
 		],

@@ -998,6 +998,7 @@
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QSize
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QSizeF
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QThreadPool
+ /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QtGlobal
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/q20functional.h
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/q20memory.h
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h
@@ -1137,6 +1138,7 @@
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/QColor
+ /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/QPainter
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/QPixmap
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/QTransform
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/QWheelEvent
@@ -1159,6 +1161,7 @@
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpainter.h
+ /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpainterpath.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpalette.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpen.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h
@@ -1178,10 +1181,12 @@
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qvector2d.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qvectornd.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsPixmapItem
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qframe.h
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsitem.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsscene.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsview.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h

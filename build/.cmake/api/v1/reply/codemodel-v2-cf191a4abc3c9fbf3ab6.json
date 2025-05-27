@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-00377f0d171e2a365d08.json",
+					"jsonFile" : "directory-.-3487065a98ef2a04dc58.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "mandelbrot::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-mandelbrot-ffe8763e6f7302a1149d.json",
+					"jsonFile" : "target-mandelbrot-c146e07f1ec88e3f0daa.json",
 					"name" : "mandelbrot",
 					"projectIndex" : 0
 				},
@@ -68,8 +68,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/dudkin.i/c++/mandelbrot_cpp/build",
-		"source" : "/home/dudkin.i/c++/mandelbrot_cpp"
+		"build" : "/Users/ilya/projects/c++/mandelbrot_cpp/build",
+		"source" : "/Users/ilya/projects/c++/mandelbrot_cpp"
 	},
 	"version" : 
 	{

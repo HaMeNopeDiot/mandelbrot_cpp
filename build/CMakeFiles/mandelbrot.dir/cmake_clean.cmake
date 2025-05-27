@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mandelbrot.dir/link.d"
   "CMakeFiles/mandelbrot_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/mandelbrot_autogen.dir/ParseCache.txt"
   "mandelbrot_autogen"
@@ -13,7 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.o.d"
   "CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o"
   "CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o.d"
-  "mandelbrot"
+  "mandelbrot.app/Contents/MacOS/mandelbrot"
   "mandelbrot.pdb"
   "mandelbrot_autogen/mocs_compilation.cpp"
   "mandelbrot_autogen/timestamp"

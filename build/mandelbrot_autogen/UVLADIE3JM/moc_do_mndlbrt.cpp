@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'do_mndlbrt.hpp'
 **
-** Created by: The Qt Meta Object Compiler version 69 (Qt 6.9.0)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.7.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -17,8 +17,8 @@
 #include <QtCore/qxptype_traits.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'do_mndlbrt.hpp' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 69
-#error "This file was generated using the moc from 6.9.0. It"
+#elif Q_MOC_OUTPUT_REVISION != 68
+#error "This file was generated using the moc from 6.7.1. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -31,41 +31,51 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
-struct qt_meta_tag_ZN12DoMandelbrotE_t {};
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSDoMandelbrotENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSDoMandelbrotENDCLASS = QtMocHelpers::stringData(
+    "DoMandelbrot"
+);
+#else  // !QT_MOC_HAS_STRINGDATA
+#error "qtmochelpers.h not found or too old."
+#endif // !QT_MOC_HAS_STRINGDATA
 } // unnamed namespace
 
-template <> constexpr inline auto DoMandelbrot::qt_create_metaobjectdata<qt_meta_tag_ZN12DoMandelbrotE_t>()
-{
-    namespace QMC = QtMocConstants;
-    QtMocHelpers::StringRefStorage qt_stringData {
-        "DoMandelbrot"
-    };
+Q_CONSTINIT static const uint qt_meta_data_CLASSDoMandelbrotENDCLASS[] = {
 
-    QtMocHelpers::UintData qt_methods {
-    };
-    QtMocHelpers::UintData qt_properties {
-    };
-    QtMocHelpers::UintData qt_enums {
-    };
-    return QtMocHelpers::metaObjectData<DoMandelbrot, qt_meta_tag_ZN12DoMandelbrotE_t>(QMC::MetaObjectFlag{}, qt_stringData,
-            qt_methods, qt_properties, qt_enums);
-}
+ // content:
+      12,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
 Q_CONSTINIT const QMetaObject DoMandelbrot::staticMetaObject = { {
     QMetaObject::SuperData::link<QObject::staticMetaObject>(),
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN12DoMandelbrotE_t>.stringdata,
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN12DoMandelbrotE_t>.data,
+    qt_meta_stringdata_CLASSDoMandelbrotENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSDoMandelbrotENDCLASS,
     qt_static_metacall,
     nullptr,
-    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN12DoMandelbrotE_t>.metaTypes,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSDoMandelbrotENDCLASS_t,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<DoMandelbrot, std::true_type>
+    >,
     nullptr
 } };
 
 void DoMandelbrot::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
-    auto *_t = static_cast<DoMandelbrot *>(_o);
-    (void)_t;
-    (void)_c;
+    (void)_o;
     (void)_id;
+    (void)_c;
     (void)_a;
 }
 
@@ -77,7 +87,7 @@ const QMetaObject *DoMandelbrot::metaObject() const
 void *DoMandelbrot::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN12DoMandelbrotE_t>.strings))
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSDoMandelbrotENDCLASS.stringdata0))
         return static_cast<void*>(this);
     return QObject::qt_metacast(_clname);
 }

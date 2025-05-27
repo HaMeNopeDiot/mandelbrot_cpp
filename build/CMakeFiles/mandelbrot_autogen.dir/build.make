@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /opt/homebrew/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dudkin.i/c++/mandelbrot_cpp
+CMAKE_SOURCE_DIR = /Users/ilya/projects/c++/mandelbrot_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dudkin.i/c++/mandelbrot_cpp/build
+CMAKE_BINARY_DIR = /Users/ilya/projects/c++/mandelbrot_cpp/build
 
 # Utility rule file for mandelbrot_autogen.
 
@@ -68,12 +68,12 @@ include CMakeFiles/mandelbrot_autogen.dir/progress.make
 
 CMakeFiles/mandelbrot_autogen: mandelbrot_autogen/timestamp
 
-mandelbrot_autogen/timestamp: /usr/lib/qt6/moc
-mandelbrot_autogen/timestamp: /usr/lib/qt6/uic
+mandelbrot_autogen/timestamp: /usr/local/Qt-6.7.1/./libexec/moc
+mandelbrot_autogen/timestamp: /usr/local/Qt-6.7.1/./libexec/uic
 mandelbrot_autogen/timestamp: CMakeFiles/mandelbrot_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dudkin.i/c++/mandelbrot_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target mandelbrot"
-	/usr/bin/cmake -E cmake_autogen /home/dudkin.i/c++/mandelbrot_cpp/build/CMakeFiles/mandelbrot_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/dudkin.i/c++/mandelbrot_cpp/build/mandelbrot_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ilya/projects/c++/mandelbrot_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target mandelbrot"
+	/opt/homebrew/bin/cmake -E cmake_autogen /Users/ilya/projects/c++/mandelbrot_cpp/build/CMakeFiles/mandelbrot_autogen.dir/AutogenInfo.json ""
+	/opt/homebrew/bin/cmake -E touch /Users/ilya/projects/c++/mandelbrot_cpp/build/mandelbrot_autogen/timestamp
 
 CMakeFiles/mandelbrot_autogen.dir/codegen:
 .PHONY : CMakeFiles/mandelbrot_autogen.dir/codegen
@@ -92,6 +92,6 @@ CMakeFiles/mandelbrot_autogen.dir/clean:
 .PHONY : CMakeFiles/mandelbrot_autogen.dir/clean
 
 CMakeFiles/mandelbrot_autogen.dir/depend:
-	cd /home/dudkin.i/c++/mandelbrot_cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dudkin.i/c++/mandelbrot_cpp /home/dudkin.i/c++/mandelbrot_cpp /home/dudkin.i/c++/mandelbrot_cpp/build /home/dudkin.i/c++/mandelbrot_cpp/build /home/dudkin.i/c++/mandelbrot_cpp/build/CMakeFiles/mandelbrot_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/ilya/projects/c++/mandelbrot_cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ilya/projects/c++/mandelbrot_cpp /Users/ilya/projects/c++/mandelbrot_cpp /Users/ilya/projects/c++/mandelbrot_cpp/build /Users/ilya/projects/c++/mandelbrot_cpp/build /Users/ilya/projects/c++/mandelbrot_cpp/build/CMakeFiles/mandelbrot_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/mandelbrot_autogen.dir/depend
 
