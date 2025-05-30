@@ -5,13 +5,16 @@
 #include <QGraphicsPixmapItem>
 #include <QWheelEvent>
 #include "pixmap_creator.hpp"
+#include <QPointF>
+#include <QPoint>
+#include <QScrollBar>
 
 class GraphicsView : public QGraphicsView {
     public:
         /*!
         \brief Constructor of class
         */
-        GraphicsView(QWidget *parent = nullptr);
+        GraphicsView(QWidget *parent = nullptr, QScrollBar *scrollBar = nullptr);
 
         /*!
         \brief group of mouse events to control occurance of
@@ -29,6 +32,9 @@ class GraphicsView : public QGraphicsView {
                            int width = 100, int height = 100);
         void moveZoomRect(int xCenter, int yCenter);
         void despawnZoomRect();
+        QPointF mapPos(double x, double y);
+        void test_pos(QMouseEvent *event);
+        QScrollBar *scrollBar;
         PixmapCreator *pc;
 };
 

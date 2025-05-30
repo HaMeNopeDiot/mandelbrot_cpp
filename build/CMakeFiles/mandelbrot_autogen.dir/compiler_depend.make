@@ -993,9 +993,12 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QDebug \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QList \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QObject \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QPoint \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QPointF \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QRect \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QSize \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QSizeF \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QString \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QThreadPool \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QtGlobal \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
@@ -1163,6 +1166,7 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpainterpath.h \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpen.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpointingdevice.h \
@@ -1172,6 +1176,7 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qscreen.h \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qscreen_platform.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtextoption.h \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
@@ -1182,14 +1187,19 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsPixmapItem \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QScrollBar \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qabstractslider.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsitem.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsscene.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsview.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qscrollarea.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qscrollbar.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
@@ -1403,2138 +1413,36 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
   /usr/local/Qt-6.7.1/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
   /usr/local/Qt-6.7.1/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake
 
-/home/dudkin.i/c++/mandelbrot_cpp/build/mandelbrot_autogen/timestamp: /home/dudkin.i/c++/mandelbrot_cpp/CMakeLists.txt \
-  /home/dudkin.i/c++/mandelbrot_cpp/build/CMakeFiles/4.0.2-dirty/CMakeCXXCompiler.cmake \
-  /home/dudkin.i/c++/mandelbrot_cpp/build/CMakeFiles/4.0.2-dirty/CMakeSystem.cmake \
-  /home/dudkin.i/c++/mandelbrot_cpp/build/mandelbrot_autogen/moc_predefs.h \
-  /home/dudkin.i/c++/mandelbrot_cpp/src/do_mndlbrt.hpp \
-  /home/dudkin.i/c++/mandelbrot_cpp/src/graphicsview.cpp \
-  /home/dudkin.i/c++/mandelbrot_cpp/src/graphicsview.h \
-  /home/dudkin.i/c++/mandelbrot_cpp/src/gt_mndlbrt.hpp \
-  /home/dudkin.i/c++/mandelbrot_cpp/src/is_mndlbrt.hpp \
-  /home/dudkin.i/c++/mandelbrot_cpp/src/main.cpp \
-  /home/dudkin.i/c++/mandelbrot_cpp/src/mainwindow.cpp \
-  /home/dudkin.i/c++/mandelbrot_cpp/src/mainwindow.h \
-  /home/dudkin.i/c++/mandelbrot_cpp/src/mainwindow.ui \
-  /home/dudkin.i/c++/mandelbrot_cpp/src/mndlbrt_color.hpp \
-  /home/dudkin.i/c++/mandelbrot_cpp/src/pixmap_creator.cpp \
-  /home/dudkin.i/c++/mandelbrot_cpp/src/pixmap_creator.hpp \
-  /usr/bin/cmake \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/int-ll64.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/types.h \
-  /usr/include/asm/bitsperlong.h \
-  /usr/include/asm/errno.h \
-  /usr/include/asm/posix_types.h \
-  /usr/include/asm/posix_types_64.h \
-  /usr/include/asm/types.h \
-  /usr/include/assert.h \
-  /usr/include/bits/atomic_wide_counter.h \
-  /usr/include/bits/byteswap.h \
-  /usr/include/bits/cpu-set.h \
-  /usr/include/bits/endian.h \
-  /usr/include/bits/endianness.h \
-  /usr/include/bits/errno.h \
-  /usr/include/bits/floatn-common.h \
-  /usr/include/bits/floatn.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/local_lim.h \
-  /usr/include/bits/locale.h \
-  /usr/include/bits/long-double.h \
-  /usr/include/bits/posix1_lim.h \
-  /usr/include/bits/posix2_lim.h \
-  /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/bits/pthreadtypes-arch.h \
-  /usr/include/bits/pthreadtypes.h \
-  /usr/include/bits/sched.h \
-  /usr/include/bits/select.h \
-  /usr/include/bits/setjmp.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdint-least.h \
-  /usr/include/bits/stdint-uintn.h \
-  /usr/include/bits/stdio_lim.h \
-  /usr/include/bits/stdlib-float.h \
-  /usr/include/bits/struct_mutex.h \
-  /usr/include/bits/struct_rwlock.h \
-  /usr/include/bits/thread-shared-types.h \
-  /usr/include/bits/time.h \
-  /usr/include/bits/time64.h \
-  /usr/include/bits/timesize.h \
-  /usr/include/bits/timex.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/types/FILE.h \
-  /usr/include/bits/types/__FILE.h \
-  /usr/include/bits/types/__fpos64_t.h \
-  /usr/include/bits/types/__fpos_t.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/bits/types/__mbstate_t.h \
-  /usr/include/bits/types/__sigset_t.h \
-  /usr/include/bits/types/clock_t.h \
-  /usr/include/bits/types/clockid_t.h \
-  /usr/include/bits/types/cookie_io_functions_t.h \
-  /usr/include/bits/types/error_t.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/mbstate_t.h \
-  /usr/include/bits/types/sigset_t.h \
-  /usr/include/bits/types/struct_FILE.h \
-  /usr/include/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/bits/types/struct_itimerspec.h \
-  /usr/include/bits/types/struct_sched_param.h \
-  /usr/include/bits/types/struct_timespec.h \
-  /usr/include/bits/types/struct_timeval.h \
-  /usr/include/bits/types/struct_tm.h \
-  /usr/include/bits/types/time_t.h \
-  /usr/include/bits/types/timer_t.h \
-  /usr/include/bits/types/wint_t.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/uintn-identity.h \
-  /usr/include/bits/uio_lim.h \
-  /usr/include/bits/waitflags.h \
-  /usr/include/bits/waitstatus.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/wordsize.h \
-  /usr/include/bits/xopen_lim.h \
-  /usr/include/c++/15.1.1/algorithm \
-  /usr/include/c++/15.1.1/array \
-  /usr/include/c++/15.1.1/atomic \
-  /usr/include/c++/15.1.1/backward/auto_ptr.h \
-  /usr/include/c++/15.1.1/backward/binders.h \
-  /usr/include/c++/15.1.1/bit \
-  /usr/include/c++/15.1.1/bits/algorithmfwd.h \
-  /usr/include/c++/15.1.1/bits/align.h \
-  /usr/include/c++/15.1.1/bits/alloc_traits.h \
-  /usr/include/c++/15.1.1/bits/allocated_ptr.h \
-  /usr/include/c++/15.1.1/bits/allocator.h \
-  /usr/include/c++/15.1.1/bits/atomic_base.h \
-  /usr/include/c++/15.1.1/bits/atomic_futex.h \
-  /usr/include/c++/15.1.1/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/15.1.1/bits/basic_string.h \
-  /usr/include/c++/15.1.1/bits/basic_string.tcc \
-  /usr/include/c++/15.1.1/bits/char_traits.h \
-  /usr/include/c++/15.1.1/bits/charconv.h \
-  /usr/include/c++/15.1.1/bits/chrono.h \
-  /usr/include/c++/15.1.1/bits/concept_check.h \
-  /usr/include/c++/15.1.1/bits/cpp_type_traits.h \
-  /usr/include/c++/15.1.1/bits/cxxabi_forced.h \
-  /usr/include/c++/15.1.1/bits/cxxabi_init_exception.h \
-  /usr/include/c++/15.1.1/bits/enable_special_members.h \
-  /usr/include/c++/15.1.1/bits/erase_if.h \
-  /usr/include/c++/15.1.1/bits/exception.h \
-  /usr/include/c++/15.1.1/bits/exception_defines.h \
-  /usr/include/c++/15.1.1/bits/exception_ptr.h \
-  /usr/include/c++/15.1.1/bits/functexcept.h \
-  /usr/include/c++/15.1.1/bits/functional_hash.h \
-  /usr/include/c++/15.1.1/bits/hash_bytes.h \
-  /usr/include/c++/15.1.1/bits/hashtable.h \
-  /usr/include/c++/15.1.1/bits/hashtable_policy.h \
-  /usr/include/c++/15.1.1/bits/invoke.h \
-  /usr/include/c++/15.1.1/bits/ios_base.h \
-  /usr/include/c++/15.1.1/bits/list.tcc \
-  /usr/include/c++/15.1.1/bits/locale_classes.h \
-  /usr/include/c++/15.1.1/bits/locale_classes.tcc \
-  /usr/include/c++/15.1.1/bits/localefwd.h \
-  /usr/include/c++/15.1.1/bits/memory_resource.h \
-  /usr/include/c++/15.1.1/bits/memoryfwd.h \
-  /usr/include/c++/15.1.1/bits/move.h \
-  /usr/include/c++/15.1.1/bits/nested_exception.h \
-  /usr/include/c++/15.1.1/bits/new_allocator.h \
-  /usr/include/c++/15.1.1/bits/node_handle.h \
-  /usr/include/c++/15.1.1/bits/ostream_insert.h \
-  /usr/include/c++/15.1.1/bits/parse_numbers.h \
-  /usr/include/c++/15.1.1/bits/postypes.h \
-  /usr/include/c++/15.1.1/bits/predefined_ops.h \
-  /usr/include/c++/15.1.1/bits/ptr_traits.h \
-  /usr/include/c++/15.1.1/bits/range_access.h \
-  /usr/include/c++/15.1.1/bits/refwrap.h \
-  /usr/include/c++/15.1.1/bits/requires_hosted.h \
-  /usr/include/c++/15.1.1/bits/shared_ptr.h \
-  /usr/include/c++/15.1.1/bits/shared_ptr_atomic.h \
-  /usr/include/c++/15.1.1/bits/shared_ptr_base.h \
-  /usr/include/c++/15.1.1/bits/specfun.h \
-  /usr/include/c++/15.1.1/bits/std_abs.h \
-  /usr/include/c++/15.1.1/bits/std_function.h \
-  /usr/include/c++/15.1.1/bits/std_mutex.h \
-  /usr/include/c++/15.1.1/bits/std_thread.h \
-  /usr/include/c++/15.1.1/bits/stl_algo.h \
-  /usr/include/c++/15.1.1/bits/stl_algobase.h \
-  /usr/include/c++/15.1.1/bits/stl_bvector.h \
-  /usr/include/c++/15.1.1/bits/stl_construct.h \
-  /usr/include/c++/15.1.1/bits/stl_function.h \
-  /usr/include/c++/15.1.1/bits/stl_heap.h \
-  /usr/include/c++/15.1.1/bits/stl_iterator.h \
-  /usr/include/c++/15.1.1/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/15.1.1/bits/stl_iterator_base_types.h \
-  /usr/include/c++/15.1.1/bits/stl_list.h \
-  /usr/include/c++/15.1.1/bits/stl_map.h \
-  /usr/include/c++/15.1.1/bits/stl_multimap.h \
-  /usr/include/c++/15.1.1/bits/stl_multiset.h \
-  /usr/include/c++/15.1.1/bits/stl_numeric.h \
-  /usr/include/c++/15.1.1/bits/stl_pair.h \
-  /usr/include/c++/15.1.1/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/15.1.1/bits/stl_relops.h \
-  /usr/include/c++/15.1.1/bits/stl_set.h \
-  /usr/include/c++/15.1.1/bits/stl_tempbuf.h \
-  /usr/include/c++/15.1.1/bits/stl_tree.h \
-  /usr/include/c++/15.1.1/bits/stl_uninitialized.h \
-  /usr/include/c++/15.1.1/bits/stl_vector.h \
-  /usr/include/c++/15.1.1/bits/stream_iterator.h \
-  /usr/include/c++/15.1.1/bits/streambuf.tcc \
-  /usr/include/c++/15.1.1/bits/streambuf_iterator.h \
-  /usr/include/c++/15.1.1/bits/string_view.tcc \
-  /usr/include/c++/15.1.1/bits/stringfwd.h \
-  /usr/include/c++/15.1.1/bits/uniform_int_dist.h \
-  /usr/include/c++/15.1.1/bits/unique_lock.h \
-  /usr/include/c++/15.1.1/bits/unique_ptr.h \
-  /usr/include/c++/15.1.1/bits/unordered_map.h \
-  /usr/include/c++/15.1.1/bits/unordered_set.h \
-  /usr/include/c++/15.1.1/bits/uses_allocator.h \
-  /usr/include/c++/15.1.1/bits/uses_allocator_args.h \
-  /usr/include/c++/15.1.1/bits/utility.h \
-  /usr/include/c++/15.1.1/bits/vector.tcc \
-  /usr/include/c++/15.1.1/bits/version.h \
-  /usr/include/c++/15.1.1/cassert \
-  /usr/include/c++/15.1.1/cctype \
-  /usr/include/c++/15.1.1/cerrno \
-  /usr/include/c++/15.1.1/chrono \
-  /usr/include/c++/15.1.1/climits \
-  /usr/include/c++/15.1.1/clocale \
-  /usr/include/c++/15.1.1/cmath \
-  /usr/include/c++/15.1.1/compare \
-  /usr/include/c++/15.1.1/concepts \
-  /usr/include/c++/15.1.1/condition_variable \
-  /usr/include/c++/15.1.1/cstddef \
-  /usr/include/c++/15.1.1/cstdint \
-  /usr/include/c++/15.1.1/cstdio \
-  /usr/include/c++/15.1.1/cstdlib \
-  /usr/include/c++/15.1.1/cstring \
-  /usr/include/c++/15.1.1/ctime \
-  /usr/include/c++/15.1.1/cwchar \
-  /usr/include/c++/15.1.1/debug/assertions.h \
-  /usr/include/c++/15.1.1/debug/debug.h \
-  /usr/include/c++/15.1.1/exception \
-  /usr/include/c++/15.1.1/ext/aligned_buffer.h \
-  /usr/include/c++/15.1.1/ext/alloc_traits.h \
-  /usr/include/c++/15.1.1/ext/atomicity.h \
-  /usr/include/c++/15.1.1/ext/concurrence.h \
-  /usr/include/c++/15.1.1/ext/numeric_traits.h \
-  /usr/include/c++/15.1.1/ext/string_conversions.h \
-  /usr/include/c++/15.1.1/ext/type_traits.h \
-  /usr/include/c++/15.1.1/functional \
-  /usr/include/c++/15.1.1/future \
-  /usr/include/c++/15.1.1/initializer_list \
-  /usr/include/c++/15.1.1/iosfwd \
-  /usr/include/c++/15.1.1/iterator \
-  /usr/include/c++/15.1.1/limits \
-  /usr/include/c++/15.1.1/list \
-  /usr/include/c++/15.1.1/map \
-  /usr/include/c++/15.1.1/memory \
-  /usr/include/c++/15.1.1/mutex \
-  /usr/include/c++/15.1.1/new \
-  /usr/include/c++/15.1.1/numeric \
-  /usr/include/c++/15.1.1/optional \
-  /usr/include/c++/15.1.1/pstl/execution_defs.h \
-  /usr/include/c++/15.1.1/pstl/glue_numeric_defs.h \
-  /usr/include/c++/15.1.1/ratio \
-  /usr/include/c++/15.1.1/set \
-  /usr/include/c++/15.1.1/stdexcept \
-  /usr/include/c++/15.1.1/streambuf \
-  /usr/include/c++/15.1.1/string \
-  /usr/include/c++/15.1.1/string_view \
-  /usr/include/c++/15.1.1/system_error \
-  /usr/include/c++/15.1.1/tr1/bessel_function.tcc \
-  /usr/include/c++/15.1.1/tr1/beta_function.tcc \
-  /usr/include/c++/15.1.1/tr1/ell_integral.tcc \
-  /usr/include/c++/15.1.1/tr1/exp_integral.tcc \
-  /usr/include/c++/15.1.1/tr1/gamma.tcc \
-  /usr/include/c++/15.1.1/tr1/hypergeometric.tcc \
-  /usr/include/c++/15.1.1/tr1/legendre_function.tcc \
-  /usr/include/c++/15.1.1/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/15.1.1/tr1/poly_hermite.tcc \
-  /usr/include/c++/15.1.1/tr1/poly_laguerre.tcc \
-  /usr/include/c++/15.1.1/tr1/riemann_zeta.tcc \
-  /usr/include/c++/15.1.1/tr1/special_function_util.h \
-  /usr/include/c++/15.1.1/tuple \
-  /usr/include/c++/15.1.1/type_traits \
-  /usr/include/c++/15.1.1/typeinfo \
-  /usr/include/c++/15.1.1/unordered_map \
-  /usr/include/c++/15.1.1/unordered_set \
-  /usr/include/c++/15.1.1/utility \
-  /usr/include/c++/15.1.1/variant \
-  /usr/include/c++/15.1.1/vector \
-  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
-  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
-  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/gnu/stubs-64.h \
-  /usr/include/gnu/stubs.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/linux/types.h \
-  /usr/include/locale.h \
-  /usr/include/pthread.h \
-  /usr/include/qt6/QtConcurrent/QtConcurrentRun \
-  /usr/include/qt6/QtConcurrent/qtconcurrent_global.h \
-  /usr/include/qt6/QtConcurrent/qtconcurrentcompilertest.h \
-  /usr/include/qt6/QtConcurrent/qtconcurrentexports.h \
-  /usr/include/qt6/QtConcurrent/qtconcurrentrun.h \
-  /usr/include/qt6/QtConcurrent/qtconcurrentrunbase.h \
-  /usr/include/qt6/QtConcurrent/qtconcurrentstoredfunctioncall.h \
-  /usr/include/qt6/QtCore/QDebug \
-  /usr/include/qt6/QtCore/QList \
-  /usr/include/qt6/QtCore/QObject \
-  /usr/include/qt6/QtCore/QRect \
-  /usr/include/qt6/QtCore/QSize \
-  /usr/include/qt6/QtCore/QSizeF \
-  /usr/include/qt6/QtCore/QThreadPool \
-  /usr/include/qt6/QtCore/q17memory.h \
-  /usr/include/qt6/QtCore/q20functional.h \
-  /usr/include/qt6/QtCore/q20iterator.h \
-  /usr/include/qt6/QtCore/q20memory.h \
-  /usr/include/qt6/QtCore/q20type_traits.h \
-  /usr/include/qt6/QtCore/q20utility.h \
-  /usr/include/qt6/QtCore/q23utility.h \
-  /usr/include/qt6/QtCore/qabstracteventdispatcher.h \
-  /usr/include/qt6/QtCore/qalgorithms.h \
-  /usr/include/qt6/QtCore/qanystringview.h \
-  /usr/include/qt6/QtCore/qarraydata.h \
-  /usr/include/qt6/QtCore/qarraydataops.h \
-  /usr/include/qt6/QtCore/qarraydatapointer.h \
-  /usr/include/qt6/QtCore/qassert.h \
-  /usr/include/qt6/QtCore/qatomic.h \
-  /usr/include/qt6/QtCore/qatomic_cxx11.h \
-  /usr/include/qt6/QtCore/qbasicatomic.h \
-  /usr/include/qt6/QtCore/qbasictimer.h \
-  /usr/include/qt6/QtCore/qbindingstorage.h \
-  /usr/include/qt6/QtCore/qbytearray.h \
-  /usr/include/qt6/QtCore/qbytearrayalgorithms.h \
-  /usr/include/qt6/QtCore/qbytearraylist.h \
-  /usr/include/qt6/QtCore/qbytearrayview.h \
-  /usr/include/qt6/QtCore/qchar.h \
-  /usr/include/qt6/QtCore/qcompare.h \
-  /usr/include/qt6/QtCore/qcompare_impl.h \
-  /usr/include/qt6/QtCore/qcomparehelpers.h \
-  /usr/include/qt6/QtCore/qcompilerdetection.h \
-  /usr/include/qt6/QtCore/qconfig.h \
-  /usr/include/qt6/QtCore/qconstructormacros.h \
-  /usr/include/qt6/QtCore/qcontainerfwd.h \
-  /usr/include/qt6/QtCore/qcontainerinfo.h \
-  /usr/include/qt6/QtCore/qcontainertools_impl.h \
-  /usr/include/qt6/QtCore/qcontiguouscache.h \
-  /usr/include/qt6/QtCore/qcoreapplication.h \
-  /usr/include/qt6/QtCore/qcoreapplication_platform.h \
-  /usr/include/qt6/QtCore/qcoreevent.h \
-  /usr/include/qt6/QtCore/qdarwinhelpers.h \
-  /usr/include/qt6/QtCore/qdatastream.h \
-  /usr/include/qt6/QtCore/qdeadlinetimer.h \
-  /usr/include/qt6/QtCore/qdebug.h \
-  /usr/include/qt6/QtCore/qelapsedtimer.h \
-  /usr/include/qt6/QtCore/qendian.h \
-  /usr/include/qt6/QtCore/qeventloop.h \
-  /usr/include/qt6/QtCore/qexception.h \
-  /usr/include/qt6/QtCore/qexceptionhandling.h \
-  /usr/include/qt6/QtCore/qflags.h \
-  /usr/include/qt6/QtCore/qfloat16.h \
-  /usr/include/qt6/QtCore/qforeach.h \
-  /usr/include/qt6/QtCore/qfunctionaltools_impl.h \
-  /usr/include/qt6/QtCore/qfunctionpointer.h \
-  /usr/include/qt6/QtCore/qfuture.h \
-  /usr/include/qt6/QtCore/qfuture_impl.h \
-  /usr/include/qt6/QtCore/qfutureinterface.h \
-  /usr/include/qt6/QtCore/qgenericatomic.h \
-  /usr/include/qt6/QtCore/qglobal.h \
-  /usr/include/qt6/QtCore/qglobalstatic.h \
-  /usr/include/qt6/QtCore/qhash.h \
-  /usr/include/qt6/QtCore/qhashfunctions.h \
-  /usr/include/qt6/QtCore/qiodevice.h \
-  /usr/include/qt6/QtCore/qiodevicebase.h \
-  /usr/include/qt6/QtCore/qiterable.h \
-  /usr/include/qt6/QtCore/qiterator.h \
-  /usr/include/qt6/QtCore/qlatin1stringview.h \
-  /usr/include/qt6/QtCore/qline.h \
-  /usr/include/qt6/QtCore/qlist.h \
-  /usr/include/qt6/QtCore/qlocale.h \
-  /usr/include/qt6/QtCore/qlogging.h \
-  /usr/include/qt6/QtCore/qmalloc.h \
-  /usr/include/qt6/QtCore/qmap.h \
-  /usr/include/qt6/QtCore/qmargins.h \
-  /usr/include/qt6/QtCore/qmath.h \
-  /usr/include/qt6/QtCore/qmetacontainer.h \
-  /usr/include/qt6/QtCore/qmetatype.h \
-  /usr/include/qt6/QtCore/qminmax.h \
-  /usr/include/qt6/QtCore/qmutex.h \
-  /usr/include/qt6/QtCore/qnamespace.h \
-  /usr/include/qt6/QtCore/qnativeinterface.h \
-  /usr/include/qt6/QtCore/qnumeric.h \
-  /usr/include/qt6/QtCore/qobject.h \
-  /usr/include/qt6/QtCore/qobject_impl.h \
-  /usr/include/qt6/QtCore/qobjectdefs.h \
-  /usr/include/qt6/QtCore/qobjectdefs_impl.h \
-  /usr/include/qt6/QtCore/qoverload.h \
-  /usr/include/qt6/QtCore/qpair.h \
-  /usr/include/qt6/QtCore/qpoint.h \
-  /usr/include/qt6/QtCore/qprocessordetection.h \
-  /usr/include/qt6/QtCore/qpromise.h \
-  /usr/include/qt6/QtCore/qrect.h \
-  /usr/include/qt6/QtCore/qrefcount.h \
-  /usr/include/qt6/QtCore/qresultstore.h \
-  /usr/include/qt6/QtCore/qrunnable.h \
-  /usr/include/qt6/QtCore/qscopedpointer.h \
-  /usr/include/qt6/QtCore/qscopeguard.h \
-  /usr/include/qt6/QtCore/qset.h \
-  /usr/include/qt6/QtCore/qshareddata.h \
-  /usr/include/qt6/QtCore/qshareddata_impl.h \
-  /usr/include/qt6/QtCore/qsharedpointer.h \
-  /usr/include/qt6/QtCore/qsharedpointer_impl.h \
-  /usr/include/qt6/QtCore/qsize.h \
-  /usr/include/qt6/QtCore/qspan.h \
-  /usr/include/qt6/QtCore/qstdlibdetection.h \
-  /usr/include/qt6/QtCore/qstring.h \
-  /usr/include/qt6/QtCore/qstringalgorithms.h \
-  /usr/include/qt6/QtCore/qstringbuilder.h \
-  /usr/include/qt6/QtCore/qstringconverter.h \
-  /usr/include/qt6/QtCore/qstringconverter_base.h \
-  /usr/include/qt6/QtCore/qstringfwd.h \
-  /usr/include/qt6/QtCore/qstringlist.h \
-  /usr/include/qt6/QtCore/qstringliteral.h \
-  /usr/include/qt6/QtCore/qstringmatcher.h \
-  /usr/include/qt6/QtCore/qstringtokenizer.h \
-  /usr/include/qt6/QtCore/qstringview.h \
-  /usr/include/qt6/QtCore/qswap.h \
-  /usr/include/qt6/QtCore/qsysinfo.h \
-  /usr/include/qt6/QtCore/qsystemdetection.h \
-  /usr/include/qt6/QtCore/qtaggedpointer.h \
-  /usr/include/qt6/QtCore/qtclasshelpermacros.h \
-  /usr/include/qt6/QtCore/qtconfiginclude.h \
-  /usr/include/qt6/QtCore/qtconfigmacros.h \
-  /usr/include/qt6/QtCore/qtcore-config.h \
-  /usr/include/qt6/QtCore/qtcoreexports.h \
-  /usr/include/qt6/QtCore/qtcoreglobal.h \
-  /usr/include/qt6/QtCore/qtdeprecationdefinitions.h \
-  /usr/include/qt6/QtCore/qtdeprecationmarkers.h \
-  /usr/include/qt6/QtCore/qtenvironmentvariables.h \
-  /usr/include/qt6/QtCore/qtextstream.h \
-  /usr/include/qt6/QtCore/qtformat_impl.h \
-  /usr/include/qt6/QtCore/qthread.h \
-  /usr/include/qt6/QtCore/qthreadpool.h \
-  /usr/include/qt6/QtCore/qtmetamacros.h \
-  /usr/include/qt6/QtCore/qtnoop.h \
-  /usr/include/qt6/QtCore/qtpreprocessorsupport.h \
-  /usr/include/qt6/QtCore/qtresource.h \
-  /usr/include/qt6/QtCore/qtsan_impl.h \
-  /usr/include/qt6/QtCore/qttranslation.h \
-  /usr/include/qt6/QtCore/qttypetraits.h \
-  /usr/include/qt6/QtCore/qtversion.h \
-  /usr/include/qt6/QtCore/qtversionchecks.h \
-  /usr/include/qt6/QtCore/qtypeinfo.h \
-  /usr/include/qt6/QtCore/qtypes.h \
-  /usr/include/qt6/QtCore/qurl.h \
-  /usr/include/qt6/QtCore/qutf8stringview.h \
-  /usr/include/qt6/QtCore/qvariant.h \
-  /usr/include/qt6/QtCore/qvarlengtharray.h \
-  /usr/include/qt6/QtCore/qversiontagging.h \
-  /usr/include/qt6/QtCore/qxptype_traits.h \
-  /usr/include/qt6/QtCore/qyieldcpu.h \
-  /usr/include/qt6/QtGui/QColor \
-  /usr/include/qt6/QtGui/QPixmap \
-  /usr/include/qt6/QtGui/QTransform \
-  /usr/include/qt6/QtGui/QWheelEvent \
-  /usr/include/qt6/QtGui/qaction.h \
-  /usr/include/qt6/QtGui/qbitmap.h \
-  /usr/include/qt6/QtGui/qbrush.h \
-  /usr/include/qt6/QtGui/qcolor.h \
-  /usr/include/qt6/QtGui/qcursor.h \
-  /usr/include/qt6/QtGui/qevent.h \
-  /usr/include/qt6/QtGui/qeventpoint.h \
-  /usr/include/qt6/QtGui/qfont.h \
-  /usr/include/qt6/QtGui/qfontinfo.h \
-  /usr/include/qt6/QtGui/qfontmetrics.h \
-  /usr/include/qt6/QtGui/qfontvariableaxis.h \
-  /usr/include/qt6/QtGui/qguiapplication.h \
-  /usr/include/qt6/QtGui/qguiapplication_platform.h \
-  /usr/include/qt6/QtGui/qicon.h \
-  /usr/include/qt6/QtGui/qimage.h \
-  /usr/include/qt6/QtGui/qinputdevice.h \
-  /usr/include/qt6/QtGui/qinputmethod.h \
-  /usr/include/qt6/QtGui/qkeysequence.h \
-  /usr/include/qt6/QtGui/qpaintdevice.h \
-  /usr/include/qt6/QtGui/qpainter.h \
-  /usr/include/qt6/QtGui/qpalette.h \
-  /usr/include/qt6/QtGui/qpen.h \
-  /usr/include/qt6/QtGui/qpixelformat.h \
-  /usr/include/qt6/QtGui/qpixmap.h \
-  /usr/include/qt6/QtGui/qpointingdevice.h \
-  /usr/include/qt6/QtGui/qpolygon.h \
-  /usr/include/qt6/QtGui/qregion.h \
-  /usr/include/qt6/QtGui/qrgb.h \
-  /usr/include/qt6/QtGui/qrgba64.h \
-  /usr/include/qt6/QtGui/qscreen.h \
-  /usr/include/qt6/QtGui/qscreen_platform.h \
-  /usr/include/qt6/QtGui/qtextoption.h \
-  /usr/include/qt6/QtGui/qtgui-config.h \
-  /usr/include/qt6/QtGui/qtguiexports.h \
-  /usr/include/qt6/QtGui/qtguiglobal.h \
-  /usr/include/qt6/QtGui/qtransform.h \
-  /usr/include/qt6/QtGui/qvector2d.h \
-  /usr/include/qt6/QtGui/qvectornd.h \
-  /usr/include/qt6/QtGui/qwindowdefs.h \
-  /usr/include/qt6/QtWidgets/QGraphicsView \
-  /usr/include/qt6/QtWidgets/QMainWindow \
-  /usr/include/qt6/QtWidgets/qabstractscrollarea.h \
-  /usr/include/qt6/QtWidgets/qframe.h \
-  /usr/include/qt6/QtWidgets/qgraphicsscene.h \
-  /usr/include/qt6/QtWidgets/qgraphicsview.h \
-  /usr/include/qt6/QtWidgets/qmainwindow.h \
-  /usr/include/qt6/QtWidgets/qscrollarea.h \
-  /usr/include/qt6/QtWidgets/qsizepolicy.h \
-  /usr/include/qt6/QtWidgets/qtabwidget.h \
-  /usr/include/qt6/QtWidgets/qtwidgets-config.h \
-  /usr/include/qt6/QtWidgets/qtwidgetsexports.h \
-  /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
-  /usr/include/qt6/QtWidgets/qwidget.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/sys/cdefs.h \
-  /usr/include/sys/select.h \
-  /usr/include/sys/types.h \
-  /usr/include/time.h \
-  /usr/include/wchar.h \
-  /usr/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
-  /usr/lib/cmake/Qt6/FindWrapAtomic.cmake \
-  /usr/lib/cmake/Qt6/FindWrapOpenGL.cmake \
-  /usr/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
-  /usr/lib/cmake/Qt6/Qt6Config.cmake \
-  /usr/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
-  /usr/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
-  /usr/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
-  /usr/lib/cmake/Qt6/Qt6Dependencies.cmake \
-  /usr/lib/cmake/Qt6/Qt6Targets.cmake \
-  /usr/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake \
-  /usr/lib/cmake/Qt6/QtFeature.cmake \
-  /usr/lib/cmake/Qt6/QtFeatureCommon.cmake \
-  /usr/lib/cmake/Qt6/QtInstallPaths.cmake \
-  /usr/lib/cmake/Qt6/QtPublicAndroidHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicGitHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake \
-  /usr/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicSbomHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
-  /usr/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake \
-  /usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentConfig.cmake \
-  /usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentConfigVersion.cmake \
-  /usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentConfigVersionImpl.cmake \
-  /usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentDependencies.cmake \
-  /usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentTargets.cmake \
-  /usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentVersionlessAliasTargets.cmake \
-  /usr/lib/cmake/Qt6ConcurrentPrivate/Qt6ConcurrentPrivateAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6ConcurrentPrivate/Qt6ConcurrentPrivateConfig.cmake \
-  /usr/lib/cmake/Qt6ConcurrentPrivate/Qt6ConcurrentPrivateConfigVersion.cmake \
-  /usr/lib/cmake/Qt6ConcurrentPrivate/Qt6ConcurrentPrivateConfigVersionImpl.cmake \
-  /usr/lib/cmake/Qt6ConcurrentPrivate/Qt6ConcurrentPrivateDependencies.cmake \
-  /usr/lib/cmake/Qt6ConcurrentPrivate/Qt6ConcurrentPrivateTargets.cmake \
-  /usr/lib/cmake/Qt6ConcurrentPrivate/Qt6ConcurrentPrivateVersionlessAliasTargets.cmake \
-  /usr/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
-  /usr/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
-  /usr/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
-  /usr/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
-  /usr/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
-  /usr/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
-  /usr/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
-  /usr/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake \
-  /usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfig.cmake \
-  /usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersion.cmake \
-  /usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersionImpl.cmake \
-  /usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateDependencies.cmake \
-  /usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateTargets.cmake \
-  /usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateVersionlessAliasTargets.cmake \
-  /usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
-  /usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
-  /usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
-  /usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
-  /usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
-  /usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
-  /usr/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
-  /usr/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
-  /usr/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
-  /usr/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
-  /usr/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
-  /usr/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
-  /usr/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake \
-  /usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfig.cmake \
-  /usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfigVersion.cmake \
-  /usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfigVersionImpl.cmake \
-  /usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateDependencies.cmake \
-  /usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateTargets.cmake \
-  /usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateVersionlessAliasTargets.cmake \
-  /usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
-  /usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
-  /usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
-  /usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
-  /usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
-  /usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QJp2PluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QJp2PluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QJp2PluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QJp2PluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QMngPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QMngPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QMngPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QMngPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets.cmake \
-  /usr/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfig.cmake \
-  /usr/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfigVersion.cmake \
-  /usr/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfigVersionImpl.cmake \
-  /usr/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateDependencies.cmake \
-  /usr/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateTargets.cmake \
-  /usr/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateVersionlessAliasTargets.cmake \
-  /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
-  /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
-  /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
-  /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
-  /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
-  /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
-  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
-  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
-  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
-  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
-  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
-  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
-  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
-  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake \
-  /usr/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfig.cmake \
-  /usr/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfigVersion.cmake \
-  /usr/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfigVersionImpl.cmake \
-  /usr/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateDependencies.cmake \
-  /usr/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateTargets.cmake \
-  /usr/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateVersionlessAliasTargets.cmake \
-  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
-  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
-  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
-  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
-  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
-  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdbool.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h \
-  /usr/share/cmake/Modules/CMakeCXXInformation.cmake \
-  /usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
-  /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
-  /usr/share/cmake/Modules/CMakeGenericSystem.cmake \
-  /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake \
-  /usr/share/cmake/Modules/CMakeLanguageInformation.cmake \
-  /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
-  /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
-  /usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
-  /usr/share/cmake/Modules/CheckIncludeFileCXX.cmake \
-  /usr/share/cmake/Modules/CheckLibraryExists.cmake \
-  /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake \
-  /usr/share/cmake/Modules/Compiler/GNU.cmake \
-  /usr/share/cmake/Modules/FeatureSummary.cmake \
-  /usr/share/cmake/Modules/FindOpenGL.cmake \
-  /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
-  /usr/share/cmake/Modules/FindPackageMessage.cmake \
-  /usr/share/cmake/Modules/FindPkgConfig.cmake \
-  /usr/share/cmake/Modules/FindThreads.cmake \
-  /usr/share/cmake/Modules/FindVulkan.cmake \
-  /usr/share/cmake/Modules/GNUInstallDirs.cmake \
-  /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake \
-  /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake \
-  /usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
-  /usr/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
-  /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
-  /usr/share/cmake/Modules/Linker/GNU-CXX.cmake \
-  /usr/share/cmake/Modules/Linker/GNU.cmake \
-  /usr/share/cmake/Modules/MacroAddFileDependencies.cmake \
-  /usr/share/cmake/Modules/Platform/Linker/GNU.cmake \
-  /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake \
-  /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake \
-  /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake \
-  /usr/share/cmake/Modules/Platform/Linux-GNU.cmake \
-  /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake \
-  /usr/share/cmake/Modules/Platform/Linux.cmake \
-  /usr/share/cmake/Modules/Platform/UnixPaths.cmake
-
-
-/usr/share/cmake/Modules/Platform/Linux.cmake:
-
-/usr/share/cmake/Modules/Platform/Linux-Initialize.cmake:
-
-/usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake:
-
-/usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake:
-
-/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:
-
-/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:
-
-/usr/share/cmake/Modules/GNUInstallDirs.cmake:
-
-/usr/share/cmake/Modules/FindPkgConfig.cmake:
-
-/usr/share/cmake/Modules/FeatureSummary.cmake:
-
-/usr/share/cmake/Modules/Compiler/GNU.cmake:
-
-/usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
-
-/usr/share/cmake/Modules/CheckIncludeFileCXX.cmake:
-
-/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake:
-
-/usr/share/cmake/Modules/CMakeInitializeConfigs.cmake:
-
-/usr/share/cmake/Modules/CMakeCXXInformation.cmake:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdbool.h:
-
-/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake:
-
-/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake:
-
-/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake:
-
-/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:
-
-/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateVersionlessAliasTargets.cmake:
-
-/usr/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateDependencies.cmake:
-
-/usr/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfigVersionImpl.cmake:
-
-/usr/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfig.cmake:
-
-/usr/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
-
-/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake:
-
-/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake:
-
-/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake:
-
-/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake:
-
-/usr/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateVersionlessAliasTargets.cmake:
-
-/usr/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateTargets.cmake:
-
-/usr/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateDependencies.cmake:
-
-/usr/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfigVersionImpl.cmake:
-
-/usr/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfigVersion.cmake:
-
-/usr/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/share/cmake/Modules/Compiler/GNU-CXX.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QMngPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QMngPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake:
-
-/usr/share/cmake/Modules/Linker/GNU.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake:
-
-/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QJp2PluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QJp2PluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QJp2PluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QJp2PluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake:
-
-/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake:
-
-/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake:
-
-/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake:
-
-/usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateDependencies.cmake:
-
-/usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfigVersionImpl.cmake:
-
-/usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfig.cmake:
-
-/usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake:
-
-/usr/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake:
-
-/usr/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake:
-
-/usr/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake:
-
-/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake:
-
-/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
-
-/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake:
-
-/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake:
-
-/usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersionImpl.cmake:
-
-/usr/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake:
-
-/usr/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:
-
-/usr/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:
-
-/usr/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake:
-
-/usr/lib/cmake/Qt6ConcurrentPrivate/Qt6ConcurrentPrivateConfig.cmake:
-
-/usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentVersionlessAliasTargets.cmake:
-
-/usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentDependencies.cmake:
-
-/usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentConfigVersionImpl.cmake:
-
-/usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentConfigVersion.cmake:
-
-/usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentConfig.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicToolHelpers.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicTestHelpers.cmake:
-
-/usr/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicSbomHelpers.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake:
-
-/usr/share/cmake/Modules/CheckLibraryExists.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:
-
-/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicAppleHelpers.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicAndroidHelpers.cmake:
-
-/usr/lib/cmake/Qt6/QtFeatureCommon.cmake:
-
-/usr/lib/cmake/Qt6/QtFeature.cmake:
-
-/usr/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake:
-
-/usr/lib/cmake/Qt6/Qt6ConfigExtras.cmake:
-
-/usr/lib/cmake/Qt6/Qt6Config.cmake:
-
-/usr/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicTargetHelpers.cmake:
-
-/usr/lib/cmake/Qt6/FindWrapOpenGL.cmake:
-
-/usr/lib/cmake/Qt6/FindWrapAtomic.cmake:
-
-/usr/include/wchar.h:
-
-/usr/include/time.h:
-
-/usr/include/sys/types.h:
-
-/usr/include/strings.h:
-
-/usr/include/stdlib.h:
-
-/usr/include/stdio.h:
-
-/usr/include/stdint.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/qt6/QtWidgets/qtwidgetsglobal.h:
-
-/usr/include/qt6/QtWidgets/qtwidgetsexports.h:
-
-/usr/include/qt6/QtWidgets/qsizepolicy.h:
-
-/usr/include/qt6/QtWidgets/qmainwindow.h:
-
-/usr/include/qt6/QtWidgets/qgraphicsview.h:
-
-/usr/include/qt6/QtWidgets/qgraphicsscene.h:
-
-/usr/include/qt6/QtWidgets/qframe.h:
-
-/usr/include/qt6/QtWidgets/qabstractscrollarea.h:
-
-/usr/include/qt6/QtGui/qwindowdefs.h:
-
-/usr/include/qt6/QtGui/qvector2d.h:
-
-/usr/include/qt6/QtGui/qtgui-config.h:
-
-/usr/include/qt6/QtGui/qtextoption.h:
-
-/usr/include/qt6/QtGui/qscreen_platform.h:
-
-/usr/include/qt6/QtGui/qrgb.h:
-
-/usr/include/qt6/QtGui/qregion.h:
-
-/usr/include/qt6/QtGui/qpointingdevice.h:
-
-/usr/include/qt6/QtGui/qpixmap.h:
-
-/usr/include/qt6/QtGui/qpixelformat.h:
-
-/usr/include/qt6/QtGui/qpen.h:
-
-/usr/include/qt6/QtGui/qpainter.h:
-
-/usr/include/qt6/QtGui/qpaintdevice.h:
-
-/usr/include/qt6/QtGui/qinputmethod.h:
-
-/usr/include/qt6/QtGui/qinputdevice.h:
-
-/usr/include/qt6/QtGui/qimage.h:
-
-/usr/include/qt6/QtGui/qguiapplication_platform.h:
-
-/usr/include/qt6/QtGui/qguiapplication.h:
-
-/usr/include/qt6/QtGui/qfontinfo.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake:
-
-/usr/include/qt6/QtGui/qfont.h:
-
-/usr/include/qt6/QtGui/qeventpoint.h:
-
-/usr/include/qt6/QtGui/qevent.h:
-
-/usr/include/qt6/QtGui/qcursor.h:
-
-/usr/include/qt6/QtGui/qcolor.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake:
-
-/usr/include/qt6/QtGui/qbrush.h:
-
-/usr/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake:
-
-/usr/include/qt6/QtGui/qbitmap.h:
-
-/usr/include/qt6/QtCore/qxptype_traits.h:
-
-/usr/include/qt6/QtCore/qvarlengtharray.h:
-
-/usr/include/qt6/QtWidgets/qtwidgets-config.h:
-
-/usr/include/qt6/QtCore/qutf8stringview.h:
-
-/usr/include/qt6/QtCore/qtypeinfo.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QMngPluginConfig.cmake:
-
-/usr/include/qt6/QtCore/qtversionchecks.h:
-
-/usr/include/qt6/QtCore/qtversion.h:
-
-/usr/include/qt6/QtCore/qtsan_impl.h:
-
-/usr/share/cmake/Modules/FindThreads.cmake:
-
-/usr/include/qt6/QtCore/qtresource.h:
-
-/usr/include/qt6/QtCore/qtnoop.h:
-
-/usr/include/qt6/QtCore/qtmetamacros.h:
-
-/usr/include/qt6/QtCore/qthreadpool.h:
-
-/usr/include/qt6/QtCore/qtenvironmentvariables.h:
-
-/usr/include/qt6/QtCore/qtcoreglobal.h:
-
-/usr/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateAdditionalTargetInfo.cmake:
-
-/usr/include/qt6/QtCore/qtcoreexports.h:
-
-/usr/include/qt6/QtCore/qtcore-config.h:
-
-/usr/include/qt6/QtCore/qtconfigmacros.h:
-
-/usr/include/qt6/QtCore/qtclasshelpermacros.h:
-
-/usr/include/qt6/QtCore/qtaggedpointer.h:
-
-/usr/include/qt6/QtGui/QPixmap:
-
-/usr/include/qt6/QtCore/qsystemdetection.h:
-
-/usr/include/qt6/QtCore/qswap.h:
-
-/usr/include/qt6/QtCore/qstringview.h:
-
-/usr/include/qt6/QtCore/qstringmatcher.h:
-
-/usr/include/qt6/QtCore/qstringlist.h:
-
-/usr/include/qt6/QtCore/qstringfwd.h:
-
-/usr/include/qt6/QtCore/qstringconverter.h:
-
-/usr/include/qt6/QtCore/qstringbuilder.h:
-
-/usr/include/qt6/QtCore/qstringalgorithms.h:
-
-/usr/include/qt6/QtCore/qstdlibdetection.h:
-
-/usr/include/qt6/QtCore/qsize.h:
-
-/usr/include/qt6/QtCore/qshareddata_impl.h:
-
-/usr/include/qt6/QtCore/qshareddata.h:
-
-/usr/include/qt6/QtCore/qset.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake:
-
-/usr/include/qt6/QtCore/qscopedpointer.h:
-
-/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:
-
-/usr/include/qt6/QtCore/qrunnable.h:
-
-/usr/include/qt6/QtCore/qresultstore.h:
-
-/usr/include/qt6/QtCore/qpromise.h:
-
-/usr/include/qt6/QtCore/qprocessordetection.h:
-
-/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake:
-
-/usr/include/qt6/QtCore/qpair.h:
-
-/usr/include/qt6/QtCore/qobjectdefs.h:
-
-/usr/include/qt6/QtCore/qobject_impl.h:
-
-/usr/include/qt6/QtCore/qnumeric.h:
-
-/usr/include/qt6/QtCore/qnamespace.h:
-
-/usr/include/qt6/QtCore/qmetatype.h:
-
-/usr/include/qt6/QtCore/qmetacontainer.h:
-
-/usr/include/qt6/QtCore/qmath.h:
-
-/usr/include/qt6/QtCore/qmalloc.h:
-
-/usr/include/qt6/QtCore/qlocale.h:
-
-/usr/include/qt6/QtCore/qlist.h:
-
-/usr/include/qt6/QtCore/qline.h:
-
-/usr/include/qt6/QtCore/qlatin1stringview.h:
-
-/usr/include/qt6/QtCore/qiterable.h:
-
-/usr/include/qt6/QtCore/qhashfunctions.h:
-
-/usr/include/qt6/QtCore/qhash.h:
-
-/usr/include/qt6/QtCore/qglobalstatic.h:
-
-/usr/include/qt6/QtCore/qfutureinterface.h:
-
-/usr/include/qt6/QtCore/qfuture_impl.h:
-
-/usr/include/qt6/QtGui/qaction.h:
-
-/usr/include/qt6/QtCore/qfloat16.h:
-
-/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/include/qt6/QtCore/qflags.h:
-
-/usr/include/qt6/QtCore/qdeadlinetimer.h:
-
-/usr/include/qt6/QtCore/qdarwinhelpers.h:
-
-/usr/include/qt6/QtCore/qcoreevent.h:
-
-/usr/include/qt6/QtCore/qcoreapplication_platform.h:
-
-/usr/include/qt6/QtCore/qcontainertools_impl.h:
-
-/usr/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:
-
-/usr/include/qt6/QtCore/qcontainerfwd.h:
-
-/usr/include/qt6/QtCore/qcompilerdetection.h:
-
-/usr/include/qt6/QtCore/qchar.h:
-
-/usr/include/qt6/QtCore/qbytearraylist.h:
-
-/usr/include/qt6/QtCore/qbytearrayalgorithms.h:
-
-/usr/share/cmake/Modules/Platform/UnixPaths.cmake:
-
-/usr/include/qt6/QtCore/qbytearray.h:
-
-/usr/lib/cmake/Qt6/QtPublicGitHelpers.cmake:
-
-/usr/include/qt6/QtCore/qbindingstorage.h:
-
-/usr/include/qt6/QtCore/qatomic_cxx11.h:
-
-/usr/include/qt6/QtCore/qatomic.h:
-
-/usr/include/qt6/QtCore/qassert.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake:
-
-/usr/include/qt6/QtCore/qarraydatapointer.h:
-
-/usr/include/qt6/QtCore/qarraydataops.h:
-
-/usr/include/qt6/QtCore/qarraydata.h:
-
-/usr/include/qt6/QtCore/qalgorithms.h:
-
-/usr/include/qt6/QtCore/qabstracteventdispatcher.h:
-
-/usr/include/qt6/QtCore/q23utility.h:
-
-/usr/include/qt6/QtCore/q20utility.h:
-
-/usr/include/qt6/QtCore/q20type_traits.h:
-
-/usr/include/qt6/QtCore/q20memory.h:
-
-/usr/include/qt6/QtCore/q20functional.h:
-
-/usr/include/qt6/QtCore/q17memory.h:
-
-/usr/include/qt6/QtCore/QThreadPool:
-
-/usr/include/qt6/QtCore/QSize:
-
-/usr/include/qt6/QtCore/qurl.h:
-
-/usr/include/qt6/QtCore/QObject:
-
-/usr/include/qt6/QtCore/QList:
-
-/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake:
-
-/usr/include/string.h:
-
-/usr/include/qt6/QtConcurrent/qtconcurrentrunbase.h:
-
-/usr/include/pthread.h:
-
-/usr/include/locale.h:
-
-/usr/include/linux/limits.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/limits.h:
-
-/usr/include/gnu/stubs.h:
-
-/usr/include/qt6/QtCore/qmargins.h:
-
-/usr/include/gnu/stubs-64.h:
-
-/usr/include/features-time64.h:
-
-/usr/include/errno.h:
-
-/usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
-
-/usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
-
-/usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++locale.h:
-
-/usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
-
-/usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
-
-/usr/include/c++/15.1.1/vector:
-
-/usr/include/c++/15.1.1/variant:
-
-/usr/include/c++/15.1.1/utility:
-
-/usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake:
-
-/usr/include/c++/15.1.1/unordered_set:
-
-/usr/include/c++/15.1.1/unordered_map:
-
-/usr/include/c++/15.1.1/typeinfo:
-
-/usr/include/c++/15.1.1/type_traits:
-
-/usr/include/qt6/QtCore/qttranslation.h:
-
-/usr/include/c++/15.1.1/tuple:
-
-/usr/include/c++/15.1.1/tr1/special_function_util.h:
-
-/usr/include/c++/15.1.1/tr1/legendre_function.tcc:
-
-/usr/include/c++/15.1.1/tr1/hypergeometric.tcc:
-
-/usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake:
-
-/usr/include/c++/15.1.1/tr1/exp_integral.tcc:
-
-/usr/include/c++/15.1.1/tr1/beta_function.tcc:
-
-/usr/include/c++/15.1.1/string_view:
-
-/usr/include/c++/15.1.1/string:
-
-/usr/include/qt6/QtGui/qkeysequence.h:
-
-/usr/include/c++/15.1.1/streambuf:
-
-/usr/include/c++/15.1.1/stdexcept:
-
-/usr/include/c++/15.1.1/ratio:
-
-/usr/include/c++/15.1.1/pstl/execution_defs.h:
-
-/usr/include/c++/15.1.1/optional:
-
-/usr/include/c++/15.1.1/numeric:
-
-/usr/include/c++/15.1.1/new:
-
-/usr/include/c++/15.1.1/mutex:
-
-/usr/include/c++/15.1.1/memory:
-
-/usr/include/c++/15.1.1/iterator:
-
-/usr/include/c++/15.1.1/initializer_list:
-
-/usr/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake:
-
-/usr/include/c++/15.1.1/future:
-
-/usr/include/c++/15.1.1/ext/string_conversions.h:
-
-/usr/include/c++/15.1.1/ext/numeric_traits.h:
-
-/usr/include/c++/15.1.1/ext/concurrence.h:
-
-/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake:
-
-/usr/include/c++/15.1.1/ext/atomicity.h:
-
-/usr/include/c++/15.1.1/ext/alloc_traits.h:
-
-/usr/include/c++/15.1.1/ext/aligned_buffer.h:
-
-/usr/include/c++/15.1.1/cwchar:
-
-/usr/include/c++/15.1.1/ctime:
-
-/usr/include/c++/15.1.1/cstring:
-
-/usr/include/c++/15.1.1/condition_variable:
-
-/usr/include/c++/15.1.1/concepts:
-
-/usr/include/c++/15.1.1/compare:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake:
-
-/usr/include/c++/15.1.1/cmath:
-
-/usr/include/c++/15.1.1/climits:
-
-/usr/include/c++/15.1.1/chrono:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h:
-
-/usr/include/qt6/QtWidgets/qscrollarea.h:
-
-/usr/include/c++/15.1.1/cctype:
-
-/usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateTargets.cmake:
-
-/usr/include/c++/15.1.1/bits/version.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_set_intersection.h:
-
-/usr/include/c++/15.1.1/bits/utility.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h:
-
-/usr/include/c++/15.1.1/bits/uses_allocator_args.h:
-
-/usr/include/c++/15.1.1/bits/unordered_set.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each_segment.h:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Concurrent/Qt6ConcurrentAdditionalTargetInfo.cmake:
-
-/usr/include/c++/15.1.1/bits/unique_ptr.h:
-
-/usr/include/c++/15.1.1/bits/uniform_int_dist.h:
-
-/usr/include/c++/15.1.1/bits/string_view.tcc:
-
-/usr/include/c++/15.1.1/bits/stream_iterator.h:
-
-/usr/include/c++/15.1.1/bits/stl_tree.h:
-
-/usr/include/bits/types/__FILE.h:
-
-/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h:
-
-/usr/include/c++/15.1.1/bits/stl_relops.h:
-
-/usr/include/qt6/QtCore/qtypes.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/get.h:
-
-/usr/include/c++/15.1.1/bits/stl_multimap.h:
-
-/usr/include/c++/15.1.1/bits/stl_map.h:
-
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qmargins.h:
-
-/usr/include/c++/15.1.1/bits/stl_list.h:
-
-/usr/include/c++/15.1.1/bits/stl_heap.h:
-
-/usr/include/c++/15.1.1/bits/stl_construct.h:
-
-/usr/include/c++/15.1.1/bits/stl_bvector.h:
-
-/usr/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/size.h:
-
-/usr/include/c++/15.1.1/bits/stl_algobase.h:
-
-/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h:
-
-/usr/include/c++/15.1.1/bits/stl_algo.h:
-
-/usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentAdditionalTargetInfo.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
-
-/usr/include/c++/15.1.1/bits/std_mutex.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_starts_with.h:
-
-/usr/include/c++/15.1.1/bits/std_function.h:
-
-/usr/include/c++/15.1.1/bits/specfun.h:
-
-/usr/include/qt6/QtCore/q20iterator.h:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginAdditionalTargetInfo.cmake:
-
-/usr/include/bits/types/sigset_t.h:
-
-/usr/include/c++/15.1.1/bits/shared_ptr_base.h:
-
-/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qicon.h:
-
-/usr/include/c++/15.1.1/bits/requires_hosted.h:
-
-/usr/include/c++/15.1.1/bits/predefined_ops.h:
-
-/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView:
-
-/usr/include/c++/15.1.1/bits/parse_numbers.h:
-
-/usr/include/c++/15.1.1/bits/node_handle.h:
-
-/usr/include/c++/15.1.1/bits/nested_exception.h:
-
-/usr/include/c++/15.1.1/bits/move.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_next_permutation.h:
-
-/usr/include/c++/15.1.1/bits/memory_resource.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_move_assignable.h:
-
-/usr/include/c++/15.1.1/bits/localefwd.h:
-
-/usr/include/c++/15.1.1/bits/locale_classes.tcc:
-
-/usr/include/c++/15.1.1/bits/locale_classes.h:
-
-/usr/include/c++/15.1.1/bits/ios_base.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h:
-
-/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_pointer.h:
-
-/usr/include/c++/15.1.1/bits/hashtable.h:
-
-/usr/include/c++/15.1.1/bits/hash_bytes.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake:
-
-/usr/include/c++/15.1.1/bits/exception_ptr.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string:
-
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h:
-
-/usr/include/c++/15.1.1/bits/exception.h:
-
-/usr/include/c++/15.1.1/bits/enable_special_members.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/climits:
-
-/usr/include/c++/15.1.1/bits/cxxabi_init_exception.h:
-
-/usr/include/qt6/QtConcurrent/qtconcurrentexports.h:
-
-/usr/include/bits/waitflags.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/front_insert_iterator.h:
-
-/usr/include/c++/15.1.1/bits/allocated_ptr.h:
-
-/usr/include/c++/15.1.1/bits/cxxabi_forced.h:
-
-/usr/include/c++/15.1.1/bits/cpp_type_traits.h:
-
-/usr/include/c++/15.1.1/bits/chrono.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginAdditionalTargetInfo.cmake:
-
-/usr/include/c++/15.1.1/bits/basic_string.tcc:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginDependencies.cmake:
-
-/usr/include/c++/15.1.1/array:
-
-/usr/include/qt6/QtCore/qcompare_impl.h:
-
-/usr/include/bits/wchar.h:
-
-/usr/include/c++/15.1.1/cassert:
-
-/usr/include/bits/typesizes.h:
-
-/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/qos.h:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6/Qt6VersionlessTargets.cmake:
-
-/usr/include/bits/types/wint_t.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/rotate.h:
-
-/usr/include/bits/types/struct_tm.h:
-
-/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
-
-/usr/include/bits/types/struct_timeval.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/void_t.h:
-
-/usr/include/bits/types/struct_timespec.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_adjacent_find.h:
-
-/usr/include/bits/types/struct_sched_param.h:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-release.cmake:
-
-/usr/include/bits/types/struct_FILE.h:
-
-/usr/include/bits/types/mbstate_t.h:
-
-/usr/include/bits/types/error_t.h:
-
-/usr/include/bits/types/clock_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets.cmake:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/usr/include/c++/15.1.1/list:
-
-/usr/include/bits/types/__locale_t.h:
-
-/usr/include/bits/types/__fpos_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_backward.h:
-
-/usr/include/bits/types.h:
-
-/usr/include/bits/thread-shared-types.h:
-
-/usr/include/c++/15.1.1/bits/stl_set.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/next_permutation.h:
-
-/usr/include/bits/select.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/usr/include/bits/stdint-intn.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_base.h:
-
-/usr/include/bits/posix2_lim.h:
-
-/usr/include/bits/long-double.h:
-
-/usr/include/bits/floatn.h:
-
-/usr/include/bits/endian.h:
-
-/usr/include/bits/cpu-set.h:
-
-/usr/include/bits/byteswap.h:
-
-/usr/include/assert.h:
-
-/usr/include/asm/posix_types.h:
-
-/usr/include/qt6/QtCore/qlogging.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/swap_allocator.h:
-
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qobjectdefs.h:
-
-/usr/include/asm/bitsperlong.h:
-
-/usr/include/c++/15.1.1/tr1/ell_integral.tcc:
-
-/usr/include/asm-generic/types.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake:
-
-/usr/include/asm-generic/posix_types.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_caddr_t.h:
-
-/usr/include/bits/waitstatus.h:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/alloca.h:
-
-/usr/include/c++/15.1.1/bits/alloc_traits.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_copy_assignable.h:
-
-/usr/bin/cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/future:
-
-/home/dudkin.i/c++/mandelbrot_cpp/src/pixmap_creator.hpp:
-
-/usr/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets.cmake:
-
-/home/dudkin.i/c++/mandelbrot_cpp/src/pixmap_creator.cpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/types.h:
-
-/home/dudkin.i/c++/mandelbrot_cpp/src/mainwindow.ui:
-
-/usr/include/c++/15.1.1/bits/hashtable_policy.h:
-
-/usr/include/qt6/QtCore/QDebug:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
-
-/home/dudkin.i/c++/mandelbrot_cpp/src/mainwindow.cpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/has_virtual_destructor.h:
-
-/home/dudkin.i/c++/mandelbrot_cpp/src/is_mndlbrt.hpp:
-
-/usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake:
-
-/usr/include/qt6/QtCore/QRect:
-
-/home/dudkin.i/c++/mandelbrot_cpp/src/graphicsview.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h:
-
-/usr/include/bits/libc-header-start.h:
-
-/home/dudkin.i/c++/mandelbrot_cpp/src/graphicsview.cpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/totally_ordered.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h:
-
-/home/dudkin.i/c++/mandelbrot_cpp/build/mandelbrot_autogen/moc_predefs.h:
-
-/home/dudkin.i/c++/mandelbrot_cpp/build/CMakeFiles/4.0.2-dirty/CMakeSystem.cmake:
-
-/home/dudkin.i/c++/mandelbrot_cpp/CMakeLists.txt:
-
-/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each_n.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake:
 
-/usr/include/bits/floatn-common.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
-
-/usr/share/cmake/Modules/FindVulkan.cmake:
-
-/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:
-
-/usr/include/bits/time64.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_equal.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_size.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake:
-
-/usr/include/c++/15.1.1/bits/refwrap.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
 
-/usr/local/Qt-6.7.1/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
-
-/usr/include/c++/15.1.1/bits/stringfwd.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-release.cmake:
-
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fill.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QMngPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/nth_element.h:
-
-/usr/include/bits/types/timer_t.h:
-
-/usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentTargets.cmake:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-release.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginAdditionalTargetInfo.cmake:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake:
-
-/opt/homebrew/share/cmake/Modules/GNUInstallDirs.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake:
-
-/usr/include/qt6/QtCore/qtdeprecationdefinitions.h:
-
-/usr/include/qt6/QtCore/qdatastream.h:
-
-/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/QPainter:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake:
 
@@ -3542,45 +1450,21 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfig.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_swap_ranges.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/clamp.h:
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-release.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets-release.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-release.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake:
 
-/usr/include/c++/15.1.1/bits/stl_iterator_base_funcs.h:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-release.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/rotate.h:
-
-/usr/include/bits/errno.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/distance.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake:
-
-/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake:
 
-/usr/local/Qt-6.7.1/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-release.cmake:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets.cmake:
 
@@ -3592,13 +1476,9 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-release.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_stable_partition.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_upper_bound.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-release.cmake:
 
@@ -3610,37 +1490,15 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake:
 
-/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_integer.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int32_t.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uses_allocator_construction.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare_three_way.h:
-
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_floating_point.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/as_lvalue.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake:
 
-/usr/include/qt6/QtCore/qmutex.h:
-
-/usr/include/c++/15.1.1/bits/unique_lock.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:
-
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake:
 
@@ -3648,113 +1506,61 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/regular.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-release.cmake:
 
-/usr/include/qt6/QtCore/qexceptionhandling.h:
-
-/usr/include/qt6/QtConcurrent/qtconcurrentrun.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdlib:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max_element.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/include/c++/15.1.1/bits/range_access.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/is_always_lock_free.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_arg.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake:
-
-/usr/lib/cmake/Qt6/Qt6Targets.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake:
 
-/usr/include/c++/15.1.1/bits/streambuf.tcc:
+/usr/local/Qt-6.7.1/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/transform.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake:
-
-/usr/include/c++/15.1.1/bits/stl_function.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/QtInstallPaths.cmake:
 
-/usr/share/cmake/Modules/Platform/Linux-GNU.cmake:
-
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qtconfiginclude.h:
-
-/usr/include/c++/15.1.1/backward/auto_ptr.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_lexicographical_compare.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-release.cmake:
 
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets-release.cmake:
+
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginConfig.cmake:
+
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake:
 
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-release.cmake:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets.cmake:
-
-/opt/homebrew/share/cmake/Modules/CMakeLanguageInformation.cmake:
-
-/usr/include/bits/stdio_lim.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/tag_types.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginConfig.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/constructible.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/includes.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6CorePlugins.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake:
 
-/usr/include/qt6/QtCore/qfunctionaltools_impl.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unwrap_range.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_suseconds_t.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/istream.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:
 
@@ -3766,29 +1572,13 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Concurrent/Qt6ConcurrentTargets-release.cmake:
 
-/usr/include/qt6/QtCore/qiterator.h:
-
-/usr/include/bits/setjmp.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Concurrent/Qt6ConcurrentConfigVersionImpl.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6/macos/Info.plist.app.in:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6/QtPublicTestHelpers.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_arg.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6/QtPublicTargetHelpers.cmake:
-
-/usr/include/bits/stdint-uintn.h:
-
-/usr/include/qt6/QtGui/qrgba64.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/system_clock.h:
-
-/home/dudkin.i/c++/mandelbrot_cpp/src/gt_mndlbrt.hpp:
-
-/usr/include/c++/15.1.1/bits/stl_iterator_base_types.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6/QtPublicPluginHelpers.cmake:
 
@@ -3796,13 +1586,7 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake:
 
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-release.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/exponential_functions.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake:
 
@@ -3814,39 +1598,23 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6/QtPublicAppleHelpers.cmake:
 
-/usr/include/bits/wordsize.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6/QtFeatureCommon.cmake:
-
-/usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfigVersion.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_sort.h:
-
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h:
+/usr/local/Qt-6.7.1/lib/cmake/Qt6/Qt6VersionlessTargets.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6/Qt6Targets.cmake:
-
-/usr/include/qt6/QtCore/qfuture.h:
-
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qcoreapplication.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake:
-
-/usr/include/qt6/QtCore/qforeach.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6/Qt6ConfigVersion.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6/Qt6Config.cmake:
-
-/usr/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfigVersion.cmake:
-
-/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6/FindWrapAtomic.cmake:
 
@@ -3856,49 +1624,45 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h:
 
+/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qscrollbar.h:
+
 /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qscrollarea.h:
 
 /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsview.h:
 
+/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qabstractslider.h:
+
+/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QScrollBar:
+
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h:
-
-/usr/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/month.h:
 
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qvectornd.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/locale.h:
+/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h:
 
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__split_buffer:
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-release.cmake:
+
+/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_pod.h:
-
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qscreen_platform.h:
-
-/usr/include/c++/15.1.1/bits/basic_string.h:
 
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qregion.h:
 
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpixmap.h:
 
-/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpen.h:
+/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpicture.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_const_ref.h:
+/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpen.h:
 
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpalette.h:
 
-/usr/lib/cmake/Qt6ConcurrentPrivate/Qt6ConcurrentPrivateVersionlessAliasTargets.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_floating_point.h:
-
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpainter.h:
+
+/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets-release.cmake:
 
@@ -3906,37 +1670,21 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginConfig.cmake:
 
-/usr/include/c++/15.1.1/bits/char_traits.h:
-
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/streambuf:
-
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qobjectdefs_impl.h:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6/Qt6ConfigExtras.cmake:
 
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qfont.h:
 
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qnumeric.h:
-
-/usr/include/c++/15.1.1/bits/uses_allocator.h:
-
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qeventpoint.h:
 
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-release.cmake:
-
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qtsan_impl.h:
+/usr/local/Qt-6.7.1/lib/cmake/Qt6/Qt6ConfigExtras.cmake:
 
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qevent.h:
 
-/usr/include/c++/15.1.1/bits/allocator.h:
-
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qcursor.h:
 
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake:
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
 
-/usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateDependencies.cmake:
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake:
 
@@ -3946,19 +1694,11 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qbitmap.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginAdditionalTargetInfo.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_types.h:
-
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/QWheelEvent:
 
+/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/QPainter:
+
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/QColor:
-
-/usr/include/qt6/QtCore/qfunctionpointer.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator.h:
-
-/usr/include/bits/types/time_t.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h:
 
@@ -3970,6 +1710,8 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qtversion.h:
 
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qtsan_impl.h:
+
 /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qtresource.h:
@@ -3978,19 +1720,7 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qtextstream.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_if.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake:
-
-/usr/include/qt6/QtWidgets/QGraphicsView:
-
-/usr/include/qt6/QtCore/qstringconverter_base.h:
-
-/usr/include/linux/types.h:
-
-/usr/local/Qt-6.7.1/lib/QtConcurrent.framework/Versions/A/Headers/qtconcurrentrunbase.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake:
 
@@ -4004,7 +1734,7 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qtconfigmacros.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/underlying_type.h:
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qtconfiginclude.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qsystemdetection.h:
 
@@ -4012,19 +1742,13 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qstringlist.h:
 
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Concurrent/Qt6ConcurrentConfigVersion.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_endian.h:
-
-/usr/include/c++/15.1.1/bits/functional_hash.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:
-
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qstringfwd.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qstringconverter_base.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qstringconverter.h:
+
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qsize.h:
 
@@ -4032,41 +1756,25 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_set_difference.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/is_transparent.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qset.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:
-
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qrect.h:
 
-/usr/include/bits/timex.h:
-
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qpromise.h:
-
-/usr/lib/cmake/Qt6/QtInstallPaths.cmake:
-
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QList:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qpoint.h:
 
-/usr/include/bits/struct_rwlock.h:
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qobjectdefs_impl.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qobject.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_volatile.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qnativeinterface.h:
 
@@ -4074,11 +1782,11 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake:
 
-/usr/include/qt6/QtCore/qanystringview.h:
-
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qmetatype.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Concurrent/Qt6ConcurrentDependencies.cmake:
+
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qmargins.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qmap.h:
 
@@ -4086,35 +1794,25 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qlogging.h:
 
-/usr/include/bits/local_lim.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake:
-
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qline.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h:
 
-/usr/local/Qt-6.7.1/lib/cmake/Qt6DBus/Qt6DBusTargets-release.cmake:
-
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qiodevice.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/time.h:
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qhash.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/synth_three_way.h:
-
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h:
 
-/usr/local/Qt-6.7.1/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake:
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qgenericatomic.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qfuture_impl.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_remove_copy.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qfunctionpointer.h:
 
@@ -4126,10 +1824,6 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qexception.h:
 
-/usr/lib/cmake/Qt6ConcurrentPrivate/Qt6ConcurrentPrivateAdditionalTargetInfo.cmake:
-
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qendian.h:
@@ -4138,77 +1832,37 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qdeadlinetimer.h:
 
-/usr/include/c++/15.1.1/map:
-
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qguiapplication.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_minmax_element.h:
-
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qcoreevent.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h:
-
-/usr/include/c++/15.1.1/bits/list.tcc:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qcoreapplication_platform.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/rounding_functions.h:
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qconstructormacros.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/extern_template_lists.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets-release.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_specialization.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qcompilerdetection.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qcompare.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_rotate_copy.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6GuiTargets-release.cmake:
-
-/usr/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qbytearray.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_function.h:
-
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/write_escaped.h:
-
-/usr/include/c++/15.1.1/bits/stl_multiset.h:
-
-/usr/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake:
-
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h:
-
-/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qassert.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qanystringview.h:
 
-/usr/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_equal.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h:
-
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_state.h:
-
-/usr/include/bits/uio_lim.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/q23utility.h:
 
@@ -4222,51 +1876,25 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QDebug:
 
+/usr/local/Qt-6.7.1/lib/QtConcurrent.framework/Versions/A/Headers/qtconcurrentrunbase.h:
+
 /usr/local/Qt-6.7.1/lib/QtConcurrent.framework/Versions/A/Headers/qtconcurrentexports.h:
-
-/usr/include/bits/locale.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h:
 
 /usr/local/Qt-6.7.1/lib/QtConcurrent.framework/Versions/A/Headers/QtConcurrentRun:
 
-/usr/include/qt6/QtCore/qthread.h:
-
 /opt/homebrew/share/cmake/Modules/Platform/UnixPaths.cmake:
-
-/usr/include/qt6/QtGui/qvectornd.h:
 
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpointingdevice.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_copy.h:
-
 /opt/homebrew/share/cmake/Modules/Platform/Darwin-Initialize.cmake:
-
-/usr/include/qt6/QtCore/qspan.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy.h:
-
-/opt/homebrew/share/cmake/Modules/FindPackageMessage.cmake:
 
 /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang.cmake:
 
 /opt/homebrew/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/bit_ceil.h:
-
-/usr/include/bits/pthread_stack_min-dynamic.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginAdditionalTargetInfo.cmake:
-
 /opt/homebrew/share/cmake/Modules/Linker/AppleClang.cmake:
 
 /opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:
-
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h:
 
 /opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:
 
@@ -4274,25 +1902,15 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginAdditionalTargetInfo.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake:
-
-/usr/include/c++/15.1.1/tr1/bessel_function.tcc:
+/opt/homebrew/share/cmake/Modules/GNUInstallDirs.cmake:
 
 /opt/homebrew/share/cmake/Modules/FindThreads.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/queue:
+/opt/homebrew/share/cmake/Modules/FindPackageMessage.cmake:
 
 /opt/homebrew/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:
 
-/usr/include/c++/15.1.1/bits/invoke.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-relwithdebinfo.cmake:
 
 /opt/homebrew/share/cmake/Modules/FindOpenGL.cmake:
 
@@ -4304,15 +1922,7 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /opt/homebrew/share/cmake/Modules/CheckLibraryExists.cmake:
 
-/usr/lib/cmake/Qt6/Qt6Dependencies.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h:
-
 /opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
 
 /usr/local/Qt-6.7.1/lib/QtConcurrent.framework/Versions/A/Headers/qtconcurrentrun.h:
 
@@ -4320,31 +1930,21 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:
 
-/usr/include/qt6/QtCore/qcomparehelpers.h:
-
 /opt/homebrew/share/cmake/Modules/CMakeGenericSystem.cmake:
+
+/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:
 
 /opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake:
 
-/usr/include/endian.h:
-
 /opt/homebrew/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__threading_support:
 
 /opt/homebrew/bin/cmake:
 
 /Users/ilya/projects/c++/mandelbrot_cpp/src/pixmap_creator.hpp:
 
-/usr/include/c++/15.1.1/functional:
-
 /Users/ilya/projects/c++/mandelbrot_cpp/src/mainwindow.ui:
 
-/usr/include/asm/types.h:
-
 /Users/ilya/projects/c++/mandelbrot_cpp/src/mainwindow.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_constructible.h:
 
 /Users/ilya/projects/c++/mandelbrot_cpp/src/mainwindow.cpp:
 
@@ -4352,97 +1952,63 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /Users/ilya/projects/c++/mandelbrot_cpp/src/is_mndlbrt.hpp:
 
-/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:
-
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qglobal.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_pop_heap.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qconfig.h:
 
 /Users/ilya/projects/c++/mandelbrot_cpp/src/gt_mndlbrt.hpp:
 
-/usr/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateTargets.cmake:
-
-/usr/include/c++/15.1.1/cstddef:
-
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h:
-
-/usr/include/c++/15.1.1/debug/assertions.h:
 
 /Users/ilya/projects/c++/mandelbrot_cpp/src/graphicsview.h:
 
-/usr/share/cmake/Modules/FindPackageMessage.cmake:
-
 /Users/ilya/projects/c++/mandelbrot_cpp/src/graphicsview.cpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_aggregate.h:
 
 mandelbrot_autogen/moc_predefs.h:
 
 CMakeFiles/4.0.1/CMakeSystem.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/limits.h:
 
+/usr/local/Qt-6.7.1/lib/cmake/Qt6DBus/Qt6DBusTargets-release.cmake:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_list.h:
-
-/usr/include/c++/15.1.1/bits/shared_ptr_atomic.h:
-
-/usr/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_copy.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qarraydata.h:
 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_arg.h:
+
 /usr/local/Qt-6.7.1/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-release.cmake:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake:
 
 /opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_header_macro.h:
 
-/usr/include/qt6/QtCore/qendian.h:
-
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg___gnuc_va_list.h:
 
-/usr/lib/cmake/Qt6Core/Qt6CoreTargets.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/time.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/types.h:
 
-/usr/local/Qt-6.7.1/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/qos.h:
-
-/usr/lib/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_backend.h:
-
-/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qguiapplication_platform.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/apply_cv.h:
+/opt/homebrew/share/cmake/Modules/CMakeLanguageInformation.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_short.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/parser_std_format_spec.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int32_t.h:
 
-/usr/include/asm-generic/errno-base.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int.h:
-
-/usr/include/c++/15.1.1/bits/atomic_lockfree_defines.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_char.h:
 
@@ -4450,7 +2016,7 @@ CMakeFiles/4.0.1/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h:
 
-/usr/include/qt6/QtCore/qtdeprecationmarkers.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_suseconds_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h:
 
@@ -4460,23 +2026,13 @@ CMakeFiles/4.0.1/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginTargets.cmake:
-
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qatomic.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_bounded_array.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mach_port_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_intptr_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
-
-/usr/include/bits/types/struct___jmp_buf_tag.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/subrange.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int64_t.h:
 
@@ -4492,6 +2048,8 @@ CMakeFiles/4.0.1/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Concurrent/Qt6ConcurrentAdditionalTargetInfo.cmake:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_zero.h:
@@ -4502,33 +2060,17 @@ CMakeFiles/4.0.1/CMakeSystem.cmake:
 
 CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_isset.h:
-
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qstringtokenizer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_clr.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_sample.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/mem_fn.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_blksize_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h:
-
-/usr/include/c++/15.1.1/bits/stl_numeric.h:
-
-/usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateVersionlessAliasTargets.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types.h:
 
@@ -4536,23 +2078,15 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_assignable.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h:
-
-/usr/include/c++/15.1.1/debug/debug.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/semiregular.h:
-
-/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_once_t.h:
 
-/usr/include/asm/errno.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
 
-/usr/include/qt6/QtConcurrent/qtconcurrentstoredfunctioncall.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_endian.h:
 
@@ -4560,13 +2094,15 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/sched.h:
 
-/usr/include/c++/15.1.1/set:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/nl_types.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/align.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/types.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_types.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_endian.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/qos.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h:
 
@@ -4580,10 +2116,6 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_map:
 
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6/Qt6ConfigVersion.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/typeinfo:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/tuple:
@@ -4594,55 +2126,33 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/libdispatch.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string.h:
 
-/usr/include/c++/15.1.1/system_error:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/streambuf:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdlib.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/statically_widen.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_lock_free.h:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6CoreTargets-release.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stddef.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/to_underlying.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stack:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio:
-
-/usr/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake:
-
-/usr/include/bits/types/__fpos64_t.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qthread.h:
 
-/usr/include/qt6/QtCore/qyieldcpu.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/queue:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/swap_ranges.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/optional:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginConfig.cmake:
-
-/usr/include/qt6/QtCore/qcoreapplication.h:
 
 /Users/ilya/projects/c++/mandelbrot_cpp/src/do_mndlbrt.hpp:
 
@@ -4652,23 +2162,19 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/math.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/locale.h:
+
 /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsscene.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/list:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/three_way_comp_ref_type.h:
 
-/usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/duration.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace_copy.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6/QtPublicToolHelpers.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_sync.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/future:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_unique.h:
 
@@ -4677,10 +2183,6 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qstringmatcher.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/streambuf.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake:
-
-/usr/include/qt6/QtCore/qelapsedtimer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/format:
 
@@ -4694,89 +2196,55 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_is_heap.h:
 
-/usr/include/qt6/QtCore/qobject.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cwctype:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset:
 
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_is_partitioned.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/make_projected.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets-release.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_def.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_bool.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/insert_iterator.h:
-
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qdatastream.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/bit:
 
 /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h:
 
-/usr/include/qt6/QtCore/qnativeinterface.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/unreachable.h:
-
-/usr/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake:
-
-/usr/include/bits/types/FILE.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_signed.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/rel_ops.h:
 
-/usr/include/bits/time.h:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/no_destroy.h:
-
-/usr/include/qt6/QtCore/qttypetraits.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/map:
-
-/usr/include/c++/15.1.1/algorithm:
-
-/usr/include/bits/posix1_lim.h:
-
-/usr/include/qt6/QtCore/qglobal.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qflags.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/move.h:
 
-/usr/include/qt6/QtCore/qminmax.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/operations.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/integer_sequence.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/appleapiopts.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/climits:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/in_place.h:
+
+/usr/local/Qt-6.7.1/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/stable_sort.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_any_all_none_of.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/declval.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/to_underlying.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/swap.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:
+/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:
 
 /opt/homebrew/share/cmake/Modules/Linker/AppleClang-CXX.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/concepts.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/convert_to_integral.h:
 
@@ -4790,23 +2258,11 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/min_max_result.h:
 
-/usr/include/qt6/QtGui/qfontmetrics.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/auto_cast.h:
-
-/usr/include/bits/types/struct_itimerspec.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/shift_right.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/as_const.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__undef_macros:
-
-/usr/include/qt6/QtCore/qversiontagging.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_copy_constructible.h:
-
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_pointer.h:
 
@@ -4816,25 +2272,19 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/empty.h:
 
-/usr/include/c++/15.1.1/bits/atomic_base.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_iterator_concept.h:
 
-/usr/include/c++/15.1.1/bits/ptr_traits.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/void_t.h:
 
-/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/underlying_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/utility:
 
-/usr/include/c++/15.1.1/tr1/poly_hermite.tcc:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_context.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/type_list.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ctype.h:
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qobjectdefs.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/ostream.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ctype.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/time_point.h:
 
@@ -4844,37 +2294,27 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qtnoop.h:
 
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake:
-
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qresultstore.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_remove.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_cvref.h:
 
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QPoint:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_all_extents.h:
 
-/usr/include/qt6/QtGui/QTransform:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_partial_sort_copy.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/promote.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/operation_traits.h:
 
-/usr/include/qt6/QtCore/qsharedpointer_impl.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/negation.h:
-
-/usr/include/c++/15.1.1/cstdint:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__mbstate_t.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qarraydataops.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_signed.h:
+
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-release.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_pointer.h:
 
@@ -4882,61 +2322,23 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_integral.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/rank.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/lazy.h:
-
-/usr/include/c++/15.1.1/bits/charconv.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qrefcount.h:
 
-/usr/include/c++/15.1.1/tr1/riemann_zeta.tcc:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_constant_evaluated.h:
-
-/usr/include/qt6/QtGui/qicon.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/logarithms.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_union.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/bit_cast.h:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind.h:
-
-/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsPixmapItem:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sample.h:
 
-/usr/include/qt6/QtCore/qgenericatomic.h:
-
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg:
-
-/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets-release.cmake:
 
-/usr/include/qt6/QtWidgets/qtabwidget.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_locale.h:
-
-/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qrgb.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_move_constructible.h:
-
-/home/dudkin.i/c++/mandelbrot_cpp/src/do_mndlbrt.hpp:
-
-/usr/include/qt6/QtCore/qstringliteral.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_lvalue_reference.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h:
 
@@ -4944,19 +2346,13 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_destructible.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivial.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_assignable.h:
 
-/usr/include/bits/sched.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivial.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/char_traits.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_find_if_not.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_swappable.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-relwithdebinfo.cmake:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_standard_layout.h:
 
@@ -4968,13 +2364,13 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_reference_wrapper.h:
 
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_replace.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_reference.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_stable_partition.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_const_lvalue_ref.h:
 
@@ -4982,7 +2378,7 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_polymorphic.h:
 
-/usr/include/c++/15.1.1/tr1/modified_bessel_func.tcc:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/clamp.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/half_positive.h:
 
@@ -4990,91 +2386,63 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_destructible.h:
 
-/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qaction.h:
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qdatastream.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/movable_box.h:
 
-/usr/include/qt6/QtCore/qcontiguouscache.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_convertible.h:
-
-/usr/include/qt6/QtWidgets/QMainWindow:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/escaped_output_table.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_generate_n.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_member_pointer.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/pstl_reduce.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_member_function_pointer.h:
-
-/usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/compare_weak_order_fallback.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_literal_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath:
 
-/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtextoption.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/dangling.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_fundamental.h:
-
-/usr/include/bits/stdlib-float.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/wchar.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_is_heap_until.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/empty.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_all_of.h:
-
-/usr/include/qt6/QtGui/qtguiexports.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unwrap_iter.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_copy_assignable.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/sstream.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_function.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_copy_constructible.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/sstream.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iter_swap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_empty.h:
 
-/opt/homebrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake:
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qatomic.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake:
+/opt/homebrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_volatile.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/pthread.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/backend.h:
 
-/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:
-
-/usr/include/qt6/QtCore/qeventloop.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_copy_constructible.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_fun_result.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_copy_assignable.h:
-
-/usr/include/c++/15.1.1/bits/stl_raw_storage_iter.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_compound.h:
 
@@ -5082,13 +2450,11 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qiterator.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/compose.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_callable.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_assignable.h:
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginAdditionalTargetInfo.cmake:
 
-/usr/include/c++/15.1.1/limits:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_assignable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/forward_like.h:
 
@@ -5100,15 +2466,13 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/fdim.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/abs.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_aggregate.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_abstract.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/integral_constant.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/has_unique_object_representation.h:
 
@@ -5126,19 +2490,25 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/conjunction.h:
 
-/usr/include/c++/15.1.1/atomic:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/has_virtual_destructor.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/conditional.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/apply_cv.h:
+
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake:
+
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qcoreapplication.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_permutation.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginTargets-relwithdebinfo.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_integer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/alignment_of.h:
-
-/usr/include/qt6/QtGui/qscreen.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/binary_search.h:
 
@@ -5146,11 +2516,11 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_rvalue_reference.h:
 
-/usr/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/jthread.h:
 
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginAdditionalTargetInfo.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_pointer.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_lvalue_reference.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_cv.h:
 
@@ -5158,113 +2528,85 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_const.h:
 
-/usr/include/c++/15.1.1/bits/stl_iterator.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_like.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_indices.h:
 
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginAdditionalTargetInfo.cmake:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino64_t.h:
 
-/usr/include/qt6/QtCore/qmap.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/sfinae_helpers.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/pair_like.h:
 
-/usr/include/c++/15.1.1/iosfwd:
-
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qvector2d.h:
-
-/usr/include/qt6/QtGui/QWheelEvent:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
 
-/usr/include/qt6/QtCore/qscopeguard.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qnamespace.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/aligned_storage.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_pop_heap.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_end.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__threading_support:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginConfig.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h:
 
-/usr/include/bits/timesize.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/bit_ceil.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/destruct_n.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_specialization.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_void.h:
 
-/usr/include/qt6/QtCore/qstring.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_difference.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__condition_variable/condition_variable.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/kill_dependency.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/formatter.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_posix_availability.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qtaggedpointer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/compare:
 
-/usr/include/qt6/QtCore/qvariant.h:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_shared_ptr.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_condition.h:
-
-/usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake:
-
-/usr/include/qt6/QtGui/qtransform.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/execution:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_category.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_const.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/copyable.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory_resource/polymorphic_allocator.h:
-
-/usr/include/c++/15.1.1/bits/std_thread.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/unicode.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/constexpr_c_functions.h:
 
-/usr/include/sys/cdefs.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_state.h:
+
+/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_list_view.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/atomic_unique_lock.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/trigonometric_functions.h:
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6CoreTargets-release.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__std_mbstate_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ostreambuf_iterator.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__split_buffer:
+
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-release.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_push_heap.h:
 
@@ -5275,6 +2617,8 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/from_range.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/enable_borrowed_range.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/empty.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/data.h:
 
@@ -5292,15 +2636,19 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/is_valid.h:
 
+/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/destructible.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/enable_view.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_reduce.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/rank.h:
 
-/usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits:
 
@@ -5308,25 +2656,21 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/day.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/deque:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qstringliteral.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qmath.h:
 
-/usr/include/qt6/QtCore/QSizeF:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_valid_expansion.h:
-
-/usr/include/linux/stddef.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/saturation_arithmetic.h:
 
-/usr/include/bits/pthreadtypes.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_negate.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/can_extract_key.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/pstl_reduce.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/iota.h:
 
@@ -5336,17 +2680,17 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h:
 
-/home/dudkin.i/c++/mandelbrot_cpp/build/CMakeFiles/4.0.2-dirty/CMakeCXXCompiler.cmake:
-
 /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/get.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_signed_integer.h:
 
-/usr/include/bits/xopen_lim.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_string.h:
 
@@ -5358,13 +2702,17 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/once_flag.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/lock_guard.h:
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake:
 
-/usr/include/qt6/QtCore/qtpreprocessorsupport.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/lock_guard.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partial_sort.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/iterator_operations.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory_resource/polymorphic_allocator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__verbose_abort:
 
@@ -5374,35 +2722,21 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uses_allocator.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/counted_iterator.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_search.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/ranges_construct_at.h:
 
-/usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/error_constants.h:
-
-/usr/include/c++/15.1.1/bits/stl_uninitialized.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/concepts.h:
 
-/usr/include/asm-generic/int-ll64.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_move_constructible.h:
+/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qaction.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/compressed_pair.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/modulo.h:
 
-/usr/include/asm-generic/errno.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_nth_element.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_destructor.h:
 
@@ -5410,29 +2744,25 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_extent.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_arg_t.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-relwithdebinfo.cmake:
 
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qbrush.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/swap_allocator.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_find.h:
 
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/align.h:
 
-/usr/include/sys/select.h:
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets.cmake:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qrunnable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_found_result.h:
-
-/usr/lib/cmake/Qt6ConcurrentPrivate/Qt6ConcurrentPrivateConfigVersionImpl.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year_month_day.h:
 
@@ -5440,27 +2770,23 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/traits.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/class_or_enum.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/logarithms.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/inverse_hyperbolic_functions.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/three_way_comparable.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/hypot.h:
-
-/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/gamma.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_sorted.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/stable_partition.h:
 
-/usr/include/bits/struct_mutex.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/fma.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_result.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_like_ext.h:
 
@@ -5470,13 +2796,15 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_object.h:
 
-/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpainterpath.h:
+/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_size.h:
+
+/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpainterpath.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory_resource/memory_resource.h:
 
-/usr/share/cmake/Modules/Platform/Linker/GNU.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_constructible.h:
 
@@ -5488,17 +2816,11 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h:
 
-/usr/include/qt6/QtCore/qcompare.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/prev.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_fwd.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/permutable.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_function.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/month_weekday.h:
 
@@ -5506,23 +2828,15 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/move_sentinel.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_frontend_dispatch.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/mergeable.h:
 
-/usr/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_constructible.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator_traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/min_max.h:
-
-/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iter_move.h:
 
@@ -5532,55 +2846,39 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_arg_store.h:
 
-/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qrgba64.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/make_tuple_types.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/shuffle.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/front_insert_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_rotate_copy.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_volatile.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/bit_width.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/enable_if.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/pointer_traits.h:
-
-/usr/include/asm/posix_types_64.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/concepts.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/width_estimation_table.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/erase_if_container.h:
 
-/usr/include/ctype.h:
-
-/usr/include/c++/15.1.1/bits/concept_check.h:
-
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qinputmethod.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/swap_ranges.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/empty.h:
 
-/usr/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/default_sentinel.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_integral.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/bounded_iter.h:
 
-/usr/include/sched.h:
-
-/home/dudkin.i/c++/mandelbrot_cpp/src/mndlbrt_color.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/advance.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/dangling.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h:
 
@@ -5588,17 +2886,13 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ios/fpos.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/array.h:
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QString:
 
-/usr/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/array.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_default_constructible.h:
 
-/usr/include/qt6/QtGui/qtguiglobal.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__hash_table:
-
-/usr/include/qt6/QtCore/qobjectdefs_impl.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/concepts.h:
 
@@ -5610,39 +2904,33 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/move_iterator.h:
 
-/usr/include/qt6/QtGui/QColor:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/nat.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_member_object_pointer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace_if.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/ostream.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_destructible.h:
-
-/usr/include/c++/15.1.1/bits/new_allocator.h:
-
-/usr/include/c++/15.1.1/bits/atomic_futex.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/min.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_move.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/subrange.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/memory_resource.h:
 
-/usr/include/qt6/QtCore/qbytearrayview.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/istream.h:
+
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_replace_copy_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_final.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_reference.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake:
-
-/usr/include/qt6/QtGui/qpalette.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qchar.h:
 
@@ -5654,31 +2942,39 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/hash.h:
 
+/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_swap_ranges.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/bit_reference.h:
-
-/usr/include/c++/15.1.1/bits/exception_defines.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/__xlocale.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/indirectly_comparable.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cctype:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/operations.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit_reference:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/not_fn.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/mem_fn.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_default_constructible.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/constructible.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/is_transparent.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdio:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/identity.h:
-
-/usr/include/qt6/QtCore/qiodevice.h:
 
 /usr/local/Qt-6.7.1/lib/QtConcurrent.framework/Versions/A/Headers/qtconcurrentcompilertest.h:
 
@@ -5694,21 +2990,17 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/function.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_stable_sort.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/default_searcher.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/inverse_trigonometric_functions.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind_back.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_endian.h:
-
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QRect:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/transform_reduce.h:
 
-/usr/include/c++/15.1.1/bits/stl_pair.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/width_estimation_table.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake:
 
@@ -5716,47 +3008,55 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sort.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/parser_std_format_spec.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/clocale:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_assert.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_tuple.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_function.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/convertible_to.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unbounded_array.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_copy_assignable.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_caddr_t.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/pstl_transform_reduce.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_bool.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/midpoint.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/any_of.h:
-
-/home/dudkin.i/c++/mandelbrot_cpp/src/mainwindow.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/reference_wrapper.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_context.h:
+
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cctype:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_token.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/enable_insertable.h:
 
-/usr/include/c++/15.1.1/tr1/gamma.tcc:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginAdditionalTargetInfo.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_segment_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/boolean_testable.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/data.h:
 
-/usr/local/Qt-6.7.1/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each_segment.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/container_adaptor.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iterator:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/concepts.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QMacHeifPluginAdditionalTargetInfo.cmake:
 
@@ -5766,29 +3066,33 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/nested_exception.h:
 
-/usr/include/bits/atomic_wide_counter.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_is_sorted.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/exception_ptr.h:
 
-/usr/include/c++/15.1.1/bits/stl_vector.h:
+/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/invoke.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets.cmake:
+/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qrgba64.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_move.h:
+
+/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qfutureinterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_sort_heap.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_make_heap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/totally_ordered.h:
+
 /opt/homebrew/share/cmake/Modules/CMakeInitializeConfigs.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_move_assignable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_functions.h:
 
@@ -5796,21 +3100,15 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake:
 
-/usr/include/qt6/QtCore/qtextstream.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/swappable.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_posix_availability.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/construct_at.h:
-
-/usr/include/c++/15.1.1/bits/memoryfwd.h:
-
-/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/back_insert_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/different_from.h:
-
-/opt/homebrew/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/equality_comparable.h:
 
@@ -5820,15 +3118,9 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_time.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_min_element.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/copyable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/endian.h:
-
-/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake:
-
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qpair.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_replace_copy.h:
 
@@ -5836,11 +3128,11 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binder2nd.h:
 
-/usr/include/c++/15.1.1/bits/vector.tcc:
-
-/usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
+
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qpair.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/nth_element.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qeventloop.h:
 
@@ -5850,9 +3142,13 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/weak_order.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_types.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/unwrap_ref.h:
 
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/QPixmap:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_set_difference.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QMacJp2PluginAdditionalTargetInfo.cmake:
 
@@ -5860,11 +3156,15 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/invocable.h:
 
+/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qguiapplication_platform.h:
+
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h:
 
 /Users/ilya/projects/c++/mandelbrot_cpp/CMakeLists.txt:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/strong_order.h:
+
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake:
 
@@ -5872,13 +3172,9 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/upper_bound.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/reverse_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_copy.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_move_assignable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h:
 
@@ -5886,13 +3182,9 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/partial_order.h:
 
-/usr/include/qt6/QtCore/qsysinfo.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginAdditionalTargetInfo.cmake:
 
-/usr/include/qt6/QtConcurrent/QtConcurrentRun:
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:
 
@@ -5900,33 +3192,37 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/is_eq.h:
 
-/usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateTargets.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_key_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/dependent_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_args.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/next_permutation.h:
+
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QMacHeifPluginConfig.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/countr.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/compare_weak_order_fallback.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QtGlobal:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/compare_three_way_result.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_move_backward.h:
 
-/usr/include/qt6/QtConcurrent/qtconcurrent_global.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/as_lvalue.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_if_not.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/compare_three_way.h:
 
-/usr/include/qt6/QtGui/qfontvariableaxis.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/access.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/rounding_functions.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/compare_strong_order_fallback.h:
 
@@ -5934,13 +3230,9 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/common_comparison_category.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/partial_sum.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_find_if.h:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-release.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h:
 
@@ -5952,35 +3244,31 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/weak_result_type.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h:
 
-/usr/include/bits/endianness.h:
-
-/usr/include/qt6/QtCore/qdebug.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/common_with.h:
+
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_constructible.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/contention_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug_utils/randomize_range.h:
 
-/usr/include/c++/15.1.1/bits/unordered_map.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_sort_heap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year_month.h:
-
-/usr/share/cmake/Modules/CMakeGenericSystem.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:
 
 /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow:
 
-/usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake:
-
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QSizeF:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_output.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inner_product.h:
 
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qscreen.h:
 
@@ -5994,47 +3282,41 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_volatile.h:
 
-/usr/share/cmake/Modules/CMakeLanguageInformation.cmake:
-
-/usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateVersionlessAliasTargets.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_unsigned.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/monthday.h:
-
-/usr/include/qt6/QtCore/qexception.h:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-release.cmake:
-
-/usr/include/c++/15.1.1/bits/std_abs.h:
-
-/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qframe.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_cv.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/literals.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_scoped_enum.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/upper_bound.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/hh_mm_ss.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/generate.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year.h:
+
+/opt/homebrew/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_heap_until.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int64_t.h:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_assignable.h:
 
-/usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateAdditionalTargetInfo.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/duration.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_backend.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/convert_to_timespec.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qstring.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_def.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_bounded_array.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fill.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qttypetraits.h:
 
@@ -6042,19 +3324,29 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/bit_log2.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pop_heap.h:
-
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/QTransform:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_base_10.h:
 
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/write_escaped.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/three_way_comparable.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_unsigned.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/tables.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_pod.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qoverload.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/ref_view.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_max.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/rotate.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/for_each.h:
 
@@ -6068,27 +3360,35 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/month.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/invert_if.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int64_t.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/countl.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max_element.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ostreambuf_iterator.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/byteswap.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/shuffle.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/has_single_bit.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/bit_floor.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfig.cmake:
-
-/usr/include/bits/types/cookie_io_functions_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocate_at_least.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/movable.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/bit_cast.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h:
 
@@ -6100,19 +3400,29 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_for_each.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/kill_dependency.h:
+
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginDependencies.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unwrap_range.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/is_always_lock_free.h:
+
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qtclasshelpermacros.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/fence.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:
 
-/usr/include/c++/15.1.1/cstdio:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_lexicographical_compare.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/cxx_atomic_impl.h:
 
-/home/dudkin.i/c++/mandelbrot_cpp/src/main.cpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_remove_copy.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_sync.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale/_time.h:
 
@@ -6120,15 +3430,13 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fold.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_setsize.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_flag.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_move.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_copyable.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_base.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/common_type.h:
 
@@ -6138,43 +3446,45 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_ends_with.h:
 
-/usr/include/c++/15.1.1/bits/stl_tempbuf.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_partition_copy.h:
 
-/usr/include/bits/types/locale_t.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/regular.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__assertion_handler:
-
-/usr/include/c++/15.1.1/bit:
-
-/usr/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/readable_traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unwrap_iter.h:
+
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-release.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/map:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/system_error.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/exception.h:
 
-/usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersion.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_floating_point.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginDependencies.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique_copy.h:
 
-/usr/include/qt6/QtCore/qbasicatomic.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_transform.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/synth_three_way.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/noexcept_move_assign_container.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_element.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginTargets.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/chars_format.h:
 
@@ -6184,21 +3494,17 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/uniform_random_bit_generator_adaptor.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/transform.h:
-
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qttranslation.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h:
 
-/usr/include/c++/15.1.1/bits/functexcept.h:
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_frontend_dispatch.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/stable_sort.h:
-
-/usr/include/qt6/QtCore/qstringtokenizer.h:
-
-/usr/include/qt6/QtCore/qiodevicebase.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cwchar:
 
@@ -6206,17 +3512,15 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sift_down.h:
 
-/usr/include/linux/posix_types.h:
-
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qforeach.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_merge.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/projected.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_union.h:
+
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigset_t.h:
 
@@ -6228,9 +3532,11 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/search.h:
 
-/usr/lib/cmake/Qt6ConcurrentPrivate/Qt6ConcurrentPrivateTargets.cmake:
-
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qlocale.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/rotate.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/copy_cv.h:
 
@@ -6240,7 +3546,13 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_end.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/reverse_copy.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_string.h:
 
@@ -6250,15 +3562,11 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_transform.h:
 
-/usr/include/qt6/QtCore/qrefcount.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_none_of.h:
 
-/usr/include/features.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_starts_with.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/reduce.h:
 
@@ -6268,25 +3576,31 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/derived_from.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/system_clock.h:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_partial_sort.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/statically_widen.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_endian.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_difference.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/terminate.h:
 
-/usr/include/qt6/QtCore/qtconfiginclude.h:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6CoreTargets.cmake:
-
-/usr/include/qt6/QtWidgets/qwidget.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/mutex.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/maybe_const.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_shuffle.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_stable_sort.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_convertible.h:
 
@@ -6304,9 +3618,11 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/same_as.h:
 
-/usr/local/Qt-6.7.1/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-release.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_rotate_copy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/weekday.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_set_intersection.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/generate_n.h:
 
@@ -6314,21 +3630,25 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/unique_lock.h:
 
-/usr/include/qt6/QtCore/qsharedpointer.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/id.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_replace_if.h:
 
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/q20functional.h:
+/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qicon.h:
 
-/usr/include/qt6/QtCore/qconstructormacros.h:
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/q20functional.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_for_each_n.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_search_n.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginAdditionalTargetInfo.cmake:
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inner_product.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/libdispatch.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/perfect_forward.h:
 
@@ -6336,15 +3656,15 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qstringbuilder.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_next_permutation.h:
+
 /usr/local/Qt-6.7.1/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/common_iterator.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/pthread_impl.h:
 
-/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_referenceable.h:
 
@@ -6352,35 +3672,41 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
 
-/usr/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_minmax.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind_front.h:
 
-/usr/include/qt6/QtCore/qconfig.h:
-
-/usr/include/c++/15.1.1/bits/algorithmfwd.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_move_constructible.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Concurrent/Qt6ConcurrentVersionlessTargets.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/extended_grapheme_cluster_table.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_min_element.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdlib:
+
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qiterable.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/can_extract_key.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_generate_n.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/disjunction.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/unique_ptr.h:
 
-/usr/share/cmake/Modules/MacroAddFileDependencies.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/aligned_union.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_remove.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/popcount.h:
 
-/usr/include/qt6/QtGui/qpolygon.h:
-
 /opt/homebrew/share/cmake/Modules/MacroAddFileDependencies.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_sort.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backend.h:
 
@@ -6388,21 +3714,15 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_is_permutation.h:
 
-/usr/include/c++/15.1.1/bits/align.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal.h:
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QList:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ios:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/concepts:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/find_if.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/container_compatible_range.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_if.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_inplace_merge.h:
 
@@ -6422,6 +3742,12 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno:
+
+/usr/local/Qt-6.7.1/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-release.cmake:
+
+/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QLabel:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy_n.h:
@@ -6434,23 +3760,21 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h:
 
-/usr/lib/cmake/Qt6ConcurrentPrivate/Qt6ConcurrentPrivateConfigVersion.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/arithmetic.h:
 
-/usr/include/c++/15.1.1/exception:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__mbstate_t.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__availability:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_count_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_reverse_copy.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/extern_template_lists.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/all_of.h:
 
@@ -6462,15 +3786,19 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h:
 
-/usr/lib/cmake/Qt6/QtPublicPluginHelpers.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_equal.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginDependencies.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/minmax_element.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/semiregular.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/push_heap.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/abs.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qmutex.h:
 
@@ -6478,7 +3806,13 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_search.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_floating_point.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_minmax_element.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/prev_permutation.h:
 
@@ -6490,31 +3824,31 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_prev_permutation.h:
 
-/usr/include/c++/15.1.1/tr1/poly_laguerre.tcc:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/local/Qt-6.7.1/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy_backward.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/strip_signature.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_contains.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/counted_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_mismatch.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_clamp.h:
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginAdditionalTargetInfo.cmake:
 
-/usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/make_projected.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_clamp.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/convert_to_tm.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_binary_search.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_result.h:
 
-/usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfig.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_move_assignable.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_binary_search.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_rotate.h:
 
@@ -6524,35 +3858,45 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/exception_guard.h:
 
-/usr/include/c++/15.1.1/cerrno:
-
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/error_functions.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/exchange.h:
 
-/usr/include/c++/15.1.1/bits/ostream_insert.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_sample.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/make_heap.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets-release.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets.cmake:
+/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qrgb.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_adjacent_find.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QSize:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/pointer_traits.h:
+
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Concurrent/Qt6ConcurrentConfigVersion.cmake:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_is_partitioned.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/range_formatter.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/check_memory_order.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/shift_right.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h:
 
@@ -6562,9 +3906,9 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/merge.h:
 
-/opt/homebrew/share/cmake/Modules/CheckIncludeFileCXX.cmake:
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake:
 
-/usr/include/c++/15.1.1/clocale:
+/opt/homebrew/share/cmake/Modules/CheckIncludeFileCXX.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/sortable.h:
 
@@ -6574,7 +3918,7 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_replace.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list:
 
@@ -6582,61 +3926,79 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_fill.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_equal.h:
+
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-release.cmake:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/builtin_new_allocator.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginDependencies.cmake:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_replace.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/ranges_uninitialized_algorithms.h:
 
-/usr/include/bits/stdint-least.h:
+/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtextoption.h:
+
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/count.h:
 
-/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:
-
-/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_count.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_lock_free.h:
+
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/distance.h:
+
+/usr/local/Qt-6.7.1/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_out_out_result.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_in_out_result.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_copy.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/inplace_merge.h:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-release.cmake:
 
-/usr/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/atomic:
 
-/usr/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_find_if_not.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/merge.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_volatile.h:
+
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake:
 
-/usr/include/bits/types/clockid_t.h:
-
-/usr/share/cmake/Modules/FindOpenGL.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/locale:
-
-/usr/include/bits/types/__sigset_t.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/find_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_n.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_shared_ptr.h:
+
 /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/exponential_functions.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/locale:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/any_of.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_xlocale.h:
 
-/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/transform.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_any_all_none_of.h:
+
+/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qframe.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_partition_point.h:
 
@@ -6644,7 +4006,15 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_out_result.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_max.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/none_of.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_upper_bound.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_locale.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/auto_ptr.h:
 
@@ -6652,21 +4022,19 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qstringview.h:
 
-/usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/cpp17_iterator_concepts.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_base_of.h:
-
-/usr/include/qt6/QtCore/qoverload.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/assignable.h:
 
 /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtransform.h:
 
-/usr/include/c++/15.1.1/ext/type_traits.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/endian.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/trigonometric_functions.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_is_sorted.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/move.h:
 
@@ -6684,9 +4052,11 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/pair.h:
 
-/usr/include/c++/15.1.1/pstl/glue_numeric_defs.h:
-
 /usr/local/Qt-6.7.1/lib/QtConcurrent.framework/Versions/A/Headers/qtconcurrentstoredfunctioncall.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare_three_way.h:
+
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_floating_point.h:
 
@@ -6694,15 +4064,19 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/common_reference_with.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake:
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qnumeric.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uses_allocator_construction.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_sorted_until.h:
-
-/usr/include/c++/15.1.1/bits/postypes.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/types.h:
+
+/usr/local/Qt-6.7.1/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_sorted.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/roots.h:
 
@@ -6710,27 +4084,33 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-release.cmake:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_arg.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/includes.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/view_interface.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_fun_result.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd:
 
-/usr/include/c++/15.1.1/bits/streambuf_iterator.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/transform.h:
 
-/usr/include/c++/15.1.1/bits/erase_if.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_backward.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/iter_swap.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/compose.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_remove_copy_if.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qarraydatapointer.h:
 
-/usr/include/qt6/QtCore/qpoint.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_core_convertible.h:
 
-/usr/lib/cmake/Qt6ConcurrentPrivate/Qt6ConcurrentPrivateDependencies.cmake:
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_types.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_symmetric_difference.h:
 
@@ -6742,17 +4122,13 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_find_end.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_const_ref.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_merge.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_default_constructible.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_first_of.h:
 
@@ -6762,25 +4138,43 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/count_if.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/any_of.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_stable_sort.h:
+
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qstringtokenizer.h:
 
 /Users/ilya/projects/c++/mandelbrot_cpp/src/pixmap_creator.cpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_copy_constructible.h:
+
+/usr/local/Qt-6.7.1/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_min.h:
 
-/usr/include/c++/15.1.1/bits/shared_ptr.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/size.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each_n.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/hyperbolic_functions.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_move.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/aligned_storage.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_char.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/access.h:
 
-/usr/include/c++/15.1.1/backward/binders.h:
+/usr/local/Qt-6.7.1/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-release.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_types.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partition.h:
 
@@ -6790,35 +4184,31 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_in_result.h:
 
-/usr/include/qt6/QtCore/qbasictimer.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/assert.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake:
-
-/usr/include/qt6/QtConcurrent/qtconcurrentcompilertest.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h:
 
-/usr/include/qt6/QtCore/qcontainerinfo.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/common_reference.h:
-
-/usr/include/c++/15.1.1/cstdlib:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qcomparehelpers.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/reverse.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pop_heap.h:
 
-/usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/gthr.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace_copy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:
+
+/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsPixmapItem:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
+
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QPointF:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_equal_range.h:
 
@@ -6826,20 +4216,22 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/search_n.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/tag_types.h:
+
 /Users/ilya/projects/c++/mandelbrot_cpp/src/mndlbrt_color.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_generate.h:
 
-/usr/include/qt6/QtCore/qrect.h:
+/usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_fwd.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/compare_partial_order_fallback.h:
-
-/usr/share/cmake/Modules/Linker/GNU-CXX.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unsigned.h:
-
-/usr/include/qt6/QtCore/qtformat_impl.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/fstream.h:

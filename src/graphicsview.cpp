@@ -1,36 +1,35 @@
 #include "graphicsview.h"
 #include <QPixmap>
 #include <QGraphicsScene>
-#include <QPointF>
-#include <QPoint>
-
-#define DEFAULT_ZOOM_FACTOR 2
-#define START_ZOOM_FACTOR 1
-#define MAX_ZOOM_IN 100
-#define MAX_ZOOM_OUT 1
 
 
-GraphicsView::GraphicsView(QWidget *parent) : QGraphicsView(parent) {
+GraphicsView::GraphicsView(QWidget *parent, QScrollBar *scrollBar) : QGraphicsView(parent) {
      // Обновлять view port когда нужно
     setViewportUpdateMode(QGraphicsView::FullViewportUpdate);
 
     // Оставлять центр зума на мыши
     setTransformationAnchor(QGraphicsView::AnchorUnderMouse);
 
-    zoomFactor = START_ZOOM_FACTOR;
     pc = new PixmapCreator();
 
-    QPixmap *pixmap = pc->createPixmap(width() / 2, height() / 2, width(), height());
+    QPixmap *pixmap = pc->createPixmap();
 
-    QGraphicsScene *scene = new QGraphicsScene(0, 0, width(), height());
+    QGraphicsScene *scene = new QGraphicsScene(this);
     scene->addPixmap(*pixmap);
     setScene(scene);
+
+    this->scrollBar = scrollBar;
+}
+
+QPointF GraphicsView::mapPos(double x, double y) {
+    return mapToScene(x, y);
+    // return mapFromScene(x, y);
 }
 
 void GraphicsView::mousePressEvent(QMouseEvent *event) {
     if (event->button() == Qt::LeftButton) {
         leftButtonPressed = true;
-        QPointF mappedPos = mapToScene(event->position().x(), event->position().y());
+        QPointF mappedPos = mapPos(event->position().x(), event->position().y());
         spawnZoomRect(mappedPos.x(), mappedPos.y());
     }
     QGraphicsView::mousePressEvent(event);
@@ -38,11 +37,15 @@ void GraphicsView::mousePressEvent(QMouseEvent *event) {
 
 void GraphicsView::mouseMoveEvent(QMouseEvent *event) {
     if (leftButtonPressed) {
-        double xCenter = event->position().x();
-        double yCenter = event->position().y();
-        moveZoomRect(xCenter, yCenter);
+        QPointF mappedPos = mapPos(event->position().x(), event->position().y());
+        moveZoomRect(mappedPos.x(), mappedPos.y());
     }
     QGraphicsView::mouseMoveEvent(event);
+}
+
+void GraphicsView::test_pos(QMouseEvent *event) {
+    qInfo() << "To scene: " << mapToScene(event->position().x(), event->position().y());
+    qInfo() << "From scene: " << mapFromScene(event->position().x(), event->position().y());
 }
 
 void GraphicsView::mouseReleaseEvent(QMouseEvent *event) {
@@ -54,22 +57,17 @@ void GraphicsView::mouseReleaseEvent(QMouseEvent *event) {
 }
 
 void GraphicsView::spawnZoomRect(int xCenter, int yCenter, int width, int height) {
+    int pixmapXCenter = xCenter / 5; // расследование показало, что делитель зависит от зума,
+    int pixmapYCenter = yCenter / 3; // но вот как?..
 
-    qInfo() << "X: " << xCenter << ", Y: " << yCenter;
+    double zoom = scrollBar->value();
 
-    yCenter = this->height() - yCenter;
-
-    QPointF p(xCenter, yCenter);
-    p = p / this->width() * width;
-
-    qInfo() << "P: " << p;
-
-    QPixmap *pixmap = pc->createPixmap(p.x(), p.y(), width, height, 25);
+    QPixmap *pixmap = pc->createPixmap(pixmapXCenter, height - pixmapYCenter, width, height, zoom);
     zoomRect = scene()->addPixmap(*pixmap);
-    zoomRect->setZValue(2);
 
+    zoomRect->setZValue(2);
     zoomRect->setX(xCenter);
-    zoomRect->setY(this->height() - yCenter);
+    zoomRect->setY(yCenter);
 }
 
 void GraphicsView::moveZoomRect(int xCenter, int yCenter) {

@@ -989,9 +989,12 @@ mandelbrot_autogen/timestamp: \
 	/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QDebug \
 	/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QList \
 	/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QObject \
+	/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QPoint \
+	/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QPointF \
 	/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QRect \
 	/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QSize \
 	/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QSizeF \
+	/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QString \
 	/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QThreadPool \
 	/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QtGlobal \
 	/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
@@ -1159,6 +1162,7 @@ mandelbrot_autogen/timestamp: \
 	/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpainterpath.h \
 	/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
 	/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpen.h \
+	/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
 	/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
 	/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
 	/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpointingdevice.h \
@@ -1168,6 +1172,7 @@ mandelbrot_autogen/timestamp: \
 	/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
 	/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qscreen.h \
 	/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qscreen_platform.h \
+	/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
 	/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtextoption.h \
 	/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
 	/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
@@ -1178,14 +1183,19 @@ mandelbrot_autogen/timestamp: \
 	/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
 	/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsPixmapItem \
 	/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView \
+	/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
 	/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+	/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QScrollBar \
 	/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
+	/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qabstractslider.h \
 	/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
 	/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsitem.h \
 	/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsscene.h \
 	/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsview.h \
+	/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
 	/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
 	/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qscrollarea.h \
+	/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qscrollbar.h \
 	/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
 	/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
 	/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \

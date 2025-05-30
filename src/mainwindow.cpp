@@ -10,17 +10,17 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow) {
     ui->setupUi(this);
 
-    view = new GraphicsView();
+    zoomFactorLabel = new QLabel(QString("Zoom Factor"));
+    ui->verticalLayout->addWidget(zoomFactorLabel);
 
-    PixmapCreator *pc = new PixmapCreator();
-    QPixmap *pixmap = pc->createPixmap();
+    scrollBar = new QScrollBar(Qt::Horizontal, this);
+    ui->verticalLayout->addWidget(scrollBar);
 
-    QGraphicsScene *scene = new QGraphicsScene();
-
-    scene->addPixmap(*pixmap);
-    view->setScene(scene);
-
+    view = new GraphicsView(this, scrollBar);
     ui->verticalLayout->addWidget(view);
+
+    scrollBar->setMinimum(1);
+    scrollBar->setMaximum(100);
 
 }
 

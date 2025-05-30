@@ -5,6 +5,9 @@
 #include <QPixmap>
 #include "gt_mndlbrt.hpp"
 #include "graphicsview.h"
+#include <QScrollBar>
+#include <QLabel>
+#include <QString>
 
 namespace Ui {
 class MainWindow;
@@ -20,6 +23,8 @@ class MainWindow : public QMainWindow {
     private:
         Ui::MainWindow *ui;
         GraphicsView *view;
+        QScrollBar *scrollBar;
+        QLabel *zoomFactorLabel;
 };
 
 #endif // MAINWINDOW_H

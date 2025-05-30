@@ -1231,4 +1231,16 @@ CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o: \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qguiapplication_platform.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/build/mandelbrot_autogen/UVLADIE3JM/../../../src/pixmap_creator.hpp \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QtGlobal \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/QPainter
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/QPainter \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QPointF \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QPoint \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QScrollBar \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qscrollbar.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qabstractslider.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QLabel \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qlabel.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpicture.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtextdocument.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QString \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtextcursor.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtextformat.h

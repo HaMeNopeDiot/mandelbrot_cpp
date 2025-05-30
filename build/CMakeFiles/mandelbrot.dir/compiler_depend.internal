@@ -994,9 +994,12 @@
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QDebug
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QList
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QObject
+ /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QPoint
+ /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QPointF
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QRect
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QSize
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QSizeF
+ /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QString
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QThreadPool
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QtGlobal
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/q20functional.h
@@ -1164,6 +1167,7 @@
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpainterpath.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpalette.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpen.h
+ /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpicture.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpixmap.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpointingdevice.h
@@ -1173,6 +1177,7 @@
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qrgba64.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qscreen.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qscreen_platform.h
+ /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtextoption.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h
@@ -1183,14 +1188,19 @@
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsPixmapItem
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QLabel
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QScrollBar
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qabstractslider.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qframe.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsitem.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsscene.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsview.h
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qscrollarea.h
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qscrollbar.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h
@@ -2434,9 +2444,12 @@ CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QDebug
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QList
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QObject
+ /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QPoint
+ /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QPointF
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QRect
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QSize
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QSizeF
+ /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QString
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QThreadPool
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QtGlobal
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/q20functional.h
@@ -2605,6 +2618,7 @@ CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpainterpath.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpalette.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpen.h
+ /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpicture.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpixelformat.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpixmap.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpointingdevice.h
@@ -2614,6 +2628,9 @@ CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qrgba64.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qscreen.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qscreen_platform.h
+ /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtextcursor.h
+ /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtextdocument.h
+ /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtextformat.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtextoption.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtgui-config.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtguiexports.h
@@ -2624,14 +2641,19 @@ CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qwindowdefs.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QGraphicsPixmapItem
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QGraphicsView
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QLabel
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QMainWindow
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QScrollBar
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qabstractscrollarea.h
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qabstractslider.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qframe.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qgraphicsitem.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qgraphicsscene.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qgraphicsview.h
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qlabel.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qmainwindow.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qscrollarea.h
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qscrollbar.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qsizepolicy.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qtabwidget.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qtwidgets-config.h
@@ -3858,12 +3880,15 @@ CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.o
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QGraphicsPixmapItem
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QGraphicsScene
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QGraphicsView
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QScrollBar
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qabstractscrollarea.h
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qabstractslider.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qframe.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qgraphicsitem.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qgraphicsscene.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qgraphicsview.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qscrollarea.h
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qscrollbar.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qsizepolicy.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qtwidgets-config.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qtwidgetsexports.h
@@ -4898,9 +4923,12 @@ CMakeFiles/mandelbrot.dir/src/main.cpp.o
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QDebug
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QList
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QObject
+ /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QPoint
+ /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QPointF
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QRect
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QSize
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QSizeF
+ /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QString
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QThreadPool
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QtGlobal
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/q20functional.h
@@ -5068,6 +5096,7 @@ CMakeFiles/mandelbrot.dir/src/main.cpp.o
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpainterpath.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpalette.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpen.h
+ /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpicture.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpixelformat.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpixmap.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpointingdevice.h
@@ -5077,6 +5106,7 @@ CMakeFiles/mandelbrot.dir/src/main.cpp.o
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qrgba64.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qscreen.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qscreen_platform.h
+ /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtextdocument.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtextoption.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtgui-config.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtguiexports.h
@@ -5088,15 +5118,20 @@ CMakeFiles/mandelbrot.dir/src/main.cpp.o
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QApplication
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QGraphicsPixmapItem
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QGraphicsView
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QLabel
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QMainWindow
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QScrollBar
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qabstractscrollarea.h
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qabstractslider.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qapplication.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qframe.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qgraphicsitem.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qgraphicsscene.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qgraphicsview.h
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qlabel.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qmainwindow.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qscrollarea.h
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qscrollbar.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qsizepolicy.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qtabwidget.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qtwidgets-config.h
@@ -6133,9 +6168,12 @@ CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.o
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QDebug
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QList
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QObject
+ /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QPoint
+ /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QPointF
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QRect
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QSize
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QSizeF
+ /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QString
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QThreadPool
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QVariant
  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QtGlobal
@@ -6304,6 +6342,7 @@ CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.o
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpainterpath.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpalette.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpen.h
+ /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpicture.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpixelformat.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpixmap.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpointingdevice.h
@@ -6313,6 +6352,7 @@ CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.o
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qrgba64.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qscreen.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qscreen_platform.h
+ /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtextdocument.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtextoption.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtgui-config.h
  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtguiexports.h
@@ -6325,12 +6365,15 @@ CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.o
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QGraphicsPixmapItem
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QGraphicsScene
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QGraphicsView
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QLabel
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QMainWindow
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QMenuBar
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QScrollBar
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QStatusBar
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QVBoxLayout
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QWidget
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qabstractscrollarea.h
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qabstractslider.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qapplication.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qboxlayout.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qframe.h
@@ -6338,12 +6381,14 @@ CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.o
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qgraphicsscene.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qgraphicsview.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qgridlayout.h
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qlabel.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qlayout.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qlayoutitem.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qmainwindow.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qmenu.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qmenubar.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qscrollarea.h
+ /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qscrollbar.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qsizepolicy.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qstatusbar.h
  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qtabwidget.h

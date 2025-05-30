@@ -1225,6 +1225,9 @@ CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.o: \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/QColor \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QDebug \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/is_mndlbrt.hpp \
-  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QGraphicsScene \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QPointF \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QPoint
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QPoint \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QScrollBar \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qscrollbar.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qabstractslider.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QGraphicsScene

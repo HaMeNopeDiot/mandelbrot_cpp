@@ -12,7 +12,6 @@ QPixmap* PixmapCreator::createPixmap(size_t xCenterFrame,
 {
     QColor color(0xFFFFFF);
 
-    qInfo() << "x: " << xCenterFrame << ", y: " << yCenterFrame;
 
     GetMandelbrotPixelData mndlbrt(width, height, color);
 

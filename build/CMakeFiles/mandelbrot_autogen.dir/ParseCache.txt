@@ -949,9 +949,12 @@
  mdp:/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QDebug
  mdp:/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QList
  mdp:/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QObject
+ mdp:/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QPoint
+ mdp:/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QPointF
  mdp:/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QRect
  mdp:/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QSize
  mdp:/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QSizeF
+ mdp:/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QString
  mdp:/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QThreadPool
  mdp:/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/QtGlobal
  mdp:/usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/q20functional.h
@@ -1119,6 +1122,7 @@
  mdp:/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpainterpath.h
  mdp:/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpalette.h
  mdp:/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpen.h
+ mdp:/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpicture.h
  mdp:/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h
  mdp:/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpixmap.h
  mdp:/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qpointingdevice.h
@@ -1128,6 +1132,7 @@
  mdp:/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qrgba64.h
  mdp:/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qscreen.h
  mdp:/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qscreen_platform.h
+ mdp:/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h
  mdp:/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtextoption.h
  mdp:/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h
  mdp:/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h
@@ -1138,14 +1143,19 @@
  mdp:/usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h
  mdp:/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsPixmapItem
  mdp:/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView
+ mdp:/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QLabel
  mdp:/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow
+ mdp:/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QScrollBar
  mdp:/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h
+ mdp:/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qabstractslider.h
  mdp:/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qframe.h
  mdp:/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsitem.h
  mdp:/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsscene.h
  mdp:/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsview.h
+ mdp:/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h
  mdp:/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h
  mdp:/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qscrollarea.h
+ mdp:/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qscrollbar.h
  mdp:/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h
  mdp:/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h
  mdp:/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h
