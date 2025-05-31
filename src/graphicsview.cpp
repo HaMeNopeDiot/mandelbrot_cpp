@@ -3,6 +3,7 @@
 #include <QGraphicsScene>
 
 
+
 GraphicsView::GraphicsView(QWidget *parent, QScrollBar *scrollBar) : QGraphicsView(parent) {
      // Обновлять view port когда нужно
     setViewportUpdateMode(QGraphicsView::FullViewportUpdate);
@@ -21,9 +22,13 @@ GraphicsView::GraphicsView(QWidget *parent, QScrollBar *scrollBar) : QGraphicsVi
     this->scrollBar = scrollBar;
 }
 
+
+
 QPointF GraphicsView::mapPos(double x, double y) {
     return mapToScene(x, y);
 }
+
+
 
 void GraphicsView::mousePressEvent(QMouseEvent *event) {
     if (event->button() == Qt::LeftButton) {
@@ -34,6 +39,8 @@ void GraphicsView::mousePressEvent(QMouseEvent *event) {
     QGraphicsView::mousePressEvent(event);
 }
 
+
+
 void GraphicsView::mouseMoveEvent(QMouseEvent *event) {
     if (leftButtonPressed) {
         QPointF mappedPos = mapPos(event->position().x(), event->position().y());
@@ -42,10 +49,14 @@ void GraphicsView::mouseMoveEvent(QMouseEvent *event) {
     QGraphicsView::mouseMoveEvent(event);
 }
 
+
+
 void GraphicsView::test_pos(QMouseEvent *event) {
     qInfo() << "To scene: " << mapToScene(event->position().x(), event->position().y());
     qInfo() << "From scene: " << mapFromScene(event->position().x(), event->position().y());
 }
+
+
 
 void GraphicsView::mouseReleaseEvent(QMouseEvent *event) {
     if (event->button() == Qt::LeftButton) {
@@ -54,6 +65,8 @@ void GraphicsView::mouseReleaseEvent(QMouseEvent *event) {
     }
     QGraphicsView::mouseReleaseEvent(event);
 }
+
+
 
 void GraphicsView::spawnZoomRect(int xCenter, int yCenter, int width, int height) {
 
@@ -72,6 +85,8 @@ void GraphicsView::spawnZoomRect(int xCenter, int yCenter, int width, int height
     zoomRect->setY(yCenter);
 }
 
+
+
 void GraphicsView::moveZoomRect(int xCenter, int yCenter) {
     double width = zoomRect->boundingRect().width();
     double height = zoomRect->boundingRect().height();
@@ -79,6 +94,8 @@ void GraphicsView::moveZoomRect(int xCenter, int yCenter) {
     despawnZoomRect();
     spawnZoomRect(xCenter, yCenter, width, height);
 }
+
+
 
 void GraphicsView::despawnZoomRect() {
     scene()->removeItem(zoomRect);

@@ -5,6 +5,9 @@
 #include "graphicsview.h"
 #include <QDebug>
 
+#define MIN_ZOOM 1
+#define MAX_ZOOM 150
+
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow) {
@@ -19,9 +22,8 @@ MainWindow::MainWindow(QWidget *parent)
     view = new GraphicsView(this, scrollBar);
     ui->verticalLayout->addWidget(view);
 
-    scrollBar->setMinimum(1);
-    scrollBar->setMaximum(150);
-
+    scrollBar->setMinimum(MIN_ZOOM);
+    scrollBar->setMaximum(MAX_ZOOM);
 }
 
 MainWindow::~MainWindow() { delete ui; }

@@ -10,7 +10,7 @@ QPixmap* PixmapCreator::createPixmap(size_t xCenterFrame,
                                      int height,
                                      double scale)
 {
-    QColor color(0xFFFFFF);
+    QColor color(0x111111);
 
 
     GetMandelbrotPixelData mndlbrt(width, height, color);
@@ -18,7 +18,7 @@ QPixmap* PixmapCreator::createPixmap(size_t xCenterFrame,
     QList<QColor> colors;
 
     for (size_t i = 0; i < 300; i++) {
-        colors.push_back(QColor(0x11 + i, 0x11 + i, 0x40 + i));
+        colors.push_back(QColor(0x0 + i, 0x66 + i, 0x40 + i));
     }
 
     const QColor *pixelData = mndlbrt.getMandelbrotPixelData(colors, colors.length(),
