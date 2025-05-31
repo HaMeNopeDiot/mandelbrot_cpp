@@ -23,7 +23,6 @@ GraphicsView::GraphicsView(QWidget *parent, QScrollBar *scrollBar) : QGraphicsVi
 
 QPointF GraphicsView::mapPos(double x, double y) {
     return mapToScene(x, y);
-    // return mapFromScene(x, y);
 }
 
 void GraphicsView::mousePressEvent(QMouseEvent *event) {
@@ -57,8 +56,11 @@ void GraphicsView::mouseReleaseEvent(QMouseEvent *event) {
 }
 
 void GraphicsView::spawnZoomRect(int xCenter, int yCenter, int width, int height) {
-    int pixmapXCenter = xCenter / 5; // расследование показало, что делитель зависит от зума,
-    int pixmapYCenter = yCenter / 3; // но вот как?..
+
+    double divideCoef = this->height() / height;
+
+    int pixmapXCenter = (xCenter - (width / divideCoef / 2)) / divideCoef; // расследование показало, что делитель зависит от зума,
+    int pixmapYCenter = (yCenter - (height / divideCoef / 2)) / divideCoef; // но вот как?..
 
     double zoom = scrollBar->value();
 

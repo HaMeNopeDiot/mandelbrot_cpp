@@ -20,7 +20,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->verticalLayout->addWidget(view);
 
     scrollBar->setMinimum(1);
-    scrollBar->setMaximum(100);
+    scrollBar->setMaximum(150);
 
 }
 

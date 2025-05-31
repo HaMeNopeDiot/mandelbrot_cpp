@@ -29,7 +29,8 @@ class GraphicsView : public QGraphicsView {
         bool leftButtonPressed;
         QGraphicsPixmapItem *zoomRect;
         void spawnZoomRect(int xCenter, int yCenter,
-                           int width = 100, int height = 100);
+                           int width = 150, int height = 150);
+        
         void moveZoomRect(int xCenter, int yCenter);
         void despawnZoomRect();
         QPointF mapPos(double x, double y);

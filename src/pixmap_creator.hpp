@@ -12,10 +12,10 @@ class PixmapCreator {
         /*!
          * \brief Create pixmap to insert this into scene
          */
-        QPixmap* createPixmap(size_t xCenterFrame = 200,
-                              size_t yCenterFrame = 200,
-                              int width = 400,
-                              int height = 400,
+        QPixmap* createPixmap(size_t xCenterFrame = 250,
+                              size_t yCenterFrame = 250,
+                              int width = 500,
+                              int height = 500,
                               double scale = 1.0);
 };
 

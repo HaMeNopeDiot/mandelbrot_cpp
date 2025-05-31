@@ -84,8 +84,8 @@ clean: CMakeFiles/mandelbrot_autogen.dir/clean
 # Target rules for target CMakeFiles/mandelbrot.dir
 
 # All Build rule for target.
-CMakeFiles/mandelbrot.dir/all: CMakeFiles/mandelbrot_autogen_timestamp_deps.dir/all
 CMakeFiles/mandelbrot.dir/all: CMakeFiles/mandelbrot_autogen.dir/all
+CMakeFiles/mandelbrot.dir/all: CMakeFiles/mandelbrot_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mandelbrot.dir/build.make CMakeFiles/mandelbrot.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mandelbrot.dir/build.make CMakeFiles/mandelbrot.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ilya/projects/c++/mandelbrot_cpp/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target mandelbrot"
@@ -103,8 +103,8 @@ mandelbrot: CMakeFiles/mandelbrot.dir/rule
 .PHONY : mandelbrot
 
 # codegen rule for target.
-CMakeFiles/mandelbrot.dir/codegen: CMakeFiles/mandelbrot_autogen_timestamp_deps.dir/all
 CMakeFiles/mandelbrot.dir/codegen: CMakeFiles/mandelbrot_autogen.dir/all
+CMakeFiles/mandelbrot.dir/codegen: CMakeFiles/mandelbrot_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mandelbrot.dir/build.make CMakeFiles/mandelbrot.dir/codegen
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ilya/projects/c++/mandelbrot_cpp/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target mandelbrot"
 .PHONY : CMakeFiles/mandelbrot.dir/codegen
