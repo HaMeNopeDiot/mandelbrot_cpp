@@ -1,39 +1,17 @@
 CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o: \
   /Users/ilya/projects/c++/mandelbrot_cpp/build/mandelbrot_autogen/mocs_compilation.cpp \
-  /Users/ilya/projects/c++/mandelbrot_cpp/build/mandelbrot_autogen/UVLADIE3JM/moc_do_mndlbrt.cpp \
-  /Users/ilya/projects/c++/mandelbrot_cpp/build/mandelbrot_autogen/UVLADIE3JM/../../../src/do_mndlbrt.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdint.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int64_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint8_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint16_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint32_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_posix_availability.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_intptr_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QObject \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qobject.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qobjectdefs.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qnamespace.h \
+  /Users/ilya/projects/c++/mandelbrot_cpp/build/mandelbrot_autogen/UVLADIE3JM/moc_color_picker.cpp \
+  /Users/ilya/projects/c++/mandelbrot_cpp/build/mandelbrot_autogen/UVLADIE3JM/../../../src/color_picker.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QColorDialog \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qcolordialog.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtguiglobal.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qglobal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__assertion_handler \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__verbose_abort \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__availability \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/hash.h \
@@ -58,7 +36,6 @@ CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_header_macro.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_ptrdiff_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_size_t.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_rsize_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_wchar_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_null.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_nullptr_t.h \
@@ -160,6 +137,28 @@ CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_copy_constructible.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_copyable.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int64_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint8_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint16_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint32_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_posix_availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_default_constructible.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_destructible.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_move_assignable.h \
@@ -336,6 +335,7 @@ CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdbool.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_rsize_t.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qtversionchecks.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qtconfiginclude.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qconfig.h \
@@ -573,9 +573,19 @@ CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o: \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qtresource.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qttranslation.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qversiontagging.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtgui-config.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtguiexports.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qtwidgets-config.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qdialog.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qwidget.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qwindowdefs.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qobjectdefs.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qnamespace.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qtmetamacros.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qobjectdefs_impl.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qfunctionaltools_impl.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qobject.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qstring.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
@@ -1070,6 +1080,51 @@ CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/literals.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qmargins.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/q23utility.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qaction.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qkeysequence.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qicon.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qsize.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpixmap.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpaintdevice.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qrect.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qpoint.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qcolor.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qrgb.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qrgba64.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qshareddata.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qimage.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpixelformat.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtransform.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpolygon.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qregion.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qline.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qvariant.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qdebug.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qtextstream.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qcontiguouscache.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qsharedpointer.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qsharedpointer_impl.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qmap.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qshareddata_impl.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qset.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qhash.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qvarlengtharray.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpalette.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qbrush.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qfont.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qendian.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qfontmetrics.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qfontinfo.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qsizepolicy.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qcursor.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qbitmap.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QWidget \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qtmochelpers.h \
+  /Users/ilya/projects/c++/mandelbrot_cpp/build/mandelbrot_autogen/UVLADIE3JM/moc_do_mndlbrt.cpp \
+  /Users/ilya/projects/c++/mandelbrot_cpp/build/mandelbrot_autogen/UVLADIE3JM/../../../src/do_mndlbrt.hpp \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QObject \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QList \
   /usr/local/Qt-6.7.1/lib/QtConcurrent.framework/Headers/QtConcurrentRun \
   /usr/local/Qt-6.7.1/lib/QtConcurrent.framework/Headers/qtconcurrentrun.h \
@@ -1085,9 +1140,6 @@ CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o: \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qtsan_impl.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/sanitizer/tsan_interface.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qresultstore.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qmap.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qshareddata.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qshareddata_impl.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qfuture_impl.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qthreadpool.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qthread.h \
@@ -1137,58 +1189,12 @@ CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o: \
   /usr/local/Qt-6.7.1/lib/QtConcurrent.framework/Headers/qtconcurrentstoredfunctioncall.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QThreadPool \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/QColor \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qcolor.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtguiglobal.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtgui-config.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtguiexports.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qrgb.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qrgba64.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QDebug \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qdebug.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qtextstream.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qcontiguouscache.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qsharedpointer.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qsharedpointer_impl.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qset.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qhash.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qvarlengtharray.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/build/mandelbrot_autogen/UVLADIE3JM/../../../src/is_mndlbrt.hpp \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qtmochelpers.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/build/mandelbrot_autogen/UVLADIE3JM/moc_mainwindow.cpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/build/mandelbrot_autogen/UVLADIE3JM/../../../src/mainwindow.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QMainWindow \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qmainwindow.h \
-  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
-  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qtwidgets-config.h \
-  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
-  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qwidget.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qwindowdefs.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qmargins.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/q23utility.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qaction.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qkeysequence.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qicon.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qsize.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpixmap.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpaintdevice.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qrect.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qpoint.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qimage.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpixelformat.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtransform.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpolygon.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qregion.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qline.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qvariant.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpalette.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qbrush.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qfont.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qendian.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qfontmetrics.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qfontinfo.h \
-  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qsizepolicy.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qcursor.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qbitmap.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qtabwidget.h \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/QPixmap \
   /Users/ilya/projects/c++/mandelbrot_cpp/build/mandelbrot_autogen/UVLADIE3JM/../../../src/gt_mndlbrt.hpp \
@@ -1243,4 +1249,5 @@ CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o: \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtextdocument.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QString \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtextcursor.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtextformat.h
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtextformat.h \
+  /Users/ilya/projects/c++/mandelbrot_cpp/build/mandelbrot_autogen/UVLADIE3JM/moc_pixmap_creator.cpp

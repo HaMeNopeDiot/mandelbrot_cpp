@@ -3,20 +3,24 @@
 #include <QGraphicsScene>
 
 
+#define Y_MARGIN 10
 
-GraphicsView::GraphicsView(QWidget *parent, QScrollBar *scrollBar) : QGraphicsView(parent) {
+
+
+GraphicsView::GraphicsView(QWidget *parent, QScrollBar *scrollBar,
+                           ColorPicker* color_picker) : QGraphicsView(parent) {
      // Обновлять view port когда нужно
     setViewportUpdateMode(QGraphicsView::FullViewportUpdate);
 
     // Оставлять центр зума на мыши
     setTransformationAnchor(QGraphicsView::AnchorUnderMouse);
 
-    pc = new PixmapCreator();
+    pc = new PixmapCreator(color_picker, this);
 
-    QPixmap *pixmap = pc->createPixmap();
+    base_pixmap = pc->createPixmap();
 
     QGraphicsScene *scene = new QGraphicsScene(this);
-    scene->addPixmap(*pixmap);
+    scene->addPixmap(*base_pixmap);
     setScene(scene);
 
     this->scrollBar = scrollBar;
@@ -72,8 +76,8 @@ void GraphicsView::spawnZoomRect(int xCenter, int yCenter, int width, int height
 
     double divideCoef = this->height() / height;
 
-    int pixmapXCenter = (xCenter - (width / divideCoef / 2)) / divideCoef; // расследование показало, что делитель зависит от зума,
-    int pixmapYCenter = (yCenter - (height / divideCoef / 2)) / divideCoef; // но вот как?..
+    int pixmapXCenter = (xCenter - (width / divideCoef / 2)) / divideCoef;
+    int pixmapYCenter = (yCenter - (height / divideCoef / 2) + Y_MARGIN) / divideCoef;
 
     double zoom = scrollBar->value();
 
@@ -83,6 +87,15 @@ void GraphicsView::spawnZoomRect(int xCenter, int yCenter, int width, int height
     zoomRect->setZValue(2);
     zoomRect->setX(xCenter);
     zoomRect->setY(yCenter);
+}
+
+
+
+GraphicsView::~GraphicsView() {
+    delete zoomRect;
+    delete scrollBar;
+    delete pc;
+    delete base_pixmap;
 }
 
 

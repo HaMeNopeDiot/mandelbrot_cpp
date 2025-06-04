@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "mandelbrot_autogen"
   "CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/mandelbrot.dir/src/color_picker.cpp.o"
+  "CMakeFiles/mandelbrot.dir/src/color_picker.cpp.o.d"
   "CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.o"
   "CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.o.d"
   "CMakeFiles/mandelbrot.dir/src/main.cpp.o"

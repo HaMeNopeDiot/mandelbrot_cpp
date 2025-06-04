@@ -1231,6 +1231,11 @@ CMakeFiles/mandelbrot.dir/src/main.cpp.o: \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/pixmap_creator.hpp \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QtGlobal \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/QPainter \
+  /Users/ilya/projects/c++/mandelbrot_cpp/src/color_picker.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QColorDialog \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qcolordialog.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qdialog.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QWidget \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QPointF \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QPoint \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QScrollBar \

@@ -224,6 +224,30 @@ mandelbrot_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mandelbrot.dir/build.make CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.s
 .PHONY : mandelbrot_autogen/mocs_compilation.cpp.s
 
+src/color_picker.o: src/color_picker.cpp.o
+.PHONY : src/color_picker.o
+
+# target to build an object file
+src/color_picker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mandelbrot.dir/build.make CMakeFiles/mandelbrot.dir/src/color_picker.cpp.o
+.PHONY : src/color_picker.cpp.o
+
+src/color_picker.i: src/color_picker.cpp.i
+.PHONY : src/color_picker.i
+
+# target to preprocess a source file
+src/color_picker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mandelbrot.dir/build.make CMakeFiles/mandelbrot.dir/src/color_picker.cpp.i
+.PHONY : src/color_picker.cpp.i
+
+src/color_picker.s: src/color_picker.cpp.s
+.PHONY : src/color_picker.s
+
+# target to generate assembly for a file
+src/color_picker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mandelbrot.dir/build.make CMakeFiles/mandelbrot.dir/src/color_picker.cpp.s
+.PHONY : src/color_picker.cpp.s
+
 src/graphicsview.o: src/graphicsview.cpp.o
 .PHONY : src/graphicsview.o
 
@@ -338,6 +362,9 @@ help:
 	@echo "... mandelbrot_autogen/mocs_compilation.o"
 	@echo "... mandelbrot_autogen/mocs_compilation.i"
 	@echo "... mandelbrot_autogen/mocs_compilation.s"
+	@echo "... src/color_picker.o"
+	@echo "... src/color_picker.i"
+	@echo "... src/color_picker.s"
 	@echo "... src/graphicsview.o"
 	@echo "... src/graphicsview.i"
 	@echo "... src/graphicsview.s"

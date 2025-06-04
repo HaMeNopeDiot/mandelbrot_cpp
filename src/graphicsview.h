@@ -8,13 +8,15 @@
 #include <QPointF>
 #include <QPoint>
 #include <QScrollBar>
+#include "color_picker.h"
 
 class GraphicsView : public QGraphicsView {
     public:
         /*!
         \brief Constructor of class
         */
-        GraphicsView(QWidget *parent = nullptr, QScrollBar *scrollBar = nullptr);
+        GraphicsView(QWidget *parent = nullptr, QScrollBar *scrollBar = nullptr,
+                     ColorPicker* color_picker=nullptr);
 
         /*!
         \brief group of mouse events to control occurance of
@@ -23,6 +25,8 @@ class GraphicsView : public QGraphicsView {
         void mousePressEvent(QMouseEvent *event) override;
         void mouseReleaseEvent(QMouseEvent *event) override;
         void mouseMoveEvent(QMouseEvent *event) override;
+        ~GraphicsView();
+        QPixmap *base_pixmap;
 
     private:
         double zoomFactor;
@@ -30,7 +34,7 @@ class GraphicsView : public QGraphicsView {
         QGraphicsPixmapItem *zoomRect;
         void spawnZoomRect(int xCenter, int yCenter,
                            int width = 150, int height = 150);
-        
+
         void moveZoomRect(int xCenter, int yCenter);
         void despawnZoomRect();
         QPointF mapPos(double x, double y);

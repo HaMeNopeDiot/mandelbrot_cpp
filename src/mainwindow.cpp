@@ -13,17 +13,32 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow) {
     ui->setupUi(this);
 
+    colorPicker = new ColorPicker();
+    colorPicker->show();
+
     zoomFactorLabel = new QLabel(QString("Zoom Factor"));
     ui->verticalLayout->addWidget(zoomFactorLabel);
 
     scrollBar = new QScrollBar(Qt::Horizontal, this);
     ui->verticalLayout->addWidget(scrollBar);
 
-    view = new GraphicsView(this, scrollBar);
+    view = new GraphicsView(this, scrollBar, colorPicker);
     ui->verticalLayout->addWidget(view);
 
     scrollBar->setMinimum(MIN_ZOOM);
     scrollBar->setMaximum(MAX_ZOOM);
+
+    ui->verticalLayout->addWidget(colorPicker);
 }
 
-MainWindow::~MainWindow() { delete ui; }
+MainWindow::~MainWindow() {
+    delete ui;
+    delete view;
+    delete scrollBar;
+    delete zoomFactorLabel;
+}
+
+
+Ui::MainWindow* MainWindow::getUi() {
+    return ui;
+}

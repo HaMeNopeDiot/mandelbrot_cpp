@@ -1225,6 +1225,11 @@ CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.o: \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/QColor \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QDebug \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/is_mndlbrt.hpp \
+  /Users/ilya/projects/c++/mandelbrot_cpp/src/color_picker.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QColorDialog \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qcolordialog.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qdialog.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QWidget \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QPointF \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QPoint \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QScrollBar \

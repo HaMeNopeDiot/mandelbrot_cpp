@@ -346,6 +346,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/ilya/projects/c++/mandelbrot_cpp/src/color_picker.h",
+			"MU",
+			"UVLADIE3JM/moc_color_picker.cpp",
+			null
+		],
+		[
 			"/Users/ilya/projects/c++/mandelbrot_cpp/src/do_mndlbrt.hpp",
 			"MU",
 			"UVLADIE3JM/moc_do_mndlbrt.cpp",
@@ -457,6 +463,11 @@
 	"SETTINGS_FILE" : "/Users/ilya/projects/c++/mandelbrot_cpp/build/CMakeFiles/mandelbrot_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/Users/ilya/projects/c++/mandelbrot_cpp/src/color_picker.cpp",
+			"MU",
+			null
+		],
 		[
 			"/Users/ilya/projects/c++/mandelbrot_cpp/src/graphicsview.cpp",
 			"MU",

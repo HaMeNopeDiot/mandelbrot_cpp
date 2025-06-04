@@ -25,6 +25,8 @@ set(PROJECT_SOURCES
         src/mndlbrt_color.hpp
         src/pixmap_creator.hpp
         src/pixmap_creator.cpp
+        src/color_picker.h
+        src/color_picker.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

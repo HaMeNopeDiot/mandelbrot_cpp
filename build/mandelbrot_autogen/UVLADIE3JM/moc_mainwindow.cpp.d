@@ -927,6 +927,7 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_list.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/limits.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
+  /Users/ilya/projects/c++/mandelbrot_cpp/src/color_picker.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/do_mndlbrt.hpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/graphicsview.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/gt_mndlbrt.hpp \
@@ -1134,13 +1135,17 @@
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qvector2d.h \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qvectornd.h \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QColorDialog \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsPixmapItem \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QScrollBar \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qabstractslider.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qcolordialog.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsitem.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsscene.h \

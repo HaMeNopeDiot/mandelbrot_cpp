@@ -1,7 +1,10 @@
 CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o: \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/pixmap_creator.cpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/pixmap_creator.hpp \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QtGlobal \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QObject \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qobject.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qobjectdefs.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qnamespace.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qglobal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert \
@@ -569,20 +572,9 @@ CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o: \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qtresource.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qttranslation.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qversiontagging.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/QPixmap \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpixmap.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtguiglobal.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtgui-config.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtguiexports.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpaintdevice.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qwindowdefs.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qobjectdefs.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qnamespace.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qtmetamacros.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qobjectdefs_impl.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qfunctionaltools_impl.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qrect.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qhashfunctions.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qstring.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
@@ -1020,6 +1012,8 @@ CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o: \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qstringbuilder.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qstringconverter.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qstringconverter_base.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qlist.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qhashfunctions.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
@@ -1034,35 +1028,17 @@ CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/saturation_arithmetic.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qmargins.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/q23utility.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qsize.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qpoint.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qcolor.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qrgb.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qstringlist.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qlist.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qiterator.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qbytearraylist.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qstringlist.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qalgorithms.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qstringmatcher.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qrgba64.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qshareddata.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qimage.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpixelformat.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtransform.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpolygon.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qregion.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qdatastream.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qscopedpointer.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qiodevicebase.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qline.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/QPainter \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpainter.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtextoption.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qmetatype.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qcompare.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qcomparehelpers.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qdatastream.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qiodevicebase.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qfloat16.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qmath.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qiterable.h \
@@ -1073,16 +1049,6 @@ CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/list \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpen.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qbrush.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qfontinfo.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qfont.h \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qendian.h \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qfontmetrics.h \
-  /Users/ilya/projects/c++/mandelbrot_cpp/src/gt_mndlbrt.hpp \
-  /Users/ilya/projects/c++/mandelbrot_cpp/src/do_mndlbrt.hpp \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QObject \
-  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qobject.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qobject_impl.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qbindingstorage.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
@@ -1103,6 +1069,40 @@ CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/literals.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QtGlobal \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/QPixmap \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpixmap.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtguiglobal.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtgui-config.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtguiexports.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpaintdevice.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qwindowdefs.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qrect.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qmargins.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/q23utility.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qsize.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qpoint.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qcolor.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qrgb.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qrgba64.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qshareddata.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qimage.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpixelformat.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtransform.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpolygon.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qregion.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qline.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/QPainter \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpainter.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qtextoption.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpen.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qbrush.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qfontinfo.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qfont.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qendian.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qfontmetrics.h \
+  /Users/ilya/projects/c++/mandelbrot_cpp/src/gt_mndlbrt.hpp \
+  /Users/ilya/projects/c++/mandelbrot_cpp/src/do_mndlbrt.hpp \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QList \
   /usr/local/Qt-6.7.1/lib/QtConcurrent.framework/Headers/QtConcurrentRun \
   /usr/local/Qt-6.7.1/lib/QtConcurrent.framework/Headers/qtconcurrentrun.h \
@@ -1179,4 +1179,61 @@ CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o: \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qhash.h \
   /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qvarlengtharray.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/is_mndlbrt.hpp \
-  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/QBrush
+  /Users/ilya/projects/c++/mandelbrot_cpp/src/color_picker.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QColorDialog \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qcolordialog.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qtwidgets-config.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qdialog.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qwidget.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qaction.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qkeysequence.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qicon.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qvariant.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpalette.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qsizepolicy.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qcursor.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qbitmap.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QWidget \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QGraphicsView \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qgraphicsview.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qscrollarea.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qabstractscrollarea.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qframe.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qgraphicsscene.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/QBrush \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/QRgb \
+  /Users/ilya/projects/c++/mandelbrot_cpp/src/graphicsview.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QGraphicsPixmapItem \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qgraphicsitem.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpainterpath.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/QWheelEvent \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qevent.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qcoreevent.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qiodevice.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qurl.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qeventpoint.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qvector2d.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qvectornd.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpointingdevice.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qinputdevice.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qscreen.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QRect \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QSize \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QSizeF \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/QTransform \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qnativeinterface.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qscreen_platform.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qguiapplication.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qcoreapplication.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qeventloop.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qcoreapplication_platform.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qinputmethod.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qlocale.h \
+  /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qguiapplication_platform.h \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QPointF \
+  /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/QPoint \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QScrollBar \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qscrollbar.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qabstractslider.h

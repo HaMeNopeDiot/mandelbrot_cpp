@@ -932,6 +932,8 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
   CMakeFiles/4.0.1/CMakeCXXCompiler.cmake \
   CMakeFiles/4.0.1/CMakeSystem.cmake \
   mandelbrot_autogen/moc_predefs.h \
+  /Users/ilya/projects/c++/mandelbrot_cpp/src/color_picker.cpp \
+  /Users/ilya/projects/c++/mandelbrot_cpp/src/color_picker.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/do_mndlbrt.hpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/graphicsview.cpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/graphicsview.h \
@@ -1185,13 +1187,17 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qvector2d.h \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qvectornd.h \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QColorDialog \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsPixmapItem \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QScrollBar \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qabstractslider.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qcolordialog.h \
+  /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsitem.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsscene.h \
@@ -1630,7 +1636,13 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
 
 /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsview.h:
 
+/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h:
+
+/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qcolordialog.h:
+
 /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/qabstractslider.h:
+
+/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QWidget:
 
 /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QScrollBar:
 
@@ -2784,6 +2796,8 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/gamma.h:
 
+/usr/local/Qt-6.7.1/lib/QtWidgets.framework/Versions/A/Headers/QColorDialog:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/stable_partition.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/fma.h:
@@ -3364,6 +3378,8 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/invert_if.h:
 
+/Users/ilya/projects/c++/mandelbrot_cpp/src/color_picker.cpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int64_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/countl.h:
@@ -3827,6 +3843,8 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy_backward.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/strip_signature.h:
+
+/Users/ilya/projects/c++/mandelbrot_cpp/src/color_picker.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_contains.h:
 
