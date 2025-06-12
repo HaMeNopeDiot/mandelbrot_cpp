@@ -931,6 +931,7 @@
   /Users/ilya/projects/c++/mandelbrot_cpp/src/do_mndlbrt.hpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/graphicsview.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/gt_mndlbrt.hpp \
+  /Users/ilya/projects/c++/mandelbrot_cpp/src/ipixmapholder.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/is_mndlbrt.hpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/pixmap_creator.hpp \
   /usr/local/Qt-6.7.1/lib/QtConcurrent.framework/Versions/A/Headers/QtConcurrentRun \

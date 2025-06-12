@@ -1243,6 +1243,7 @@ CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o: \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QScrollBar \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qscrollbar.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qabstractslider.h \
+  /Users/ilya/projects/c++/mandelbrot_cpp/build/mandelbrot_autogen/UVLADIE3JM/../../../src/ipixmapholder.h \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/QLabel \
   /usr/local/Qt-6.7.1/lib/QtWidgets.framework/Headers/qlabel.h \
   /usr/local/Qt-6.7.1/lib/QtGui.framework/Headers/qpicture.h \

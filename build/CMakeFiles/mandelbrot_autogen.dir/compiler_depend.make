@@ -938,6 +938,7 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
   /Users/ilya/projects/c++/mandelbrot_cpp/src/graphicsview.cpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/graphicsview.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/gt_mndlbrt.hpp \
+  /Users/ilya/projects/c++/mandelbrot_cpp/src/ipixmapholder.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/is_mndlbrt.hpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/main.cpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/mainwindow.cpp \
@@ -4163,6 +4164,8 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qstringtokenizer.h:
 
 /Users/ilya/projects/c++/mandelbrot_cpp/src/pixmap_creator.cpp:
+
+/Users/ilya/projects/c++/mandelbrot_cpp/src/ipixmapholder.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_copy_constructible.h:
 

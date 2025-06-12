@@ -34,6 +34,17 @@ QPointF GraphicsView::mapPos(double x, double y) {
 
 
 
+void GraphicsView::setPixmap(QPixmap* pixmap) {
+    this->base_pixmap = pixmap;
+}
+
+
+QPixmap* GraphicsView::getPixmap() {
+    return this->base_pixmap;
+}
+
+
+
 void GraphicsView::mousePressEvent(QMouseEvent *event) {
     if (event->button() == Qt::LeftButton) {
         leftButtonPressed = true;

@@ -938,6 +938,7 @@ mandelbrot_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfor
   /Users/ilya/projects/c++/mandelbrot_cpp/src/graphicsview.cpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/graphicsview.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/gt_mndlbrt.hpp \
+  /Users/ilya/projects/c++/mandelbrot_cpp/src/ipixmapholder.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/is_mndlbrt.hpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/main.cpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/mainwindow.cpp \
@@ -2434,6 +2435,7 @@ CMakeFiles/mandelbrot.dir/mandelbrot_autogen/mocs_compilation.cpp.o: mandelbrot_
   /Users/ilya/projects/c++/mandelbrot_cpp/src/do_mndlbrt.hpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/graphicsview.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/gt_mndlbrt.hpp \
+  /Users/ilya/projects/c++/mandelbrot_cpp/src/ipixmapholder.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/is_mndlbrt.hpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/mainwindow.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/pixmap_creator.hpp \
@@ -4809,6 +4811,7 @@ CMakeFiles/mandelbrot.dir/src/graphicsview.cpp.o: /Users/ilya/projects/c++/mande
   /Users/ilya/projects/c++/mandelbrot_cpp/src/do_mndlbrt.hpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/graphicsview.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/gt_mndlbrt.hpp \
+  /Users/ilya/projects/c++/mandelbrot_cpp/src/ipixmapholder.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/is_mndlbrt.hpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/pixmap_creator.hpp \
   /usr/local/Qt-6.7.1/lib/QtConcurrent.framework/Headers/QtConcurrentRun \
@@ -6047,6 +6050,7 @@ CMakeFiles/mandelbrot.dir/src/main.cpp.o: /Users/ilya/projects/c++/mandelbrot_cp
   /Users/ilya/projects/c++/mandelbrot_cpp/src/do_mndlbrt.hpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/graphicsview.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/gt_mndlbrt.hpp \
+  /Users/ilya/projects/c++/mandelbrot_cpp/src/ipixmapholder.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/is_mndlbrt.hpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/mainwindow.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/pixmap_creator.hpp \
@@ -7296,6 +7300,7 @@ CMakeFiles/mandelbrot.dir/src/mainwindow.cpp.o: /Users/ilya/projects/c++/mandelb
   /Users/ilya/projects/c++/mandelbrot_cpp/src/do_mndlbrt.hpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/graphicsview.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/gt_mndlbrt.hpp \
+  /Users/ilya/projects/c++/mandelbrot_cpp/src/ipixmapholder.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/is_mndlbrt.hpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/mainwindow.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/pixmap_creator.hpp \
@@ -8556,6 +8561,7 @@ CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o: /Users/ilya/projects/c++/man
   /Users/ilya/projects/c++/mandelbrot_cpp/src/do_mndlbrt.hpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/graphicsview.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/gt_mndlbrt.hpp \
+  /Users/ilya/projects/c++/mandelbrot_cpp/src/ipixmapholder.h \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/is_mndlbrt.hpp \
   /Users/ilya/projects/c++/mandelbrot_cpp/src/pixmap_creator.hpp \
   /usr/local/Qt-6.7.1/lib/QtConcurrent.framework/Headers/QtConcurrentRun \
@@ -8956,10 +8962,6 @@ CMakeFiles/mandelbrot.dir/src/pixmap_creator.cpp.o: /Users/ilya/projects/c++/man
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qobjectdefs.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qobject_impl.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/void_t.h:
-
-/usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qnativeinterface.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h:
 
@@ -9855,6 +9857,8 @@ mandelbrot_autogen/UVLADIE3JM/moc_mainwindow.cpp:
 
 /usr/local/Qt-6.7.1/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets-release.cmake:
 
+/Users/ilya/projects/c++/mandelbrot_cpp/src/ipixmapholder.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_specialization.h:
 
 /usr/local/Qt-6.7.1/lib/QtCore.framework/Versions/A/Headers/qcompilerdetection.h:
@@ -10434,6 +10438,10 @@ mandelbrot_autogen/mocs_compilation.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/errno.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_iterator_concept.h:
+
+/usr/local/Qt-6.7.1/lib/QtCore.framework/Headers/qnativeinterface.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/void_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/utility:
 

@@ -9,8 +9,9 @@
 #include <QPoint>
 #include <QScrollBar>
 #include "color_picker.h"
+#include "ipixmapholder.h"
 
-class GraphicsView : public QGraphicsView {
+class GraphicsView : public QGraphicsView, IPixmapHolder {
     public:
         /*!
         \brief Constructor of class
@@ -27,6 +28,8 @@ class GraphicsView : public QGraphicsView {
         void mouseMoveEvent(QMouseEvent *event) override;
         ~GraphicsView();
         QPixmap *base_pixmap;
+        void setPixmap(QPixmap *pixmap) override;
+        QPixmap* getPixmap() override;
 
     private:
         double zoomFactor;
